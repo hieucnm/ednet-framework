@@ -1,0 +1,73 @@
+version: "3.9"
+
+services:
+
+  postgres:
+    image: postgres:15
+    container_name: ednet_postgres
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./data/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+    networks:
+      - ednet_network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  app:
+    build: .
+    container_name: ednet_app
+    command: python app/main.py
+    ports:
+      - "${APP_PORT}:7860"
+    env_file:
+      - .env
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - ednet_network
+    volumes:
+      - .:/app                        # Live reload during development
+
+  scheduler:
+    build: .
+    container_name: ednet_scheduler
+    command: python scheduler/jobs.py
+    env_file:
+      - .env
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - ednet_network
+
+  superset:
+    image: apache/superset:3.0.0
+    container_name: ednet_superset
+    ports:
+      - "${SUPERSET_PORT}:8088"
+    environment:
+      SUPERSET_SECRET_KEY: ${SUPERSET_SECRET_KEY}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - ednet_network
+    volumes:
+      - ./superset/superset_config.py:/app/pythonpath/superset_config.py
+      - superset_data:/app/superset_home
+
+networks:
+  ednet_network:
+    driver: bridge
+
+volumes:
+  postgres_data:
+  superset_data:
