@@ -1,5 +1,4 @@
--- Thêm vào schema.sql sau các core tables
-
+-- ── Governance ────────────────────────────────────────────────────────────
 CREATE TABLE IF NOT EXISTS audit_logs (
     log_id              VARCHAR(36) PRIMARY KEY,
     session_id          VARCHAR(36) NOT NULL,
@@ -178,6 +177,3 @@ CREATE INDEX IF NOT EXISTS idx_kpi_values_kpi_period
 
 CREATE INDEX IF NOT EXISTS idx_kpi_values_scope
     ON kpi_values(scope_type, scope_id);
-
--- ── Governance ────────────────────────────────────────────────────────────
--- (audit_logs and hitl_reviews defined in previous section)
