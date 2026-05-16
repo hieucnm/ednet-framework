@@ -1,5 +1,3 @@
-version: "3.9"
-
 services:
 
   postgres:
@@ -15,7 +13,7 @@ services:
     networks:
       - ednet_network
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER}"]
+      test: [ "CMD-SHELL", "pg_isready -U ${POSTGRES_USER}" ]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -26,6 +24,8 @@ services:
     command: python app/main.py
     ports:
       - "${APP_PORT}:7860"
+    environment:
+      - PYTHONPATH=/app
     env_file:
       - .env
     depends_on:
@@ -34,12 +34,14 @@ services:
     networks:
       - ednet_network
     volumes:
-      - .:/app                        # Live reload during development
+      - .:/app # Live reload during development
 
   scheduler:
     build: .
     container_name: ednet_scheduler
     command: python scheduler/jobs.py
+    environment:
+      - PYTHONPATH=/app
     env_file:
       - .env
     depends_on:
