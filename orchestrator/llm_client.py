@@ -35,7 +35,7 @@ class LLMClient:
         if self.provider == "anthropic":
             return self._call_anthropic(
                 system_prompt, user_prompt,
-                model or "claude-opus-4-5", temperature, max_tokens
+                model or "claude-sonnet-4-6", temperature, max_tokens
             )
         elif self.provider == "openai":
             return self._call_openai(
