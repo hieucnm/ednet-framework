@@ -82,8 +82,13 @@ class EthicsAuditor:
         # EC-06: Personal contact information check
         email_pattern = r"[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}"
         phone_pattern = r"(\+?\d[\d\s\-().]{7,}\d)"
+        # Mask date patterns before phone search to avoid false positives
+        # e.g. "2024-05-14", "14/05/2024", "15 May 2024" (last form is safe already)
+        _date_pattern = r"\b\d{4}[-/]\d{1,2}[-/]\d{1,2}\b|\b\d{1,2}[-/]\d{1,2}[-/]\d{4}\b"
+        _text_no_dates = re.sub(_date_pattern, "DATE", output_text)
         emails_found = re.findall(email_pattern, output_text)
-        phones_found = re.findall(phone_pattern, output_text)
+        phones_found = re.findall(phone_pattern, _text_no_dates)
+
         details["EC-06"] = {"emails": emails_found, "phones": phones_found}
         if emails_found or phones_found:
             failed.append(
