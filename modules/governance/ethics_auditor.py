@@ -27,6 +27,7 @@ class EthicsAuditor:
         output_text: str,
         template_id: str,
         language: str,
+        input_text: str = "",
         min_words: int = 0,
         max_words: int = 9999,
     ) -> AuditResult:
@@ -55,9 +56,28 @@ class EthicsAuditor:
         except LangDetectException:
             warnings.append("EC-04: Could not detect output language.")
 
-        # EC-05: Verbatim reproduction check (placeholder — needs input text)
-        # Evaluated in coordinator.py where both input and output are available.
-        details["EC-05"] = {"status": "deferred_to_coordinator"}
+        # EC-05: Verbatim reproduction check (sliding window, 50 consecutive words)
+        _VERBATIM_WINDOW = 50
+        if not input_text:
+            details["EC-05"] = {"status": "skipped", "reason": "no input text provided"}
+        else:
+            input_words = input_text.split()
+            if len(input_words) < _VERBATIM_WINDOW:
+                details["EC-05"] = {"status": "skipped", "reason": "input shorter than window size"}
+            else:
+                output_normalised = " ".join(output_text.split()).lower()
+                verbatim_found = False
+                for i in range(len(input_words) - _VERBATIM_WINDOW + 1):
+                    window = " ".join(input_words[i : i + _VERBATIM_WINDOW]).lower()
+                    if window in output_normalised:
+                        verbatim_found = True
+                        break
+                details["EC-05"] = {"verbatim_found": verbatim_found}
+                if verbatim_found:
+                    warnings.append(
+                        f"EC-05: Output reproduces a verbatim passage exceeding "
+                        f"{_VERBATIM_WINDOW} consecutive words from the input."
+                    )
 
         # EC-06: Personal contact information check
         email_pattern = r"[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}"
