@@ -1,0 +1,29 @@
+## Lecture: Lập trình Vi điều khiển ARM Cortex-M: GPIO và Ngắt
+**Course:** Hệ thống Nhúng — Chứng chỉ Liên trường VASTN  
+**Audience level:** undergraduate  
+**Duration:** 60 phút  
+
+### Learning Objectives
+Sau khi hoàn thành bài giảng này, người học sẽ có khả năng mô tả kiến trúc bộ xử lý ARM Cortex-M3 và vai trò của các thanh ghi cơ bản; cấu hình chân GPIO ở chế độ đầu vào và đầu ra bằng thư viện HAL của STM32; lập trình xử lý ngắt ngoài để đọc tín hiệu từ nút nhấn mà không dùng vòng lặp polling; và phân tích ưu và nhược điểm của lập trình dựa trên ngắt so với polling trong các ứng dụng nhúng thời gian thực.
+
+### Part 1 — Kiến trúc ARM Cortex-M3 và Thanh ghi cơ bản (~15 phút)
+Phần này nhằm giúp người học hiểu về kiến trúc cơ bản của ARM Cortex-M3 và vai trò của các thanh ghi trong vi điều khiển. ARM Cortex-M3 là một bộ xử lý 32-bit được thiết kế cho các ứng dụng nhúng, nổi bật với hiệu năng cao và tiêu thụ năng lượng thấp. Các thanh ghi cơ bản như Program Counter (PC), Stack Pointer (SP), và Link Register (LR) đóng vai trò quan trọng trong việc điều khiển luồng thực thi của chương trình và quản lý ngăn xếp. Hiểu rõ các thanh ghi này giúp người học nắm bắt cách vi điều khiển thực thi mã lệnh và quản lý tài nguyên hệ thống.
+
+### Part 2 — Cấu hình GPIO với thư viện HAL của STM32 (~20 phút)
+Mục tiêu của phần này là hướng dẫn người học cách cấu hình chân GPIO ở chế độ đầu vào và đầu ra bằng thư viện HAL của STM32. GPIO (General Purpose Input/Output) là các chân trên vi điều khiển có thể được lập trình để hoạt động như đầu vào hoặc đầu ra. Thư viện HAL (Hardware Abstraction Layer) của STM32 cung cấp các hàm tiện ích để dễ dàng cấu hình và điều khiển các chân GPIO. Ví dụ, để cấu hình một chân GPIO làm đầu ra, người học cần khởi tạo cấu trúc `GPIO_InitTypeDef`, thiết lập các tham số như `Pin`, `Mode`, `Pull`, và `Speed`, sau đó gọi hàm `HAL_GPIO_Init()`.
+
+### Part 3 — Lập trình Ngắt ngoài và Ưu nhược điểm so với Polling (~25 phút)
+Phần này giúp người học hiểu cách lập trình xử lý ngắt ngoài và phân tích ưu nhược điểm của ngắt so với polling. Ngắt ngoài cho phép vi điều khiển phản hồi ngay lập tức khi có sự kiện xảy ra, chẳng hạn như nhấn nút, mà không cần liên tục kiểm tra trạng thái của nút (polling). Điều này giúp tiết kiệm tài nguyên và cải thiện hiệu suất trong các ứng dụng nhúng thời gian thực. Tuy nhiên, lập trình ngắt có thể phức tạp hơn và đòi hỏi quản lý cẩn thận để tránh xung đột và đảm bảo tính ổn định của hệ thống.
+
+### Discussion Questions
+1. Tại sao ARM Cortex-M3 lại được ưa chuộng trong các ứng dụng nhúng?
+2. Làm thế nào để cấu hình một chân GPIO làm đầu vào sử dụng thư viện HAL?
+3. So sánh ưu và nhược điểm của lập trình ngắt so với polling trong ứng dụng nhúng.
+
+### Suggested Further Reading
+1. Joseph Yiu. (2013). *The Definitive Guide to ARM Cortex-M3 and Cortex-M4 Processors*. Newnes.
+2. Geoffrey Brown. (2016). *Discovering the STM32 Microcontroller*. Indiana University.
+3. Trevor Martin. (2013). *The Insider's Guide to the STM32 ARM Based Microcontroller*. Hitex.
+
+---
+*This lecture content was generated with AI assistance and requires review by the course instructor before use in teaching.*

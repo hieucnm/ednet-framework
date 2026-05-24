@@ -1,0 +1,49 @@
+## Meeting Minutes
+**Network:** Mạng lưới Đào tạo AI và Bán dẫn Việt Nam (VASTN)
+**Date:** 18 tháng 4 năm 2024
+**Attendees:** PGS.TS. Trần Minh Quang (Đại học Bách khoa TP.HCM), TS. Nguyễn Phương Linh (Intel Việt Nam), TS. Hà Đức Thịnh (Đại học Bách khoa Hà Nội), Bà Lê Thị Bích Ngọc (Phòng Hợp tác Quốc tế, Đại học Bách khoa TP.HCM)
+
+---
+
+### Agenda Items Discussed
+
+**Điểm 1: Báo cáo tiến độ xây dựng chương trình giảng dạy học kỳ 2**
+
+TS. Nguyễn Phương Linh (Intel Việt Nam) báo cáo rằng tính đến ngày 15 tháng 4 năm 2024, 80% nội dung các module thuộc khối kiến thức cốt lõi đã được hoàn thiện. Cụ thể, bốn module về thiết kế vi mạch tích hợp và ba module về học máy ứng dụng đã được nghiệm thu nội bộ. Ba module còn lại về hệ thống nhúng thời gian thực đang trong giai đoạn hoàn thiện tài liệu thực hành, dự kiến hoàn thành trước ngày 30 tháng 4 năm 2024.
+
+TS. Hà Đức Thịnh (Đại học Bách khoa Hà Nội) đặt câu hỏi về yêu cầu thiết bị đặc thù đối với các bài thực hành trong module hệ thống nhúng, đồng thời thông báo rằng phòng thí nghiệm của Đại học Bách khoa Hà Nội hiện có kit phát triển FPGA dòng Xilinx và STM32. TS. Nguyễn Phương Linh xác nhận rằng các bài thực hành được thiết kế tương thích với cả kit Xilinx và Intel — Altera, và cam kết sẽ gửi danh sách thiết bị yêu cầu tối thiểu trong tuần tiếp theo. Ban Chỉ đạo ghi nhận tiến độ tích cực của công tác xây dựng chương trình.
+
+**Điểm 2: Công nhận tín chỉ chéo giữa các trường thành viên**
+
+Bà Lê Thị Bích Ngọc (Phòng Hợp tác Quốc tế, Đại học Bách khoa TP.HCM) báo cáo kết quả làm việc với Vụ Giáo dục Đại học. Sau ba vòng trao đổi, Vụ Giáo dục Đại học đã có công văn phản hồi ngày 12 tháng 4 năm 2024, nêu rõ rằng cơ chế công nhận tín chỉ chéo trong khuôn khổ chương trình liên kết đào tạo đã có quy định tại Thông tư 38/2020, nhưng cần bổ sung điều khoản về chương trình liên kết với doanh nghiệp. Vụ Giáo dục Đại học đề nghị mạng lưới gửi bản dự thảo quy chế để thẩm định trong tháng 6 năm 2024.
+
+**Điểm 3: Kế hoạch đánh giá chất lượng giữa kỳ**
+
+PGS.TS. Trần Minh Quang đề xuất tổ chức đợt đánh giá chất lượng giữa kỳ vào tháng 7 năm 2024. TS. Hà Đức Thịnh (Đại học Bách khoa Hà Nội) đề xuất kết hợp đợt đánh giá chất lượng với hội thảo chia sẻ kết quả nghiên cứu nhằm tận dụng lần di chuyển của các đại biểu. Đề xuất này được Ban Chỉ đạo nhất trí thông qua.
+
+---
+
+### Decisions Made
+
+Ban Chỉ đạo nhất trí tổ chức Hội thảo và Đánh giá Chất lượng Giữa kỳ VASTN vào tuần đầu tháng 7 năm 2024, kết hợp giữa đánh giá chất lượng chương trình và hội thảo chia sẻ kết quả nghiên cứu.
+
+Ban Chỉ đạo giao Phòng Đào tạo Đại học Bách khoa TP.HCM soạn thảo dự thảo quy chế công nhận tín chỉ chéo, hoàn thành trước ngày 20 tháng 5 năm 2024 để Ban Chỉ đạo cho ý kiến trước khi gửi Vụ Giáo dục Đại học thẩm định.
+
+---
+
+### Action Items
+
+| Owner | Deadline | Description |
+|---|---|---|
+| TS. Nguyễn Phương Linh (Intel Việt Nam) | Trong tuần tiếp theo sau ngày 18/04/2024 | Gửi danh sách thiết bị yêu cầu tối thiểu cho các bài thực hành module hệ thống nhúng thời gian thực đến các tổ chức thành viên |
+| TS. Nguyễn Phương Linh (Intel Việt Nam) | 30/04/2024 | Hoàn thiện ba module về hệ thống nhúng thời gian thực, bao gồm tài liệu thực hành |
+| Phòng Đào tạo, Đại học Bách khoa TP.HCM | 20/05/2024 | Soạn thảo dự thảo quy chế công nhận tín chỉ chéo có bổ sung điều khoản về chương trình liên kết với doanh nghiệp, trình Ban Chỉ đạo cho ý kiến |
+| Ban Thư ký VASTN | 05/05/2024 | Dự thảo kế hoạch chi tiết cho Hội thảo và Đánh giá Chất lượng Giữa kỳ VASTN và gửi xin ý kiến các thành viên |
+
+---
+
+### Next Meeting
+Không có thông tin về cuộc họp tiếp theo được đề cập trong biên bản ghi âm. Not scheduled.
+
+---
+*This document was generated with AI assistance and is pending human review.*

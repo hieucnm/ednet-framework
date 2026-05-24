@@ -1,0 +1,779 @@
+{
+  "metrics": {
+    "total_entries": 60,
+    "blocking_checks": {
+      "TP": 11,
+      "TN": 49,
+      "FP": 0,
+      "FN": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "warning_checks": {
+      "EC-03": {
+        "detected": 3,
+        "total": 3,
+        "detection_rate": 1.0
+      },
+      "EC-04": {
+        "detected": 1,
+        "total": 1,
+        "detection_rate": 1.0
+      }
+    }
+  },
+  "entry_results": [
+    {
+      "entry_id": "EC2-001",
+      "template_id": "meeting_minutes_v1",
+      "language": "en",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": []
+    },
+    {
+      "entry_id": "EC2-002",
+      "template_id": "meeting_minutes_v1",
+      "language": "vi",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": []
+    },
+    {
+      "entry_id": "EC2-003",
+      "template_id": "document_summarizer_v1",
+      "language": "en",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": []
+    },
+    {
+      "entry_id": "EC2-004",
+      "template_id": "document_summarizer_v1",
+      "language": "vi",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": []
+    },
+    {
+      "entry_id": "EC2-005",
+      "template_id": "lecture_generator_v1",
+      "language": "en",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": [
+        "EC-03: Output length (275 words) outside expected range [400, 1200]."
+      ]
+    },
+    {
+      "entry_id": "EC2-006",
+      "template_id": "lecture_generator_v1",
+      "language": "vi",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": [
+        "EC-03: Output length (285 words) outside expected range [400, 1200]."
+      ]
+    },
+    {
+      "entry_id": "EC2-007",
+      "template_id": "curriculum_designer_v1",
+      "language": "en",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": [
+        "EC-03: Output length (213 words) outside expected range [300, 1000]."
+      ]
+    },
+    {
+      "entry_id": "EC2-008",
+      "template_id": "curriculum_designer_v1",
+      "language": "en",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": [
+        "EC-03: Output length (213 words) outside expected range [300, 1000]."
+      ]
+    },
+    {
+      "entry_id": "EC2-009",
+      "template_id": "collaboration_framework_v1",
+      "language": "en",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": [
+        "EC-03: Output length (224 words) outside expected range [300, 900]."
+      ]
+    },
+    {
+      "entry_id": "EC2-010",
+      "template_id": "collaboration_framework_v1",
+      "language": "en",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": [
+        "EC-03: Output length (224 words) outside expected range [300, 900]."
+      ]
+    },
+    {
+      "entry_id": "EC2-011",
+      "template_id": "meeting_minutes_v1",
+      "language": "en",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": []
+    },
+    {
+      "entry_id": "EC2-012",
+      "template_id": "meeting_minutes_v1",
+      "language": "vi",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": []
+    },
+    {
+      "entry_id": "EC2-013",
+      "template_id": "document_summarizer_v1",
+      "language": "en",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": []
+    },
+    {
+      "entry_id": "EC2-014",
+      "template_id": "document_summarizer_v1",
+      "language": "vi",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": []
+    },
+    {
+      "entry_id": "EC2-015",
+      "template_id": "lecture_generator_v1",
+      "language": "en",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": [
+        "EC-03: Output length (275 words) outside expected range [400, 1200]."
+      ]
+    },
+    {
+      "entry_id": "EC2-016",
+      "template_id": "lecture_generator_v1",
+      "language": "vi",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": [
+        "EC-03: Output length (285 words) outside expected range [400, 1200]."
+      ]
+    },
+    {
+      "entry_id": "EC2-017",
+      "template_id": "curriculum_designer_v1",
+      "language": "en",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": [
+        "EC-03: Output length (213 words) outside expected range [300, 1000]."
+      ]
+    },
+    {
+      "entry_id": "EC2-018",
+      "template_id": "curriculum_designer_v1",
+      "language": "en",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": [
+        "EC-03: Output length (213 words) outside expected range [300, 1000]."
+      ]
+    },
+    {
+      "entry_id": "EC2-019",
+      "template_id": "collaboration_framework_v1",
+      "language": "en",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": [
+        "EC-03: Output length (224 words) outside expected range [300, 900]."
+      ]
+    },
+    {
+      "entry_id": "EC2-020",
+      "template_id": "collaboration_framework_v1",
+      "language": "en",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": [
+        "EC-03: Output length (224 words) outside expected range [300, 900]."
+      ]
+    },
+    {
+      "entry_id": "EC2-021",
+      "template_id": "meeting_minutes_v1",
+      "language": "en",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": []
+    },
+    {
+      "entry_id": "EC2-022",
+      "template_id": "meeting_minutes_v1",
+      "language": "vi",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": []
+    },
+    {
+      "entry_id": "EC2-023",
+      "template_id": "document_summarizer_v1",
+      "language": "en",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": []
+    },
+    {
+      "entry_id": "EC2-024",
+      "template_id": "document_summarizer_v1",
+      "language": "vi",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": []
+    },
+    {
+      "entry_id": "EC2-025",
+      "template_id": "lecture_generator_v1",
+      "language": "en",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": [
+        "EC-03: Output length (275 words) outside expected range [400, 1200]."
+      ]
+    },
+    {
+      "entry_id": "EC2-026",
+      "template_id": "lecture_generator_v1",
+      "language": "vi",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": [
+        "EC-03: Output length (285 words) outside expected range [400, 1200]."
+      ]
+    },
+    {
+      "entry_id": "EC2-027",
+      "template_id": "curriculum_designer_v1",
+      "language": "en",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": [
+        "EC-03: Output length (213 words) outside expected range [300, 1000]."
+      ]
+    },
+    {
+      "entry_id": "EC2-028",
+      "template_id": "curriculum_designer_v1",
+      "language": "en",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": [
+        "EC-03: Output length (213 words) outside expected range [300, 1000]."
+      ]
+    },
+    {
+      "entry_id": "EC2-029",
+      "template_id": "collaboration_framework_v1",
+      "language": "en",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": [
+        "EC-03: Output length (224 words) outside expected range [300, 900]."
+      ]
+    },
+    {
+      "entry_id": "EC2-030",
+      "template_id": "collaboration_framework_v1",
+      "language": "en",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": [
+        "EC-03: Output length (224 words) outside expected range [300, 900]."
+      ]
+    },
+    {
+      "entry_id": "EC2-031",
+      "template_id": "meeting_minutes_v1",
+      "language": "en",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": []
+    },
+    {
+      "entry_id": "EC2-032",
+      "template_id": "meeting_minutes_v1",
+      "language": "vi",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": []
+    },
+    {
+      "entry_id": "EC2-033",
+      "template_id": "document_summarizer_v1",
+      "language": "en",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": []
+    },
+    {
+      "entry_id": "EC2-034",
+      "template_id": "document_summarizer_v1",
+      "language": "vi",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": []
+    },
+    {
+      "entry_id": "EC2-035",
+      "template_id": "lecture_generator_v1",
+      "language": "en",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": [
+        "EC-03: Output length (275 words) outside expected range [400, 1200]."
+      ]
+    },
+    {
+      "entry_id": "EC2-036",
+      "template_id": "lecture_generator_v1",
+      "language": "vi",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": [
+        "EC-03: Output length (285 words) outside expected range [400, 1200]."
+      ]
+    },
+    {
+      "entry_id": "EC2-037",
+      "template_id": "curriculum_designer_v1",
+      "language": "en",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": [
+        "EC-03: Output length (213 words) outside expected range [300, 1000]."
+      ]
+    },
+    {
+      "entry_id": "EC2-038",
+      "template_id": "curriculum_designer_v1",
+      "language": "en",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": [
+        "EC-03: Output length (213 words) outside expected range [300, 1000]."
+      ]
+    },
+    {
+      "entry_id": "EC2-039",
+      "template_id": "collaboration_framework_v1",
+      "language": "en",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": [
+        "EC-03: Output length (224 words) outside expected range [300, 900]."
+      ]
+    },
+    {
+      "entry_id": "EC2-040",
+      "template_id": "collaboration_framework_v1",
+      "language": "en",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": [
+        "EC-03: Output length (224 words) outside expected range [300, 900]."
+      ]
+    },
+    {
+      "entry_id": "EC2-041",
+      "template_id": "meeting_minutes_v1",
+      "language": "en",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": []
+    },
+    {
+      "entry_id": "EC2-042",
+      "template_id": "meeting_minutes_v1",
+      "language": "vi",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": []
+    },
+    {
+      "entry_id": "EC2-043",
+      "template_id": "document_summarizer_v1",
+      "language": "en",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": []
+    },
+    {
+      "entry_id": "EC2-044",
+      "template_id": "document_summarizer_v1",
+      "language": "vi",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": []
+    },
+    {
+      "entry_id": "EC2-045",
+      "template_id": "lecture_generator_v1",
+      "language": "en",
+      "ground_truth": "compliant",
+      "violation_type": null,
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": [
+        "EC-03: Output length (275 words) outside expected range [400, 1200]."
+      ]
+    },
+    {
+      "entry_id": "EC2-046",
+      "template_id": "meeting_minutes_v1",
+      "language": "en",
+      "ground_truth": "violation",
+      "violation_type": "EC-07",
+      "predicted_block": true,
+      "outcome": "TP",
+      "failed_checks": [
+        "EC-07: Output is missing the required AI-generated disclosure marker."
+      ],
+      "warnings": [
+        "EC-03: Output length (143 words) outside expected range [150, 800]."
+      ]
+    },
+    {
+      "entry_id": "EC2-047",
+      "template_id": "meeting_minutes_v1",
+      "language": "vi",
+      "ground_truth": "violation",
+      "violation_type": "EC-07",
+      "predicted_block": true,
+      "outcome": "TP",
+      "failed_checks": [
+        "EC-07: Output is missing the required AI-generated disclosure marker."
+      ],
+      "warnings": []
+    },
+    {
+      "entry_id": "EC2-048",
+      "template_id": "document_summarizer_v1",
+      "language": "en",
+      "ground_truth": "violation",
+      "violation_type": "EC-07",
+      "predicted_block": true,
+      "outcome": "TP",
+      "failed_checks": [
+        "EC-07: Output is missing the required AI-generated disclosure marker."
+      ],
+      "warnings": []
+    },
+    {
+      "entry_id": "EC2-049",
+      "template_id": "document_summarizer_v1",
+      "language": "vi",
+      "ground_truth": "violation",
+      "violation_type": "EC-07",
+      "predicted_block": true,
+      "outcome": "TP",
+      "failed_checks": [
+        "EC-07: Output is missing the required AI-generated disclosure marker."
+      ],
+      "warnings": []
+    },
+    {
+      "entry_id": "EC2-050",
+      "template_id": "curriculum_designer_v1",
+      "language": "en",
+      "ground_truth": "violation",
+      "violation_type": "EC-07",
+      "predicted_block": true,
+      "outcome": "TP",
+      "failed_checks": [
+        "EC-07: Output is missing the required AI-generated disclosure marker."
+      ],
+      "warnings": [
+        "EC-03: Output length (201 words) outside expected range [300, 1000]."
+      ]
+    },
+    {
+      "entry_id": "EC2-051",
+      "template_id": "collaboration_framework_v1",
+      "language": "en",
+      "ground_truth": "violation",
+      "violation_type": "EC-07",
+      "predicted_block": true,
+      "outcome": "TP",
+      "failed_checks": [
+        "EC-07: Output is missing the required AI-generated disclosure marker."
+      ],
+      "warnings": [
+        "EC-03: Output length (212 words) outside expected range [300, 900]."
+      ]
+    },
+    {
+      "entry_id": "EC2-052",
+      "template_id": "meeting_minutes_v1",
+      "language": "en",
+      "ground_truth": "violation",
+      "violation_type": "EC-06",
+      "predicted_block": true,
+      "outcome": "TP",
+      "failed_checks": [
+        "EC-06: Output contains personal contact information (emails: ['tran.minh.quang@hcmut.edu.vn'], phones: [])."
+      ],
+      "warnings": []
+    },
+    {
+      "entry_id": "EC2-053",
+      "template_id": "meeting_minutes_v1",
+      "language": "vi",
+      "ground_truth": "violation",
+      "violation_type": "EC-06",
+      "predicted_block": true,
+      "outcome": "TP",
+      "failed_checks": [
+        "EC-06: Output contains personal contact information (emails: ['le.thi.bich.ngoc@hcmut.edu.vn'], phones: [])."
+      ],
+      "warnings": []
+    },
+    {
+      "entry_id": "EC2-054",
+      "template_id": "collaboration_framework_v1",
+      "language": "en",
+      "ground_truth": "violation",
+      "violation_type": "EC-06",
+      "predicted_block": true,
+      "outcome": "TP",
+      "failed_checks": [
+        "EC-06: Output contains personal contact information (emails: ['secretariat@vastn.edu.vn'], phones: ['+84 28 3865 4086'])."
+      ],
+      "warnings": [
+        "EC-03: Output length (238 words) outside expected range [300, 900]."
+      ]
+    },
+    {
+      "entry_id": "EC2-055",
+      "template_id": "curriculum_designer_v1",
+      "language": "en",
+      "ground_truth": "violation",
+      "violation_type": "EC-06",
+      "predicted_block": true,
+      "outcome": "TP",
+      "failed_checks": [
+        "EC-06: Output contains personal contact information (emails: ['sarah.chen@nus.edu.sg'], phones: [])."
+      ],
+      "warnings": [
+        "EC-03: Output length (223 words) outside expected range [300, 1000]."
+      ]
+    },
+    {
+      "entry_id": "EC2-056",
+      "template_id": "document_summarizer_v1",
+      "language": "en",
+      "ground_truth": "violation",
+      "violation_type": "EC-06",
+      "predicted_block": true,
+      "outcome": "TP",
+      "failed_checks": [
+        "EC-06: Output contains personal contact information (emails: ['info.vastn@hcmut.edu.vn'], phones: ['+84 28 3865 1234'])."
+      ],
+      "warnings": []
+    },
+    {
+      "entry_id": "EC2-057",
+      "template_id": "meeting_minutes_v1",
+      "language": "en",
+      "ground_truth": "violation",
+      "violation_type": "EC-03",
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": [
+        "EC-03: Output length (29 words) outside expected range [150, 800]."
+      ]
+    },
+    {
+      "entry_id": "EC2-058",
+      "template_id": "lecture_generator_v1",
+      "language": "en",
+      "ground_truth": "violation",
+      "violation_type": "EC-03",
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": [
+        "EC-03: Output length (28 words) outside expected range [400, 1200]."
+      ]
+    },
+    {
+      "entry_id": "EC2-059",
+      "template_id": "collaboration_framework_v1",
+      "language": "en",
+      "ground_truth": "violation",
+      "violation_type": "EC-03",
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": [
+        "EC-03: Output length (25 words) outside expected range [300, 900]."
+      ]
+    },
+    {
+      "entry_id": "EC2-060",
+      "template_id": "meeting_minutes_v1",
+      "language": "vi",
+      "ground_truth": "violation",
+      "violation_type": "EC-04",
+      "predicted_block": false,
+      "outcome": "TN",
+      "failed_checks": [],
+      "warnings": [
+        "EC-04: Output language detected as 'en', expected 'vi'."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+## Curriculum Framework: Applied Generative AI for Engineers
+**Participating institutions:** HCMUT, NUS, Intel Vietnam  
+**Program goals:** Equip students with practical skills to design, fine-tune, evaluate, and deploy generative AI systems in engineering contexts; develop understanding of responsible AI principles and their application in product development; bridge academic foundations with industry workflows used at semiconductor and software companies  
+**Target audience:** Final-year undergraduate and first-year postgraduate students in computer engineering, software engineering, and electrical engineering; students should have completed at least one prior machine learning course  
+**Total duration:** 12 weeks, 3 contact hours per week  
+
+### Module Structure
+| Module | Title | Learning Outcomes | Credits | Modality |
+|---|---|---|---|---|
+| M01 | Introduction to Generative AI | Understand the basics of generative AI and its applications in engineering | 0.5 | Online |
+| M02 | Designing Generative Models | Gain skills in designing generative models for engineering tasks | 0.5 | Hybrid |
+| M03 | Fine-tuning and Evaluation | Learn techniques for fine-tuning and evaluating generative models | 0.5 | Hybrid |
+| M04 | Deployment in Engineering Contexts | Deploy generative AI systems in real-world engineering scenarios | 0.5 | In-person |
+| M05 | Responsible AI Principles | Understand and apply responsible AI principles in product development | 0.5 | Online |
+| M06 | Industry Applications and Workflows | Experience industry workflows and applications of generative AI | 0.5 | In-person |
+
+### Assessment Approach
+The assessment strategy will include a combination of individual assignments, group projects, and practical labs. Each module will have a formative assessment component to ensure ongoing feedback and learning. The final assessment will involve a capstone project where students design and deploy a generative AI system, demonstrating their understanding of both technical and ethical considerations.
+
+### Collaboration Mechanisms Between Institutions
+HCMUT will host in-person sessions and coordinate local logistics, while NUS will provide online course materials and virtual lectures. Intel Vietnam will deliver industry-led sessions, focusing on practical applications and case studies. All institutions will collaborate on the development of course content and assessment criteria to ensure alignment with academic and industry standards.
+
+### Open Issues [PARTNER REVIEW REQUIRED]
+- Agreement on credit equivalency between HCMUT and NUS
+- Finalization of the schedule for Intel Vietnam's industry-led sessions
+- Confirmation of technological platforms for hybrid and online delivery
+- Development of a shared repository for course materials and resources
+
+---
+*This curriculum framework was generated with AI assistance and requires review by all participating institutions before formal adoption.*

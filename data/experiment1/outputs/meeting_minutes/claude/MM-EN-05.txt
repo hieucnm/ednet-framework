@@ -1,0 +1,40 @@
+## Meeting Minutes
+**Network:** VASTN
+**Date:** 2024-06-11
+**Attendees:** Assoc. Prof. Tran Minh Quang (HCMUT), Prof. Sarah Chen (NUS), Ms. Le Thi Bich Ngoc (HCMUT Admin), [Speaker Unidentified] (possibly HUST)
+
+### Agenda Items Discussed
+
+The call was convened as an emergency coordination meeting to address the failure of scholarship disbursements to reach fourteen HCMUT students scheduled to travel to NUS the following week. Travel had already been booked, and the deadline for funds to be available was identified as Thursday, 13 June 2024, failing which the students would be unable to travel.
+
+Prof. Sarah Chen confirmed that NUS had submitted the transfer request to NUS Finance on 28 May 2024 and that no delay originated on the NUS side. Ms. Le Thi Bich Ngoc reported that HCMUT Finance requires Vice Rector for Finance level authorisation for international transfers exceeding 500 million VND. The current transfer amount is 620 million VND, placing it above that threshold. The Vice Rector for Finance has been travelling since 6 June 2024 and is not due to return until Thursday, 13 June 2024, which was identified as too late to unblock the students in time.
+
+A [Speaker Unidentified], possibly a HUST representative, proposed that NUS advance the funds to the students and be reimbursed by HCMUT subsequently. Prof. Sarah Chen stepped off the call to consult NUS Finance directly on this possibility. Upon rejoining, she confirmed that NUS Finance is able to advance up to SGD 50,000 to consortium partners, subject to a reimbursement agreement being signed within 30 days, and that this amount would be sufficient to cover the fourteen students.
+
+Assoc. Prof. Tran Minh Quang instructed Ms. Le Thi Bich Ngoc to draft a reimbursement commitment letter on the same day for his signature, to be sent to Prof. Sarah Chen by close of business on 11 June 2024. Prof. Sarah Chen confirmed that upon receipt, NUS Finance would process the advance first thing the following morning, with funds expected to reach the students by Wednesday, 12 June 2024.
+
+In parallel, Assoc. Prof. Tran Minh Quang asked Ms. Le Thi Bich Ngoc to contact the Vice Rector's assistant to request remote authorisation from the Vice Rector for Finance, noting that an email approval might be sufficient for HCMUT Finance to act.
+
+Assoc. Prof. Tran Minh Quang raised a structural concern that having a single authorisation point for international transfers represents an unacceptable operational fragility. He requested that a review of the disbursement authorisation policy be placed on the agenda for the September board meeting. Ms. Le Thi Bich Ngoc confirmed she would add this item.
+
+### Decisions Made
+
+It was decided that NUS will advance the scholarship funds, up to SGD 50,000, to cover the fourteen travelling students under the consortium partner advance facility, with HCMUT to reimburse NUS within 30 days pursuant to a formal reimbursement agreement. HCMUT will issue a reimbursement commitment letter, signed by Assoc. Prof. Tran Minh Quang, to be delivered to Prof. Sarah Chen by close of business on 11 June 2024. NUS Finance will process the advance on the morning of 12 June 2024, with funds expected to be available to students by Wednesday, 12 June 2024.
+
+It was also decided that a review of HCMUT's disbursement authorisation policy for international transfers will be placed on the agenda of the September VASTN board meeting.
+
+### Action Items
+
+| Owner | Deadline | Description |
+|---|---|---|
+| Ms. Le Thi Bich Ngoc (HCMUT Admin) | 2024-06-11 (close of business) | Draft the reimbursement commitment letter for Assoc. Prof. Tran Minh Quang's signature and send to Prof. Sarah Chen. |
+| Assoc. Prof. Tran Minh Quang (HCMUT) | 2024-06-11 (close of business) | Sign the reimbursement commitment letter drafted by Ms. Le Thi Bich Ngoc. |
+| Ms. Le Thi Bich Ngoc (HCMUT Admin) | 2024-06-11 | Contact the Vice Rector for Finance's assistant to request remote authorisation for the 620 million VND international transfer. |
+| Prof. Sarah Chen (NUS) | 2024-06-12 (first thing morning) | Instruct NUS Finance to process the advance of funds for the fourteen students upon receipt of the signed reimbursement commitment letter. |
+| Ms. Le Thi Bich Ngoc (HCMUT Admin) | TBD | Add the disbursement authorisation policy review to the agenda for the September VASTN board meeting. |
+
+### Next Meeting
+Not scheduled. A review of the disbursement authorisation policy is to be placed on the agenda of the September VASTN board meeting.
+
+---
+*This document was generated with AI assistance and is pending human review.*

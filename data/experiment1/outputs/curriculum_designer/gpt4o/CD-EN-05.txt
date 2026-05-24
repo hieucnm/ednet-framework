@@ -1,0 +1,33 @@
+## Curriculum Framework: Master of Engineering in AI Systems — Joint Degree Programme
+**Participating institutions:** HCMUT, NUS, HUST  
+**Program goals:** Deliver a research-informed postgraduate degree that combines AI engineering depth with semiconductor systems knowledge; develop graduates capable of leading applied AI research and advanced engineering development in industry and academia; establish a sustainable joint degree infrastructure reusable for future collaborative programmes across VASTN member institutions.  
+**Target audience:** Students holding a bachelor's degree in computer engineering, electrical engineering, computer science, or a closely related field with a minimum GPA equivalent to 7.0 out of 10; international applicants are eligible; programme targets students seeking careers in AI research, semiconductor design, and AI systems engineering.  
+**Total duration:** 2 years full-time (4 semesters)
+
+### Module Structure
+| Module | Title | Learning Outcomes | Credits | Modality |
+|---|---|---|---|---|
+| M01 | Foundations of AI Systems | Understand core AI algorithms and their applications in engineering contexts. | 6 | In-person |
+| M02 | Semiconductor Technologies for AI | Analyze and design semiconductor systems supporting AI applications. | 6 | In-person |
+| M03 | Advanced Machine Learning | Apply advanced machine learning techniques to complex engineering problems. | 6 | In-person |
+| M04 | AI Systems Integration | Design and integrate AI systems within existing technological infrastructures. | 6 | In-person |
+| M05 | Research Methods in AI Engineering | Develop research skills specific to AI systems engineering. | 4 | Online |
+| M06 | AI Systems Design Project | Lead a team-based project to design an AI system prototype. | 8 | Hybrid |
+| M07 | Industry Internship | Gain practical experience in AI systems engineering within an industrial setting. | 6 | In-person |
+| M08 | Thesis Research | Conduct original research under joint supervision, culminating in a thesis. | 12 | Hybrid |
+
+### Assessment Approach
+Assessment will be a combination of coursework, project work, and examinations, tailored to each module's learning outcomes. Modules will include continuous assessment through assignments and practical projects, particularly in design and integration courses. The thesis will be evaluated by a panel of faculty from all participating institutions, ensuring a comprehensive review of the research conducted.
+
+### Collaboration Mechanisms Between Institutions
+Each institution will contribute faculty to co-teach modules, ensuring a blend of expertise and perspectives. Resources such as laboratories and libraries will be shared, and students will have access to facilities at all institutions. Regular virtual meetings and workshops will facilitate ongoing collaboration and curriculum updates.
+
+### Open Issues [PARTNER REVIEW REQUIRED]
+- Agreement on the credit equivalency and transfer system across institutions.
+- Finalization of tuition fee structure and scholarship allocation.
+- Confirmation of recognition and compliance with Vietnamese and Singaporean educational regulations.
+- Detailed planning for the joint supervision of thesis research.
+- Establishment of a steering committee to oversee programme implementation and quality assurance.
+
+---
+*This curriculum framework was generated with AI assistance and requires review by all participating institutions before formal adoption.*

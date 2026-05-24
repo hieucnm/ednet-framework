@@ -1,0 +1,15 @@
+## Summary
+**Document type:** Báo cáo tổng kết
+**Source language:** Tiếng Việt
+
+### Key Points
+Trong năm học 2023–2024, chương trình đào tạo VASTN tuyển sinh 214 học viên, tăng 14% so với năm trước. Chứng chỉ Kỹ thuật AI Liên trường thu hút 156 học viên, vượt 8% chỉ tiêu, trong khi khóa Thiết kế Vi mạch Cơ bản đạt 96% chỉ tiêu với 58 học viên. Tỷ lệ hoàn thành chương trình là 86,4%, vượt mục tiêu 85%. Điểm trung bình tích lũy là 7,3/10, với học phần Thực hành Học sâu đạt điểm cao nhất. 87,6% học viên tốt nghiệp đã có việc làm hoặc học tiếp, với thời gian trung bình tìm việc là 2,3 tháng. Đánh giá ngoài đề xuất cải thiện hướng dẫn nghiên cứu khoa học và kỹ năng làm việc nhóm đa văn hóa.
+
+### Implications for the Network
+Báo cáo cho thấy sự tăng trưởng và hiệu quả của chương trình đào tạo, đồng thời chỉ ra các lĩnh vực cần cải thiện, ảnh hưởng đến việc điều chỉnh chương trình giảng dạy và hợp tác với doanh nghiệp.
+
+### Recommended Follow-up
+Cập nhật học phần và xây dựng rubric đánh giá theo đề xuất cải tiến.
+
+---
+*This summary was generated with AI assistance. Verify against the original document.*

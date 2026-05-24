@@ -1,0 +1,64 @@
+## Lecture: Fine-tuning Mô hình Ngôn ngữ Nền tảng bằng LoRA
+**Course:** Mô hình Ngôn ngữ Lớn Ứng dụng — Chứng chỉ Liên trường VASTN
+**Audience level:** Sau đại học (Postgraduate)
+**Duration:** 120 phút
+
+---
+
+### Learning Objectives
+
+Sau khi hoàn thành bài giảng này, người học có khả năng: (1) lập luận được tại sao fine-tuning toàn bộ tham số của một mô hình ngôn ngữ lớn (LLM) là không khả thi trong phần lớn bối cảnh tài nguyên tính toán hạn chế, bao gồm cả môi trường nghiên cứu và doanh nghiệp vừa và nhỏ tại Việt Nam; (2) giải thích nguyên lý toán học của phương pháp Low-Rank Adaptation (LoRA) và chứng minh được cách phương pháp này giảm đáng kể số lượng tham số cần cập nhật so với fine-tuning đầy đủ; (3) cấu hình và thực thi một pipeline fine-tuning hoàn chỉnh sử dụng thư viện PEFT của Hugging Face trên một tập dữ liệu tiếng Việt thực tế; và (4) lựa chọn và áp dụng các chỉ số đánh giá phù hợp với tác vụ cụ thể để đo lường chất lượng mô hình sau khi fine-tuning.
+
+---
+
+### Part 1 — Tại sao Fine-tuning Toàn bộ Tham số là Thách thức Lớn (~25 phút)
+
+Phần này thiết lập nền tảng động lực cho toàn bộ bài giảng bằng cách làm rõ chi phí thực tế của fine-tuning đầy đủ, từ đó tạo ra nhu cầu tự nhiên cho các phương pháp hiệu quả tham số như LoRA.
+
+#### 1.1 Quy mô tham số của các LLM hiện đại
+
+Các mô hình ngôn ngữ nền tảng (foundation models) hiện đại có quy mô tham số rất lớn. Để hình dung cụ thể:
+
+| Mô hình | Số tham số | Bộ nhớ GPU (FP32) | Bộ nhớ GPU (BF16) |
+|---|---|---|---|
+| BERT-base | 110 triệu | ~0,4 GB | ~0,2 GB |
+| LLaMA-2 7B | 7 tỷ | ~28 GB | ~14 GB |
+| LLaMA-2 13B | 13 tỷ | ~52 GB | ~26 GB |
+| LLaMA-3 70B | 70 tỷ | ~280 GB | ~140 GB |
+
+Khi fine-tuning toàn bộ tham số (full fine-tuning), bộ nhớ GPU cần thiết không chỉ bao gồm trọng số mô hình mà còn bao gồm:
+
+- **Gradient** của từng tham số (cùng kích thước với trọng số)
+- **Trạng thái optimizer** — với Adam/AdamW, cần lưu moment bậc nhất và bậc hai, tức là **gấp đôi** kích thước tham số
+- **Activation** trong quá trình forward pass (phụ thuộc vào batch size và độ dài chuỗi)
+
+Theo quy tắc thực hành, tổng bộ nhớ GPU cần thiết cho full fine-tuning với AdamW ở độ chính xác hỗn hợp (mixed precision) xấp xỉ:
+
+> **Bộ nhớ ≈ 16 × số tham số (byte)**
+
+Ví dụ: Fine-tuning LLaMA-2 7B đòi hỏi khoảng **112 GB VRAM**, tương đương 4 GPU A100 80GB — một cấu hình nằm ngoài tầm với của hầu hết các nhóm nghiên cứu và doanh nghiệp vừa và nhỏ tại Việt Nam.
+
+#### 1.2 Chi phí lưu trữ và triển khai
+
+Ngoài chi phí tính toán, full fine-tuning còn tạo ra vấn đề lưu trữ nghiêm trọng. Mỗi phiên bản fine-tuned của LLaMA-2 7B chiếm khoảng **13–14 GB** dung lượng đĩa ở định dạng BF16. Nếu một tổ chức cần fine-tune mô hình cho 10 tác vụ khác nhau (phân loại văn bản, tóm tắt, hỏi đáp, v.v.), họ cần lưu trữ **10 bản sao đầy đủ** của mô hình — tổng cộng hơn 130 GB chỉ cho một mô hình cơ sở.
+
+Hơn nữa, khi triển khai đa tác vụ, không thể chia sẻ trọng số giữa các phiên bản, dẫn đến lãng phí tài nguyên phần cứng.
+
+#### 1.3 Vấn đề catastrophic forgetting
+
+Một thách thức kỹ thuật quan trọng khác của full fine-tuning là hiện tượng **catastrophic forgetting** (quên thảm họa): khi cập nhật toàn bộ tham số trên một tập dữ liệu tác vụ cụ thể, mô hình có xu hướng "quên" kiến thức ngôn ngữ tổng quát đã học trong quá trình pre-training. Điều này đặc biệt nghiêm trọng khi tập dữ liệu fine-tuning nhỏ hoặc thiếu đa dạng.
+
+#### 1.4 Bối cảnh tiếng Việt
+
+Đối với tiếng Việt, thách thức càng lớn hơn vì:
+- Các mô hình nền tảng mạnh nhất (LLaMA, Mistral, Qwen) chủ yếu được pre-train trên dữ liệu tiếng Anh, nên cần fine-tuning để thích nghi với tiếng Việt
+- Tập dữ liệu tiếng Việt chất lượng cao thường có quy mô nhỏ hơn so với tiếng Anh
+- Hạ tầng GPU tại các cơ sở nghiên cứu Việt Nam còn hạn chế
+
+Những thách thức này tạo ra nhu cầu cấp thiết cho các phương pháp **Parameter-Efficient Fine-Tuning (PEFT)** — nhóm kỹ thuật cho phép thích nghi mô hình với tác vụ mới trong khi chỉ cập nhật một phần nhỏ tham số.
+
+---
+
+### Part 2 — Nguyên lý Toán học của LoRA (~35 phút)
+
+Phần này

@@ -1,0 +1,15 @@
+## Summary
+**Document type:** Policy document / framework overview
+**Source language:** English
+
+### Key Points
+AUN-QA Framework Version 4.0 updates regional quality assurance standards for undergraduate and postgraduate programmes across Southeast Asian member universities, organised into three domains: Programme Outcomes and Curriculum Design, Teaching and Learning Approach, and Programme Quality Enhancement. Institutions must demonstrate explicit mapping of learning outcomes to national and ASEAN qualifications frameworks, with at least 85% of programme-level outcomes traceable to a minimum of two course-level outcomes each. Engineering and technology programmes must incorporate at least 160 hours of industry-engaged learning per student from 2025, with virtual engagement permitted for up to 40% of that requirement. Annual programme reviews must involve an external industry representative and a peer institution representative from outside the home country, producing a written report covering graduate outcomes, student satisfaction, and implemented improvements. Initial certification requires a self-assessment submission six months before a site visit, with provisional two-year certification available for programmes meeting at least 70% of criteria alongside a verified improvement plan.
+
+### Implications for the Network
+Member institutions currently certified under Version 3.0 must transition to Version 4.0 standards at their next scheduled renewal between 2025 and 2027, requiring adjustments to evidence documentation, curriculum mapping processes, and industry partnership arrangements. Network administrators should anticipate increased coordination demands, particularly for cross-institutional programme board participation and the verification of industry engagement documentation.
+
+### Recommended Follow-up
+Confirm which member institutions have programmes due for renewal within the 2025–2027 transition window and assess their readiness against the new Version 4.0 evidence requirements.
+
+---
+*This summary was generated with AI assistance. Verify against the original document.*

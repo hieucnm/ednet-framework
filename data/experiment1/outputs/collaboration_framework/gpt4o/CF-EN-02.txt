@@ -1,0 +1,34 @@
+## Collaboration Framework Outline
+**Parties:** VASTN Consortium (HCMUT, HUST, NUS, RMIT Vietnam), TU Delft (Netherlands), KTH Royal Institute of Technology (Sweden)
+
+**Purpose:** Establish a project collaboration framework for a proposed Erasmus+ Capacity Building in Higher Education application focused on strengthening AI and semiconductor engineering education in Vietnam through curriculum modernisation, staff development, and quality assurance capacity building.
+
+**Effective period:** 3 years, aligned with Erasmus+ project grant cycle, commencing upon grant award (estimated Q1 2025)
+
+### Scope of Collaboration
+The collaboration will focus on joint curriculum development for two new AI engineering modules compliant with AUN-QA Version 4.0 standards, conducting three staff development workshops hosted alternately at TU Delft, KTH, and HCMUT, establishing a quality assurance peer review mechanism between VASTN and EU partner institutions, facilitating a student short-term exchange programme of two to four weeks for up to 20 VASTN students per year at TU Delft or KTH, and the joint publication of a best-practice guide on industry-integrated AI engineering education in Southeast Asia.
+
+### Responsibilities of Each Party
+| Party | Responsibility | Timeline |
+|---|---|---|
+| HCMUT | Lead applicant and grant administrator; oversee curriculum development | Ongoing |
+| TU Delft | EU coordinator; host one staff development workshop; facilitate student exchange | Ongoing |
+| KTH | EU coordinator; host one staff development workshop; facilitate student exchange | Ongoing |
+| VASTN Consortium | Implement curriculum and quality assurance mechanisms; participate in workshops | Ongoing |
+
+### Resource Sharing Arrangements
+To be determined by mutual agreement [LEGAL REVIEW REQUIRED].
+
+### Governance and Dispute Resolution [LEGAL REVIEW REQUIRED]
+The decision-making authority will reside with a Steering Committee comprising representatives from each institution, chaired by HCMUT as the lead applicant. Dispute resolution will follow a structured process involving mediation by the Steering Committee, with escalation to an independent arbitrator if necessary.
+
+### Review and Renewal Conditions
+The collaboration framework will be reviewed annually, with a comprehensive evaluation at the end of the three-year period. Continuation of activities beyond the grant period will be subject to a separate sustainability plan to be agreed upon by all parties before the project's end.
+
+### Open Items [LEGAL REVIEW REQUIRED]
+- Detailed resource sharing arrangements
+- Finalization of the sustainability plan for post-grant activities
+- Specifics of the quality assurance peer review mechanism
+
+---
+*This collaboration framework outline was generated with AI assistance. It is a working draft and does not constitute a legally binding agreement.*

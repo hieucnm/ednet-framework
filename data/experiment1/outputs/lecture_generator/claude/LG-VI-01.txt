@@ -1,0 +1,76 @@
+## Lecture: Học có giám sát: Hồi quy và Phân loại
+**Course:** Nhập môn Kỹ thuật AI — Chứng chỉ Liên trường VASTN
+**Audience level:** Undergraduate
+**Duration:** 90 phút
+
+---
+
+### Learning Objectives
+
+Sau khi hoàn thành bài giảng này, người học có khả năng: (1) phân biệt ba mô hình học máy chính — học có giám sát, học không có giám sát và học tăng cường — dựa trên cách dữ liệu được sử dụng trong quá trình huấn luyện; (2) mô tả nguyên lý hoạt động của thuật toán hồi quy tuyến tính và phân loại logistic, bao gồm cách mô hình tạo ra dự đoán từ dữ liệu đầu vào; (3) giải thích ý nghĩa của hàm mất mát và trình bày từng bước cơ bản của thuật toán gradient descent trong quá trình tối ưu hoá tham số mô hình; (4) nhận diện và phân biệt hiện tượng overfitting và underfitting khi quan sát đồ thị sai số huấn luyện và sai số kiểm định.
+
+---
+
+### Part 1 — Ba mô hình học máy: Học có giám sát, không có giám sát và tăng cường (~20 phút)
+
+Phần này giúp người học xây dựng bức tranh tổng quan về các mô hình học máy, từ đó xác định rõ vị trí và đặc điểm của học có giám sát trong hệ thống phân loại đó.
+
+#### 1.1 Học máy là gì?
+
+Học máy (Machine Learning — ML) là một nhánh của trí tuệ nhân tạo, trong đó máy tính **học từ dữ liệu** thay vì được lập trình bằng các quy tắc tường minh. Thay vì viết: "Nếu diện tích > 80 m² thì giá > 2 tỷ", chúng ta cung cấp cho máy hàng nghìn cặp (diện tích, giá) và để máy tự tìm ra mối quan hệ đó.
+
+Có ba mô hình học máy chính, được phân biệt bởi **loại tín hiệu phản hồi** mà thuật toán nhận được trong quá trình học:
+
+---
+
+#### 1.2 Học có giám sát (Supervised Learning)
+
+**Định nghĩa:** Thuật toán học từ một tập dữ liệu có nhãn, tức là mỗi mẫu dữ liệu đầu vào **x** đều đi kèm với một nhãn đầu ra **y** do con người cung cấp.
+
+**Ký hiệu:** Tập huấn luyện gồm *n* cặp: { (x⁽¹⁾, y⁽¹⁾), (x⁽²⁾, y⁽²⁾), …, (x⁽ⁿ⁾, y⁽ⁿ⁾) }
+
+**Mục tiêu:** Học một hàm ánh xạ *f* sao cho *f*(x) ≈ y với dữ liệu chưa thấy.
+
+**Hai dạng bài toán chính:**
+- **Hồi quy (Regression):** Đầu ra *y* là một giá trị liên tục. Ví dụ: dự đoán giá nhà (đơn vị: triệu đồng), dự đoán nhiệt độ ngày mai.
+- **Phân loại (Classification):** Đầu ra *y* là một nhãn rời rạc. Ví dụ: email là spam hay không spam, ảnh chứa mèo hay chó.
+
+**Ví dụ thực tế gần gũi:**
+> Một giáo viên chấm 500 bài luận và ghi điểm (0–10) cho từng bài. Hệ thống học có giám sát sẽ học từ 500 cặp (nội dung bài luận, điểm số) đó để tự động chấm điểm các bài luận mới.
+
+---
+
+#### 1.3 Học không có giám sát (Unsupervised Learning)
+
+**Định nghĩa:** Thuật toán chỉ nhận dữ liệu đầu vào **x** mà **không có nhãn y**. Máy phải tự tìm ra cấu trúc ẩn trong dữ liệu.
+
+**Các bài toán tiêu biểu:**
+- **Phân cụm (Clustering):** Nhóm các khách hàng có hành vi mua sắm tương tự nhau (ví dụ: thuật toán K-Means).
+- **Giảm chiều dữ liệu (Dimensionality Reduction):** Nén dữ liệu nhiều chiều xuống 2–3 chiều để trực quan hoá (ví dụ: PCA).
+
+**Điểm khác biệt then chốt so với học có giám sát:** Không có "đáp án đúng" để so sánh — máy tự khám phá, không được hướng dẫn bởi nhãn.
+
+---
+
+#### 1.4 Học tăng cường (Reinforcement Learning)
+
+**Định nghĩa:** Một tác nhân (agent) học cách hành động trong một môi trường bằng cách nhận **phần thưởng (reward)** hoặc **hình phạt (penalty)** sau mỗi hành động, với mục tiêu tối đa hoá tổng phần thưởng tích luỹ theo thời gian.
+
+**Ví dụ:** Chương trình chơi cờ vây AlphaGo học bằng cách tự chơi hàng triệu ván, nhận điểm dương khi thắng và điểm âm khi thua.
+
+**Điểm khác biệt:** Không có tập dữ liệu cố định — dữ liệu được tạo ra trong quá trình tương tác với môi trường.
+
+---
+
+#### 1.5 Bảng so sánh tổng hợp
+
+| Tiêu chí | Học có giám sát | Học không có giám sát | Học tăng cường |
+|---|---|---|---|
+| Dữ liệu đầu vào | Có nhãn (x, y) | Không nhãn (x) | Trạng thái + phần thưởng |
+| Tín hiệu học | Nhãn y | Cấu trúc dữ liệu | Phần thưởng/hình phạt |
+| Ví dụ bài toán | Dự đoán giá nhà | Phân nhóm khách hàng | Chơi game, điều khiển robot |
+| Thuật toán tiêu biểu | Hồi quy, SVM | K-Means, PCA | Q-Learning, PPO |
+
+---
+
+### Part 2 — Hồi quy tuyến tính và Phân loại logistic: Nguyên l

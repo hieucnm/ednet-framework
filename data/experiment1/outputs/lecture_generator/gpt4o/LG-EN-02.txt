@@ -1,0 +1,29 @@
+## Lecture: Deploying Machine Learning Models on Edge Devices
+**Course:** Applied AI Systems — VASTN Joint Certificate  
+**Audience level:** Postgraduate  
+**Duration:** 120 minutes  
+
+### Learning Objectives
+By the end of this lecture, learners will be able to distinguish between cloud inference and edge inference, explaining the trade-offs involved. They will be able to apply techniques such as model quantisation and pruning to reduce model size for deployment. Additionally, learners will configure a TensorFlow Lite model for inference on a microcontroller-class device and evaluate the latency, memory, and accuracy trade-offs for a given deployment scenario.
+
+### Part 1 — Introduction to Edge Inference (~30 minutes)
+In this part, we will explore the fundamental differences between cloud inference and edge inference. Cloud inference involves processing data on powerful remote servers, which can handle complex models but may introduce latency due to data transmission. Edge inference, on the other hand, processes data locally on devices such as smartphones, IoT devices, or microcontrollers, reducing latency and bandwidth usage. We will discuss the trade-offs between these approaches, such as the balance between computational power, latency, and data privacy. Real-world examples, such as smart home devices and autonomous vehicles, will illustrate these concepts.
+
+### Part 2 — Model Optimisation Techniques: Quantisation and Pruning (~45 minutes)
+This section focuses on the techniques used to optimise machine learning models for deployment on edge devices. We will delve into model quantisation, which reduces the precision of the model's weights and activations, thereby decreasing model size and improving inference speed. Pruning, another technique, involves removing redundant or less important neurons or connections in the model. We will demonstrate these techniques using TensorFlow and discuss their impact on model performance, including trade-offs between model size, speed, and accuracy. Practical examples will be provided to illustrate how these techniques can be applied to real-world scenarios.
+
+### Part 3 — Deploying TensorFlow Lite Models on Microcontrollers (~45 minutes)
+In the final part, we will focus on deploying machine learning models on microcontroller-class devices using TensorFlow Lite. We will guide learners through the process of converting a TensorFlow model to a TensorFlow Lite model, optimising it for a microcontroller, and configuring it for inference. Key considerations such as memory constraints, power consumption, and processing capabilities will be addressed. We will also evaluate the trade-offs between latency, memory usage, and accuracy in different deployment scenarios. A hands-on demonstration will be provided to reinforce these concepts, using a simple classification model as an example.
+
+### Discussion Questions
+1. What are the primary advantages and disadvantages of deploying machine learning models on edge devices compared to cloud-based solutions?
+2. How do quantisation and pruning affect the performance and accuracy of a machine learning model?
+3. What factors should be considered when choosing a model for deployment on a microcontroller-class device?
+
+### Suggested Further Reading
+1. Lane, N. D., Bhattacharya, S., Mathur, A., & Georgiev, P. (2015). Squeezing deep learning into mobile and embedded devices. IEEE Pervasive Computing, 14(3), 82-88.
+2. Han, S., Mao, H., & Dally, W. J. (2016). Deep compression: Compressing deep neural networks with pruning, trained quantization and Huffman coding. International Conference on Learning Representations (ICLR).
+3. Warden, P., & Situnayake, D. (2019). TinyML: Machine Learning with TensorFlow Lite on Arduino and Ultra-Low-Power Microcontrollers. O'Reilly Media.
+
+---
+*This lecture content was generated with AI assistance and requires review by the course instructor before use in teaching.*

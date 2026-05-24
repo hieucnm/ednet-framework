@@ -1,0 +1,26 @@
+## Meeting Minutes
+**Network:** VASTN
+**Date:** 2024-02-08
+**Attendees:** Assoc. Prof. Nguyen Van An (HCMUT), Mr. Klaus Hoffmann (Bosch Vietnam — Head of Engineering)
+
+### Agenda Items Discussed
+The meeting opened with Assoc. Prof. Nguyen Van An (HCMUT) introducing the purpose of the call: to explore whether a more structured research collaboration could be established with Bosch Vietnam, building on the existing student placement arrangement that has been in place for two years. Mr. Hoffmann confirmed that the placement programme has been successful from Bosch's perspective, noting that four HCMUT students had been placed over two years and that two of those students are now full-time Bosch employees.
+
+Assoc. Prof. Nguyen Van An proposed a joint applied research project focused on predictive maintenance using embedded AI on Bosch manufacturing equipment. The proposed structure would see HCMUT providing the research team while Bosch would provide access to operational data and an engineering liaison. The suggested project duration is approximately 18 months, with intended outputs including a publication and a prototype. Mr. Hoffmann expressed interest in the proposal, noting that predictive maintenance is directly relevant to Bosch's current operational challenges, specifically referencing a production line in Dong Nai experiencing unplanned downtime that existing monitoring systems are not detecting. He indicated that internal consultation with Bosch's R&D and legal teams would be required, particularly regarding data sharing arrangements and intellectual property ownership.
+
+On the matter of intellectual property, Assoc. Prof. Nguyen Van An outlined HCMUT's standard position: joint IP ownership for jointly developed outputs, with the university retaining the right to publish findings subject to a 90-day review period during which Bosch may flag confidential content. Mr. Hoffmann acknowledged this as a reasonable starting point and committed to taking the proposal to his internal teams.
+
+### Decisions Made
+No formal decisions were recorded. Both parties agreed that the intellectual property framework outlined by HCMUT — joint ownership of jointly developed outputs and a 90-day confidentiality review period prior to publication — represents a reasonable starting point for further internal discussion on Bosch's side.
+
+### Action Items
+| Owner | Deadline | Description |
+|---|---|---|
+| Assoc. Prof. Nguyen Van An | 2024-02-11 (end of week) | Send a one-page concept note to Mr. Hoffmann to frame the internal discussion at Bosch |
+| Mr. Klaus Hoffmann | 2024-02-29 (within three weeks) | Consult Bosch R&D and legal teams on data sharing and IP ownership, and revert to HCMUT with a response |
+
+### Next Meeting
+Not scheduled.
+
+---
+*This document was generated with AI assistance and is pending human review.*

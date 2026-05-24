@@ -1,0 +1,28 @@
+## Curriculum Framework: Semiconductor Design Fundamentals — Industry Entry Programme
+**Participating institutions:** HCMUT, Bosch Vietnam  
+**Program goals:** Provide graduating engineers with foundational skills in digital IC design and verification sufficient for entry-level roles in semiconductor R&D and embedded product development; familiarise students with commercial EDA toolchains used in industry; develop practical understanding of the full design flow from RTL to tape-out simulation  
+**Target audience:** Final-year undergraduate students in electrical engineering and computer engineering; students must have completed a digital logic design course; programme targets students seeking employment in the semiconductor sector within 12 months of graduation  
+**Total duration:** 8 weeks, 4 contact hours per week  
+
+### Module Structure
+| Module | Title | Learning Outcomes | Credits | Modality |
+|---|---|---|---|---|
+| M01 | Introduction to Digital IC Design | Understand the basics of digital IC design and its role in semiconductor R&D; identify key stages in the design flow | 1 | Online |
+| M02 | EDA Toolchains and Synopsys Design Compiler | Gain familiarity with EDA tools; perform basic operations using Synopsys Design Compiler | 1 | In-person |
+| M03 | RTL Design and Verification | Develop RTL designs; apply verification techniques to ensure design correctness | 1 | Hybrid |
+| M04 | Simulation and Synthesis | Conduct simulations and synthesis of digital designs; interpret results to refine designs | 1 | In-person |
+| M05 | From RTL to Tape-out | Understand the complete flow from RTL to tape-out; apply knowledge in a project-based setting | 2 | Hybrid |
+
+### Assessment Approach
+Assessment will be a combination of continuous evaluation and a final project. Continuous evaluation will include quizzes, lab exercises, and participation in discussions. The final project will require students to complete a design flow from RTL to tape-out simulation, demonstrating their understanding and practical skills. Feedback will be provided throughout the course to guide student progress.
+
+### Collaboration Mechanisms Between Institutions
+HCMUT will provide the academic framework and theoretical instruction, while Bosch Vietnam will supply industry insights and practical training, particularly in the use of Synopsys Design Compiler. Joint workshops and guest lectures will be organized to enhance learning. Both institutions will collaborate on the final project, with Bosch Vietnam providing real-world scenarios and case studies.
+
+### Open Issues [PARTNER REVIEW REQUIRED]
+- Agreement on the specific timing within the final semester to avoid conflicts with thesis submission deadlines.
+- Finalization of the credit system to ensure compatibility across different academic structures.
+- Confirmation of the certification process and design of the joint certificate to be issued by HCMUT and Bosch Vietnam.
+
+---
+*This curriculum framework was generated with AI assistance and requires review by all participating institutions before formal adoption.*

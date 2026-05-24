@@ -1,0 +1,85 @@
+## Collaboration Framework Outline
+
+**Parties:** Ho Chi Minh City University of Technology (HCMUT); Hanoi University of Science and Technology (HUST); National University of Singapore (NUS); Intel Vietnam; Bosch Vietnam
+
+**Purpose:** This framework establishes a multi-party knowledge transfer and workforce development structure enabling systematic sharing of industry expertise, research capabilities, and training resources across the VASTN network. It is designed to support Vietnam's national strategy for AI and semiconductor talent development by aligning the complementary strengths of two leading Vietnamese technical universities, a regional research university, and two major industry partners operating in Vietnam's technology sector.
+
+**Effective period:** Three (3) years from the date of execution, with a mandatory mid-term review at 18 months and an option for renewal subject to steering committee approval.
+
+---
+
+### Scope of Collaboration
+
+The collaboration encompasses five areas of joint activity across all five parties:
+
+**Workforce Needs Assessment.** The parties will conduct an annual joint assessment to identify skill gaps in AI and semiconductor disciplines and to prioritise training investments for the following programme year. All data shared between parties for this purpose shall be anonymised and aggregated prior to exchange.
+
+**Curriculum Co-development and Delivery.** The parties will co-develop and deliver at least two new short courses per year, targeting priority skill gaps identified through the annual assessment. Completed courses will carry joint certification from the participating university and industry partners.
+
+**Industry Mentorship Programme.** An annual mentorship programme will pair postgraduate students from HCMUT and HUST with practising engineers from Intel Vietnam and Bosch Vietnam, targeting a minimum of 30 pairings per programme year.
+
+**Shared Software Licence Access.** University partners will have shared access to licensed software tools relevant to AI and semiconductor education and research. Access will be coordinated through a centralised licence management mechanism agreed upon by all parties.
+
+**VASTN Innovation Challenge.** An annual open innovation challenge will be held for students enrolled at HCMUT and HUST. Industry partners will be responsible for setting challenge briefs and constituting judging panels.
+
+---
+
+### Responsibilities of Each Party
+
+| Party | Responsibility | Timeline |
+|---|---|---|
+| HCMUT | Participate in annual joint workforce needs assessment; co-develop and deliver short courses; nominate eligible postgraduate students for mentorship programme; administer shared software licence access for own student and staff population; host or co-host VASTN Innovation Challenge activities as agreed; appoint one representative to the steering committee | Ongoing |
+| HUST | Participate in annual joint workforce needs assessment; co-develop and deliver short courses; nominate eligible postgraduate students for mentorship programme; administer shared software licence access for own student and staff population; host or co-host VASTN Innovation Challenge activities as agreed; appoint one representative to the steering committee | Ongoing |
+| NUS | Participate in annual joint workforce needs assessment; contribute research and curriculum expertise to short course co-development; appoint one representative to the steering committee | Ongoing |
+| Intel Vietnam | Participate in annual joint workforce needs assessment; co-develop and deliver short courses; assign engineers to serve as mentors in the mentorship programme targeting the agreed annual pairing volume; set challenge briefs and provide judges for the VASTN Innovation Challenge; contribute in-kind resources (which may include equipment, staff time, and licences) as specified in the cost-sharing annex; appoint one representative to the steering committee | Ongoing |
+| Bosch Vietnam | Participate in annual joint workforce needs assessment; co-develop and deliver short courses; assign engineers to serve as mentors in the mentorship programme targeting the agreed annual pairing volume; set challenge briefs and provide judges for the VASTN Innovation Challenge; contribute in-kind resources (which may include equipment, staff time, and licences) as specified in the cost-sharing annex; appoint one representative to the steering committee | Ongoing |
+| All Parties | Ensure that all data shared for workforce needs assessment purposes is anonymised and aggregated before exchange; provide 60 days written notice to the steering committee prior to withdrawing from any specific activity | Per activity cycle and as required |
+| All Parties | Negotiate and execute the cost-sharing annex prior to programme launch | Before programme launch [LEGAL REVIEW REQUIRED] |
+| All Parties | Conduct mid-term review of the framework | At 18 months |
+
+---
+
+### Resource Sharing Arrangements
+
+Financial contributions from each party shall be negotiated and documented in a separate cost-sharing annex, which must be agreed upon and executed by all five parties before the programme formally launches. [LEGAL REVIEW REQUIRED]
+
+Contributions from Intel Vietnam and Bosch Vietnam may take the form of in-kind support, including but not limited to equipment, staff time, and software licences, rather than direct monetary transfers. The precise scope and valuation methodology for in-kind contributions shall be defined in the cost-sharing annex.
+
+Shared access to licensed software tools for university partners shall be coordinated through a centralised licence management mechanism, the operational details of which — including procurement responsibilities, cost allocation, and access protocols — shall be established by the steering committee and reflected in the cost-sharing annex. [LEGAL REVIEW REQUIRED]
+
+No specific financial or resource quantum has been committed by any party at this stage beyond the in-kind contribution modalities noted above. All further resource commitments are to be determined through the cost-sharing annex negotiation process.
+
+---
+
+### Governance and Dispute Resolution [LEGAL REVIEW REQUIRED]
+
+**Steering Committee.** The framework shall be governed by a steering committee comprising one designated representative from each of the five parties. The steering committee shall meet quarterly, with the option to convene extraordinary sessions by written request of any two or more parties.
+
+**Decision-Making.** Decisions relating to resource allocation shall require the consensus of all five parties. For other operational matters, the steering committee shall endeavour to reach consensus; the specific voting or decision threshold for non-resource matters shall be defined in the governance annex to be agreed prior to programme launch. [LEGAL REVIEW REQUIRED]
+
+**Activity-Level Withdrawal.** Any party may withdraw from participation in a specific programme activity by providing a minimum of 60 days written notice to the steering committee. Such withdrawal shall not constitute or trigger termination of the overall framework, and the remaining parties shall determine whether and how the activity will continue.
+
+**Dispute Resolution.** In the event of a disagreement between parties that cannot be resolved through the steering committee's consensus process, the parties agree to first attempt resolution through good-faith negotiation at senior institutional level. If such negotiation does not produce a resolution within a period to be specified in the formal agreement, the parties shall pursue mediation or another dispute resolution mechanism as agreed in the executed framework document. [LEGAL REVIEW REQUIRED]
+
+**Framework Termination.** Conditions and procedures for full termination of the framework, including notice periods and obligations upon termination, shall be specified in the executed agreement. [LEGAL REVIEW REQUIRED]
+
+---
+
+### Review and Renewal Conditions
+
+A mandatory mid-term review shall be conducted at 18 months from the effective date. The review shall assess progress against the activities defined in the Scope of Collaboration, evaluate the effectiveness of governance arrangements, and identify any adjustments required for the remainder of the three-year period. The steering committee shall be responsible for commissioning and approving the mid-term review.
+
+At the conclusion of the three-year effective period, the framework may be renewed subject to the approval of the steering committee. Renewal discussions shall commence no later than six months prior to the expiry date to allow sufficient time for negotiation and any required institutional approvals. Renewal may involve amendments to the scope, resource arrangements, or governance structure, all of which shall be subject to the same approval and legal review requirements as the original framework. [LEGAL REVIEW REQUIRED]
+
+---
+
+### Open Items [LEGAL REVIEW REQUIRED]
+
+- **Cost-sharing annex:** Financial contributions and in-kind contribution valuation methodology for all five parties have not yet been agreed. This annex must be finalised and executed before programme launch.
+- **Governance annex:** Decision-making thresholds for non-resource matters, extraordinary meeting procedures, and quorum requirements for the steering committee have not yet been defined.
+- **Licence management mechanism:** The operational structure, responsible party, cost allocation model, and access protocols for the centralised software licence management system have not yet been determined.
+- **Joint certification framework:** The specific credentialing standards, issuing authority arrangements, and quality assurance processes for the joint short course certifications have not yet been agreed. [LEGAL REVIEW REQUIRED]
+- **Mentorship programme operating procedures:** Matching criteria, supervision responsibilities, minimum engagement standards, and safeguarding or data protection obligations for the mentorship programme have not yet been documented.
+- **Data governance protocol:** While anonymisation and aggregation requirements for workforce needs assessment data have been agreed in principle, a formal data sharing and data protection agreement covering all parties has not yet been drafted. [LEGAL REVIEW REQUIRED]
+- **Dispute resolution mechanism:** The specific mediation or arbitration process, governing jurisdiction, and applicable law have not yet been agreed. [LEGAL REVIEW REQUIRED]
+- **Framework term

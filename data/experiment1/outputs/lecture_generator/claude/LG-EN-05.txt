@@ -1,0 +1,134 @@
+## Lecture: Transformer Architecture and Self-Attention Mechanism
+**Course:** Natural Language Processing for Engineers — VASTN Joint Certificate
+**Audience level:** Postgraduate
+**Duration:** 120 minutes
+
+---
+
+### Learning Objectives
+
+By the end of this lecture, learners will be able to explain the computational and representational limitations of recurrent neural network architectures that motivated the development of the transformer; derive the scaled dot-product attention formula from first principles, tracing the role of each matrix operand; describe the functional contributions of multi-head attention, sinusoidal positional encoding, and layer normalisation within a transformer encoder block; compare the architectural choices made in BERT and GPT and articulate why each design is better suited to particular classes of NLP tasks; and implement a fine-tuning pipeline for a pre-trained transformer model applied to text classification using the Hugging Face `transformers` and `datasets` libraries.
+
+---
+
+### Part 1 — Why Recurrent Architectures Fall Short (~25 minutes)
+
+This part establishes the engineering motivation for the transformer by identifying the concrete failure modes of sequence-to-sequence recurrent models, giving learners the problem context before introducing the solution.
+
+#### 1.1 The Recurrent Paradigm
+
+Recurrent Neural Networks (RNNs), and their gated successors Long Short-Term Memory networks (LSTMs) and Gated Recurrent Units (GRUs), process sequences token by token. At each time step *t*, the model computes a hidden state:
+
+```
+h_t = f(W_h · h_{t-1} + W_x · x_t + b)
+```
+
+This recurrence encodes the entire history of the sequence into a single fixed-dimensional vector `h_t`. For sequence-to-sequence tasks such as machine translation, an encoder RNN compresses the source sentence into a context vector, which a decoder RNN then unpacks into the target sentence.
+
+This design has three well-documented failure modes that become acute at scale.
+
+#### 1.2 Failure Mode 1 — Sequential Computation Prevents Parallelism
+
+Because `h_t` depends on `h_{t-1}`, the forward pass through an RNN is inherently sequential. A sentence of length *T* requires *T* sequential matrix multiplications before any gradient can be computed. This serialisation is catastrophic for modern GPU hardware, which achieves peak throughput through massively parallel operations. Training an LSTM on a corpus of hundreds of millions of tokens is therefore slow in a way that is not merely inconvenient but architecturally fundamental — no amount of hardware scaling resolves it.
+
+#### 1.3 Failure Mode 2 — The Vanishing Gradient Over Long Sequences
+
+Backpropagation through time (BPTT) requires multiplying Jacobians across every time step. For a sequence of length *T*, the gradient of the loss with respect to an early hidden state involves a product of *T* weight matrices. When the spectral radius of these matrices is less than one, gradients shrink exponentially — the vanishing gradient problem. LSTMs mitigate this through gating mechanisms, but they do not eliminate it; empirically, LSTMs struggle to capture dependencies spanning more than a few hundred tokens reliably.
+
+#### 1.4 Failure Mode 3 — The Information Bottleneck
+
+In a basic encoder-decoder RNN, the entire source sentence must be compressed into a single context vector of fixed dimensionality. For long or complex sentences, this is a severe bottleneck. Bahdanau et al. (2015) introduced additive attention as a workaround, allowing the decoder to selectively query encoder hidden states at each decoding step. This was a decisive conceptual step: it showed that direct, content-based access to all source positions was more powerful than relying on a compressed summary. The transformer generalises this insight and makes attention the *primary* computational mechanism, eliminating recurrence entirely.
+
+#### 1.5 The Transformer's Core Proposition
+
+Vaswani et al. (2017) proposed a model architecture that:
+1. Replaces sequential recurrence with fully parallelisable attention over the entire sequence simultaneously.
+2. Allows any two positions in a sequence to interact directly, with a path length of O(1) rather than O(T).
+3. Scales efficiently on GPU/TPU hardware because its dominant operations are batched matrix multiplications.
+
+The cost is that positional information, which recurrence encodes implicitly through ordering, must be injected explicitly — a problem addressed by positional encoding, covered in Part 2.
+
+---
+
+### Part 2 — The Attention Mechanism and Transformer Encoder (~50 minutes)
+
+This part is the technical core of the lecture: learners will derive scaled dot-product attention from first principles, understand multi-head attention as a structured ensemble of attention functions, and see how positional encoding and layer normalisation complete a full encoder block.
+
+#### 2.1 Intuition for Attention
+
+Consider the sentence: *"The animal didn't cross the street because it was too tired."* To resolve the pronoun *it*, a model must relate it to *animal*, not *street*. Attention provides a mechanism for each token to gather information from all other tokens, weighted by relevance. The question is: how do we compute relevance in a differentiable, learnable way?
+
+#### 2.2 Queries, Keys, and Values
+
+The transformer represents each token's role in three distinct ways using three learned linear projections of the same input embedding `x_i`:
+
+- **Query (Q):** What this token is looking for.
+- **Key (K):** What this token advertises about itself.
+- **Value (V):** The actual content this token contributes if selected.
+
+For a sequence of *n* tokens with embedding dimension *d_model*, the full sequence is packed into a matrix `X ∈ ℝ^{n × d_model}`. The projections are:
+
+```
+Q = X · W^Q,   W^Q ∈ ℝ^{d_model × d_k}
+K = X · W^K,   W^K ∈ ℝ^{d_model × d_k}
+V = X · W^V,   W^V ∈ ℝ^{d_model × d_v}
+```
+
+These weight matrices are learned during training.
+
+#### 2.3 Deriving Scaled Dot-Product Attention — Step by Step
+
+**Step 1 — Compute raw attention scores.**
+
+The compatibility between query *i* and key *j* is measured by their dot product:
+
+```
+score(i, j) = Q_i · K_j^T
+```
+
+Stacking all pairs into a matrix:
+
+```
+Scores = Q · K^T   ∈ ℝ^{n × n}
+```
+
+Each entry `Scores[i, j]` measures how much token *i* should attend to token *j*.
+
+**Step 2 — Scale to control variance.**
+
+The dot product of two *d_k*-dimensional vectors drawn from distributions with unit variance has variance *d_k*. Without correction, large *d_k* values push dot products into regions where the softmax function saturates, producing near-zero gradients. Vaswani et al. scale by the square root of *d_k*:
+
+```
+Scaled_Scores = Q · K^T / √d_k
+```
+
+This keeps the input to softmax in a well-conditioned range regardless of *d_k*.
+
+**Step 3 — Apply softmax to obtain attention weights.**
+
+```
+A = softmax(Scaled_Scores)   ∈ ℝ^{n × n}
+```
+
+Softmax is applied row-wise: for each query token *i*, the weights across all key positions sum to one, forming a probability distribution over source positions.
+
+**Step 4 — Compute the weighted sum of values.**
+
+```
+Output = A · V   ∈ ℝ^{n × d_v}
+```
+
+Each output token is a convex combination of all value vectors, weighted by attention. The full formula is:
+
+```
+Attention(Q, K, V) = softmax( Q · K^T / √d_k ) · V
+```
+
+**Masking.** In decoder self-attention, future positions must be masked to prevent the model from attending to tokens it has not yet generated. This is achieved by adding a matrix of −∞ to the scaled scores at illegal positions before softmax, which drives those weights to zero after exponentiation.
+
+#### 2.4 Multi-Head Attention
+
+A single attention function computes one weighted average over values. Multi-head attention runs *h* attention functions in parallel, each with its own projection matrices, then concatenates and re-projects the results:
+
+```
+head_i = Attention(Q · W_i^Q, K · W_i^

@@ -1,0 +1,64 @@
+## Lecture: Lập trình Vi điều khiển ARM Cortex-M: GPIO và Ngắt
+**Course:** Hệ thống Nhúng — Chứng chỉ Liên trường VASTN
+**Audience level:** Undergraduate
+**Duration:** 60 phút
+
+---
+
+### Learning Objectives
+
+Sau bài giảng này, người học có thể: (1) mô tả kiến trúc tổng quan của bộ xử lý ARM Cortex-M3 và giải thích vai trò của các thanh ghi cơ bản như thanh ghi mục đích chung, con trỏ ngăn xếp (SP), bộ đếm chương trình (PC) và thanh ghi trạng thái chương trình (xPSR); (2) cấu hình chân GPIO trên vi điều khiển STM32 ở chế độ đầu vào và đầu ra bằng thư viện HAL; (3) lập trình và xử lý ngắt ngoài (EXTI) để đọc tín hiệu từ nút nhấn mà không sử dụng vòng lặp polling; (4) phân tích và so sánh ưu, nhược điểm của hai phương pháp polling và lập trình dựa trên ngắt trong các ứng dụng nhúng thời gian thực.
+
+---
+
+### Part 1 — Kiến trúc ARM Cortex-M3 và Các Thanh Ghi Cơ Bản (~15 phút)
+
+Phần này cung cấp nền tảng kiến trúc cần thiết để người học hiểu cách vi điều khiển thực thi mã lệnh và quản lý tài nguyên phần cứng trước khi tiến hành lập trình thực tế.
+
+#### 1.1 Tổng quan về ARM Cortex-M3
+
+ARM Cortex-M3 là lõi xử lý 32-bit thuộc dòng kiến trúc ARMv7-M, được thiết kế tối ưu cho các ứng dụng nhúng yêu cầu hiệu năng cao, tiêu thụ năng lượng thấp và khả năng xử lý ngắt nhanh. Đây là lõi xử lý được sử dụng trong nhiều dòng vi điều khiển phổ biến, trong đó có STM32F1xx của STMicroelectronics — dòng vi điều khiển được dùng xuyên suốt khóa học này.
+
+Một số đặc điểm nổi bật của Cortex-M3:
+- **Kiến trúc Harvard cải tiến (Modified Harvard):** Cho phép truy cập đồng thời bộ nhớ lệnh và bộ nhớ dữ liệu, tăng thông lượng xử lý.
+- **Tập lệnh Thumb-2:** Kết hợp lệnh 16-bit và 32-bit, cân bằng giữa mật độ mã và hiệu năng.
+- **Bộ điều khiển ngắt lồng nhau (NVIC — Nested Vectored Interrupt Controller):** Hỗ trợ tới 240 nguồn ngắt ngoài với độ ưu tiên có thể lập trình, cho phép xử lý ngắt lồng nhau.
+- **Đơn vị bảo vệ bộ nhớ (MPU — Memory Protection Unit):** Bảo vệ vùng nhớ khỏi truy cập trái phép, hỗ trợ xây dựng hệ thống nhúng an toàn hơn.
+
+#### 1.2 Tổ chức Thanh Ghi
+
+Cortex-M3 có **16 thanh ghi lõi** (R0–R15), được phân loại như sau:
+
+| Thanh ghi | Tên gọi | Chức năng |
+|---|---|---|
+| R0–R7 | Thanh ghi thấp (Low registers) | Thanh ghi mục đích chung, dùng trong hầu hết các lệnh |
+| R8–R12 | Thanh ghi cao (High registers) | Thanh ghi mục đích chung, dùng trong một số lệnh 32-bit |
+| R13 | SP — Stack Pointer | Con trỏ ngăn xếp, trỏ đến đỉnh ngăn xếp hiện tại |
+| R14 | LR — Link Register | Lưu địa chỉ trả về khi gọi hàm hoặc xử lý ngắt |
+| R15 | PC — Program Counter | Bộ đếm chương trình, chứa địa chỉ lệnh tiếp theo |
+| — | xPSR | Thanh ghi trạng thái chương trình, chứa cờ điều kiện và thông tin chế độ hoạt động |
+
+> **Lưu ý quan trọng cho sinh viên:** Khi một ngắt xảy ra, Cortex-M3 tự động lưu các thanh ghi R0–R3, R12, LR, PC và xPSR lên ngăn xếp. Đây gọi là **context saving tự động** (automatic context saving), giúp giảm đáng kể thời gian phản hồi ngắt so với các kiến trúc cũ hơn.
+
+#### 1.3 Không gian Địa chỉ Bộ Nhớ
+
+Cortex-M3 sử dụng không gian địa chỉ 32-bit (4 GB), được phân vùng cố định theo chuẩn ARM:
+
+```
+0x00000000 – 0x1FFFFFFF : Code (Flash ROM)
+0x20000000 – 0x3FFFFFFF : SRAM
+0x40000000 – 0x5FFFFFFF : Peripheral (Thanh ghi ngoại vi, bao gồm GPIO)
+0xE0000000 – 0xFFFFFFFF : System (NVIC, SysTick, Debug)
+```
+
+Điều này có nghĩa là các thanh ghi điều khiển GPIO, USART, SPI, v.v. đều được **ánh xạ vào không gian địa chỉ bộ nhớ** (memory-mapped I/O). Lập trình viên tương tác với phần cứng bằng cách đọc/ghi vào các địa chỉ cụ thể trong vùng Peripheral.
+
+---
+
+### Part 2 — Cấu Hình GPIO với Thư Viện HAL của STM32 (~20 phút)
+
+Phần này hướng dẫn người học cách ánh xạ kiến thức kiến trúc vừa học vào thực tiễn lập trình, cụ thể là cấu hình và điều khiển chân GPIO bằng thư viện HAL — lớp trừu tượng phần cứng chuẩn của STMicroelectronics.
+
+#### 2.1 GPIO là gì và Tại sao Quan trọng?
+
+**GPIO (General-Purpose Input/Output)** là các chân đa năng trên vi điều khiển có thể được lập trình để hoạt động như đầu vào (đọc tín hiệu từ nút nhấn, cảm biến) hoặc đầu ra (điều khiển LED,

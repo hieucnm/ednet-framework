@@ -1,0 +1,62 @@
+## Lecture: Mạng Nơ-ron Tích chập và Ứng dụng trong Nhận dạng Ảnh
+**Course:** Học sâu Ứng dụng — Chứng chỉ Liên trường VASTN
+**Audience level:** Sau đại học (Postgraduate)
+**Duration:** 120 phút
+
+---
+
+### Learning Objectives
+
+Sau khi hoàn thành bài giảng này, người học có khả năng: (1) giải thích cơ chế tích chập hai chiều và phân tích ý nghĩa hình học của các bộ lọc trong việc trích xuất đặc trưng cục bộ từ ảnh; (2) mô tả vai trò và tương tác giữa các thành phần cơ bản của một mạng CNN — lớp tích chập, lớp pooling và lớp kết nối đầy đủ — trong quá trình học biểu diễn phân cấp; (3) so sánh và đánh giá kiến trúc VGG, ResNet và MobileNet theo các tiêu chí độ phức tạp tính toán, số lượng tham số và độ chính xác trên các chuẩn đánh giá phổ biến; (4) áp dụng chiến lược transfer learning một cách có căn cứ để huấn luyện mô hình phân loại ảnh trên tập dữ liệu mới với số lượng mẫu hạn chế, bao gồm việc lựa chọn lớp đóng băng và điều chỉnh tốc độ học phù hợp.
+
+---
+
+### Part 1 — Cơ chế Tích chập Hai chiều và Trích xuất Đặc trưng (~30 phút)
+
+Phần này xây dựng nền tảng toán học và trực giác hình học của phép tích chập hai chiều, giúp người học hiểu tại sao CNN lại phù hợp đặc biệt với dữ liệu ảnh so với mạng kết nối đầy đủ truyền thống.
+
+#### 1.1 Hạn chế của Mạng Kết nối Đầy đủ với Dữ liệu Ảnh
+
+Xét một ảnh màu có kích thước 224 × 224 × 3 (chiều rộng × chiều cao × kênh màu RGB). Nếu làm phẳng ảnh thành một vector và đưa vào lớp kết nối đầy đủ với 1.000 nơ-ron ẩn, số lượng tham số chỉ riêng lớp đầu tiên đã là:
+
+> 224 × 224 × 3 × 1.000 = **150.528.000 tham số**
+
+Số lượng tham số khổng lồ này dẫn đến ba vấn đề nghiêm trọng: (i) nguy cơ overfitting cao khi dữ liệu huấn luyện hạn chế, (ii) chi phí tính toán và bộ nhớ không khả thi, và (iii) quan trọng hơn, mạng kết nối đầy đủ **không khai thác được cấu trúc không gian** vốn có của ảnh — thực tế rằng các pixel lân cận có tương quan mạnh với nhau và các đặc trưng hữu ích (cạnh, góc, kết cấu) xuất hiện cục bộ trong ảnh.
+
+CNN giải quyết các vấn đề này thông qua ba nguyên lý thiết kế cốt lõi: **kết nối cục bộ** (*local connectivity*), **chia sẻ trọng số** (*weight sharing*) và **bất biến dịch chuyển** (*translation equivariance*).
+
+#### 1.2 Phép Tích chập Hai chiều: Định nghĩa Hình thức
+
+Cho ảnh đầu vào **I** có kích thước H × W và bộ lọc (kernel) **K** có kích thước k × k, phép tích chập rời rạc hai chiều được định nghĩa như sau:
+
+$$
+(I * K)[i, j] = \sum_{m=0}^{k-1} \sum_{n=0}^{k-1} I[i+m,\; j+n] \cdot K[m, n]
+$$
+
+Trong đó (i, j) là vị trí của phần tử đầu ra trong **feature map** (bản đồ đặc trưng). Thao tác này được thực hiện bằng cách trượt bộ lọc K qua toàn bộ ảnh I, tại mỗi vị trí tính tích vô hướng giữa vùng ảnh cục bộ và bộ lọc.
+
+**Lưu ý về thuật ngữ:** Trong thực tế triển khai deep learning (PyTorch, TensorFlow), thao tác được gọi là "convolution" thực chất là **cross-correlation** — không có bước lật kernel. Sự khác biệt này không ảnh hưởng đến khả năng học của mạng vì các trọng số kernel đều được học từ dữ liệu.
+
+**Ví dụ minh họa:** Xét bộ lọc phát hiện cạnh ngang Sobel 3 × 3:
+
+```
+K = [[-1, -2, -1],
+     [ 0,  0,  0],
+     [ 1,  2,  1]]
+```
+
+Khi áp dụng lên ảnh xám, bộ lọc này tạo ra phản hồi lớn tại các vùng có sự thay đổi cường độ sáng theo chiều dọc (tức là cạnh ngang). Đây chính là nguyên lý mà CNN học được một cách tự động từ dữ liệu — thay vì thiết kế bộ lọc thủ công, mạng tối ưu hóa các giá trị kernel thông qua lan truyền ngược.
+
+#### 1.3 Các Siêu tham số của Lớp Tích chập
+
+**Stride (bước trượt):** Khoảng cách dịch chuyển của kernel sau mỗi bước. Stride = 1 cho feature map kích thước gần bằng đầu vào; stride = 2 giảm kích thước không gian xuống một nửa, đồng thời tăng vùng tiếp nhận (*receptive field*) hiệu quả.
+
+**Padding (đệm biên):** Để kiểm soát kích thước đầu ra và bảo toàn thông tin biên ảnh. Với padding = "same" (zero-padding), kích thước đầu ra bằng kích thước đầu vào khi stride = 1. Kích thước đầu ra được tính:
+
+$$
+H_{out} = \left\lfloor \frac{H_{in} + 2p - k}{s} \right\rfloor + 1
+$$
+
+Trong đó p là số lớp padding, k là kích thước kernel, s là stride.
+
+**Số lượng bộ lọc (số kênh đầu ra):** Mỗi

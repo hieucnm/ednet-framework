@@ -1,0 +1,15 @@
+## Summary
+**Document type:** Biên bản thoả thuận hợp tác
+**Source language:** Tiếng Việt
+
+### Key Points
+Trường Đại học Bách khoa TP. Hồ Chí Minh và Công ty TNHH Intel Products Việt Nam ký kết thoả thuận hợp tác đào tạo và nghiên cứu vào ngày 20/02/2024, tập trung vào bốn lĩnh vực chính: đồng giảng dạy các học phần Kỹ thuật AI trong khuôn khổ VASTN, tiếp nhận sinh viên thực tập, hỗ trợ trang thiết bị thực hành (trị giá không dưới 500 triệu đồng trong ba năm đầu), và đặt đề bài tốt nghiệp từ bài toán thực tế của doanh nghiệp. Về sở hữu trí tuệ, kết quả nghiên cứu thuộc sở hữu chung của hai bên, trừ khi có văn bản thoả thuận riêng; Intel được quyền yêu cầu bảo mật kết quả tối đa sáu tháng sau khi kết thúc dự án. Intel cam kết cấp tối thiểu mười lăm suất học bổng mỗi năm học cho sinh viên xuất sắc thuộc các chương trình VASTN, với mức 25 triệu đồng mỗi suất mỗi học kỳ. Thoả thuận có hiệu lực ba năm kể từ ngày ký, tự động gia hạn hàng năm, và tranh chấp (nếu có) sẽ được giải quyết qua trọng tài thương mại tại VIAC.
+
+### Implications for the Network
+Thoả thuận này trực tiếp ảnh hưởng đến vận hành chương trình VASTN, bao gồm kế hoạch phân bổ học phần đồng giảng dạy, chỉ tiêu thực tập, và quy trình xét học bổng hàng năm. Điều khoản bảo mật kết quả nghiên cứu cần được lưu ý khi lập kế hoạch công bố học thuật liên quan đến các dự án hợp tác với Intel.
+
+### Recommended Follow-up
+Cần xác nhận thành phần và lịch họp của Uỷ ban Điều phối Chung, đồng thời rà soát quy trình nội bộ để đảm bảo tuân thủ điều khoản bảo mật trí tuệ trước khi triển khai các dự án nghiên cứu chung.
+
+---
+*This summary was generated with AI assistance. Verify against the original document.*

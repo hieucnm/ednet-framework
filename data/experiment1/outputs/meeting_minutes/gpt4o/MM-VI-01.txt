@@ -1,0 +1,29 @@
+## Meeting Minutes
+**Network:** VASTN  
+**Date:** 18 tháng 4 năm 2024  
+**Attendees:** PGS.TS. Trần Minh Quang (ĐHBK TP.HCM), TS. Nguyễn Phương Linh (Intel Việt Nam), TS. Hà Đức Thịnh (ĐHBK Hà Nội), Bà Lê Thị Bích Ngọc (Phòng Hợp tác Quốc tế, ĐHBK TP.HCM)
+
+### Agenda Items Discussed
+Cuộc họp bắt đầu với việc PGS.TS. Trần Minh Quang tuyên bố khai mạc phiên họp Ban Chỉ đạo Mạng lưới Đào tạo AI và Bán dẫn Việt Nam lần thứ hai năm 2024. Nội dung chương trình gồm ba điểm chính.
+
+Điểm đầu tiên là báo cáo tiến độ xây dựng chương trình giảng dạy học kỳ 2. TS. Nguyễn Phương Linh thông báo rằng 80% nội dung các module thuộc khối kiến thức cốt lõi đã hoàn thiện, với bốn module về thiết kế vi mạch tích hợp và ba module về học máy ứng dụng đã được nghiệm thu nội bộ. Ba module về hệ thống nhúng thời gian thực đang trong giai đoạn hoàn thiện và dự kiến hoàn thành trước ngày 30 tháng 4. TS. Hà Đức Thịnh đặt câu hỏi về yêu cầu thiết bị cho các bài thực hành, và TS. Nguyễn Phương Linh xác nhận rằng các bài thực hành tương thích với kit Xilinx và Intel — Altera, và sẽ gửi danh sách thiết bị yêu cầu tối thiểu trong tuần tới.
+
+Điểm thứ hai là công nhận tín chỉ chéo giữa các trường. Bà Lê Thị Bích Ngọc báo cáo rằng Vụ Giáo dục Đại học đã có công văn phản hồi, yêu cầu bổ sung điều khoản về chương trình liên kết với doanh nghiệp và đề nghị gửi bản dự thảo quy chế để thẩm định trong tháng 6.
+
+Điểm thứ ba là kế hoạch đánh giá chất lượng giữa kỳ. PGS.TS. Trần Minh Quang đề xuất tổ chức đợt đánh giá vào tháng 7, và TS. Hà Đức Thịnh đề xuất kết hợp với hội thảo chia sẻ kết quả nghiên cứu. Ban Chỉ đạo nhất trí tổ chức Hội thảo và Đánh giá Chất lượng Giữa kỳ VASTN vào tuần đầu tháng 7 năm 2024.
+
+### Decisions Made
+Ban Chỉ đạo nhất trí tổ chức Hội thảo và Đánh giá Chất lượng Giữa kỳ VASTN vào tuần đầu tháng 7 năm 2024.
+
+### Action Items
+| Owner | Deadline | Description |
+|---|---|---|
+| TS. Nguyễn Phương Linh | Tuần tới | Gửi danh sách thiết bị yêu cầu tối thiểu cho các bài thực hành hệ thống nhúng. |
+| Phòng Đào tạo ĐHBK TP.HCM | 20 tháng 5 năm 2024 | Soạn thảo dự thảo quy chế công nhận tín chỉ chéo để Ban Chỉ đạo cho ý kiến trước khi gửi Vụ Giáo dục Đại học. |
+| Ban Thư ký | 5 tháng 5 năm 2024 | Dự thảo kế hoạch chi tiết cho Hội thảo và Đánh giá Chất lượng Giữa kỳ VASTN và gửi xin ý kiến thành viên. |
+
+### Next Meeting
+Not scheduled.
+
+---
+*This document was generated with AI assistance and is pending human review.*

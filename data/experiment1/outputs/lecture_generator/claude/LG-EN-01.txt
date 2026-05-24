@@ -1,0 +1,123 @@
+## Lecture: Introduction to Neural Networks and Deep Learning
+**Course:** AI Engineering Fundamentals — VASTN Joint Certificate
+**Audience level:** Undergraduate
+**Duration:** 90 minutes
+
+---
+
+### Learning Objectives
+
+By the end of this lecture, learners will be able to explain the biological inspiration behind artificial neurons and describe how that inspiration shaped the design of computational models; describe the layered architecture of a feedforward neural network and identify the role of each layer; demonstrate, step by step, how forward propagation uses inputs, weights, and biases to compute a network output; and identify the most common activation functions — including sigmoid, tanh, and ReLU — and compare their mathematical properties and practical trade-offs.
+
+---
+
+### Part 1 — From Biology to Computation: The Artificial Neuron (~25 minutes)
+
+This part establishes the conceptual foundation of the course by tracing how observations of biological neural systems led engineers and scientists to design the artificial neuron, the fundamental building block of every neural network discussed in this course.
+
+#### 1.1 The Biological Neuron — A Brief Overview
+
+The human brain contains roughly 86 billion neurons, each a specialised cell capable of receiving, processing, and transmitting information. Understanding the basic anatomy of a biological neuron helps explain why artificial neural networks are designed the way they are.
+
+A biological neuron has three functionally important structures:
+
+- **Dendrites** — branching extensions that receive incoming electrical signals from other neurons.
+- **Cell body (soma)** — integrates all incoming signals. If the combined signal exceeds a certain threshold, the neuron "fires."
+- **Axon** — a long fibre that carries the output signal away from the cell body toward the dendrites of the next neuron.
+
+The junction between the axon of one neuron and the dendrite of another is called a **synapse**. The strength of a synaptic connection determines how much influence one neuron has over another. Crucially, synaptic strengths are not fixed — they change with experience and learning. This plasticity is the biological basis of memory and skill acquisition.
+
+**Key insight for engineers:** The brain does not process information in a single, centralised location. Instead, it distributes computation across massive networks of relatively simple units, each performing a small local operation. The power of the system emerges from the connections between units, not from the complexity of any individual unit.
+
+#### 1.2 The McCulloch–Pitts Neuron (1943)
+
+The first formal mathematical model of a neuron was proposed by neurophysiologist Warren McCulloch and logician Walter Pitts in 1943. Their model, now called the **McCulloch–Pitts (MCP) neuron**, made the following simplifying assumptions:
+
+1. A neuron receives one or more binary inputs (0 or 1).
+2. Each input is either **excitatory** (pushes the neuron toward firing) or **inhibitory** (suppresses firing).
+3. The neuron sums its inputs. If the sum meets or exceeds a fixed threshold θ, the neuron outputs 1 (fires); otherwise it outputs 0.
+
+Mathematically:
+
+$$
+\text{output} = \begin{cases} 1 & \text{if } \sum_{i} x_i \geq \theta \\ 0 & \text{otherwise} \end{cases}
+$$
+
+Despite its simplicity, the MCP neuron can compute basic logical functions such as AND, OR, and NOT. This was a landmark result: it demonstrated that a network of such neurons could, in principle, compute any logical proposition — a first hint that neural networks might be universal computing devices.
+
+**Limitation:** The MCP neuron has no learning mechanism. The threshold θ is set by hand, not learned from data.
+
+#### 1.3 The Perceptron — Adding Learning (Rosenblatt, 1958)
+
+Frank Rosenblatt addressed the learning limitation in 1958 by introducing the **perceptron**. The perceptron extends the MCP model in two important ways:
+
+1. **Weighted inputs:** Each input xᵢ is multiplied by a learnable weight wᵢ. A larger weight means the corresponding input has more influence on the output.
+2. **A learning rule:** Weights are adjusted automatically based on the difference between the perceptron's output and the correct answer.
+
+The perceptron computes a **weighted sum** of its inputs, adds a **bias** term b, and passes the result through a threshold function:
+
+$$
+z = w_1 x_1 + w_2 x_2 + \cdots + w_n x_n + b = \mathbf{w} \cdot \mathbf{x} + b
+$$
+
+$$
+\hat{y} = \begin{cases} 1 & \text{if } z \geq 0 \\ 0 & \text{otherwise} \end{cases}
+$$
+
+**Terminology check:**
+- **Weight (w):** A learnable parameter that scales the contribution of an input. Analogous to synaptic strength.
+- **Bias (b):** A learnable parameter that shifts the threshold, giving the neuron more flexibility. Think of it as the neuron's baseline tendency to fire.
+- **Weighted sum (z):** Also called the **pre-activation** or **net input**.
+
+**Worked example — A simple perceptron for AND:**
+
+Suppose we want a perceptron to compute the logical AND of two binary inputs x₁ and x₂. One valid solution is w₁ = 1, w₂ = 1, b = −1.5.
+
+| x₁ | x₂ | z = x₁ + x₂ − 1.5 | ŷ |
+|----|----|--------------------|---|
+| 0  | 0  | −1.5               | 0 |
+| 1  | 0  | −0.5               | 0 |
+| 0  | 1  | −0.5               | 0 |
+| 1  | 1  | +0.5               | 1 |
+
+The perceptron correctly outputs 1 only when both inputs are 1.
+
+#### 1.4 The XOR Problem and the Limits of a Single Neuron
+
+In 1969, Marvin Minsky and Seymour Papert published a rigorous analysis showing that a single perceptron cannot solve problems that are not **linearly separable**. The classic example is the **XOR function**:
+
+| x₁ | x₂ | XOR |
+|----|----|-----|
+| 0  | 0  | 0   |
+| 1  | 0  | 1   |
+| 0  | 1  | 1   |
+| 1  | 1  | 0   |
+
+If you plot these four points in two dimensions and try to draw a single straight line separating the 1s from the 0s, you will find it is impossible. A single neuron can only draw one such line (a linear decision boundary), so it cannot represent XOR.
+
+**The solution:** Stack multiple neurons in layers. A network with even one hidden layer can represent XOR and, more generally, can approximate a far wider class of functions. This observation motivates the architecture discussed in Part 2.
+
+---
+
+### Part 2 — Architecture of a Feedforward Neural Network (~30 minutes)
+
+This part builds directly on the single-neuron model to show how organising many artificial neurons into layers creates a system capable of learning complex, non-linear mappings from inputs to outputs.
+
+#### 2.1 Layers: The Organising Principle
+
+A **feedforward neural network** (also called a **multilayer perceptron**, or MLP) arranges neurons into sequential layers. Information flows in one direction only — from the input layer, through one or more hidden layers, to the output layer — with no cycles or feedback loops. (Networks with feedback loops, such as recurrent neural networks, are a separate topic covered later in this course.)
+
+The three types of layers are:
+
+**Input layer**
+- Not a layer of neurons in the computational sense; it simply holds the raw feature values of one data example.
+- The number of input nodes equals the number of features in the data. For example, a 28×28 grayscale image has 784 pixel values, so the input layer has 784 nodes.
+
+**Hidden layer(s)**
+- One or more layers of neurons that transform the input representation into progressively more abstract representations.
+- Called "hidden" because their values are not directly observed in the training data — they are internal to the network.
+- The number of hidden layers and the number of neurons per layer are **hyperparameters** chosen by the engineer, not learned from data.
+
+**Output layer**
+- Produces the network's final prediction.
+- Its structure depends on the task:

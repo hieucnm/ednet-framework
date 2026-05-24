@@ -1,0 +1,15 @@
+## Summary
+**Document type:** Quality Assurance Framework Overview  
+**Source language:** English
+
+### Key Points
+The AUN-QA Framework Version 4.0 updates quality assurance standards for Southeast Asian universities' undergraduate and postgraduate programs. It is structured into three domains: Programme Outcomes and Curriculum Design, Teaching and Learning Approach, and Programme Quality Enhancement. Institutions must align learning outcomes with national and ASEAN qualifications frameworks, with a minimum 85% curriculum mapping coverage. Engineering and technology programs must include 160 hours of industry-engaged learning, with up to 40% virtual engagement allowed. Programs must conduct annual reviews with external representatives and submit self-assessment reports for certification.
+
+### Implications for the Network
+Member institutions must adapt to stricter evidence requirements and transition to Version 4.0 standards by 2027, affecting program design and industry partnerships.
+
+### Recommended Follow-up
+None identified.
+
+--- 
+*This summary was generated with AI assistance. Verify against the original document.*

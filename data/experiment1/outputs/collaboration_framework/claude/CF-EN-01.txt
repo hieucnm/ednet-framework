@@ -1,0 +1,79 @@
+## Collaboration Framework Outline
+
+**Parties:** Ho Chi Minh City University of Technology (HCMUT); National University of Singapore (NUS)
+**Purpose:** To establish a structured bilateral framework for joint postgraduate research supervision, reciprocal faculty exchange, and the co-development of advanced AI and semiconductor engineering curriculum within the VASTN consortium. This framework is intended to formalise and sustain long-term academic and research cooperation between HCMUT and NUS, enabling coordinated activity across shared strategic priorities in postgraduate education and applied research.
+**Effective period:** Five (5) years from the date of signing, subject to annual review.
+
+---
+
+### Scope of Collaboration
+
+The collaboration encompasses five principal areas of joint activity:
+
+1. **Joint Postgraduate Research Supervision:** HCMUT and NUS will co-supervise doctoral and master's research students, with a target rate of at least two jointly supervised students per academic year. Supervision arrangements will designate a primary supervisor at each institution and will be governed by a student-specific supervision agreement.
+
+2. **Reciprocal Faculty Exchange:** Both institutions will facilitate short-term faculty exchanges of one to four weeks in duration, targeting four exchanges per academic year. Exchange visits may serve purposes including guest lecturing, collaborative research, curriculum consultation, and laboratory engagement.
+
+3. **Curriculum Co-Development:** HCMUT and NUS will jointly develop at least three curriculum modules per academic year for the VASTN joint certificate programme, with a focus on advanced AI and semiconductor engineering. Jointly developed modules will be subject to the intellectual property provisions set out in the Resource Sharing Arrangements section below.
+
+4. **Joint External Research Funding Applications:** The parties will pursue joint applications for external research funding. Lead applicant roles will alternate between HCMUT and NUS across successive applications to ensure equitable institutional representation and administrative responsibility.
+
+5. **Annual Joint Research Seminar:** A joint research seminar will be held once per academic year, alternating in venue between HCMUT (Ho Chi Minh City) and NUS (Singapore). The seminar will serve as a forum for presenting collaborative research outputs, identifying new joint activities, and engaging the broader VASTN consortium community.
+
+---
+
+### Responsibilities of Each Party
+
+| Party | Responsibility | Timeline |
+|---|---|---|
+| HCMUT | Nominate eligible doctoral and master's students for joint supervision and designate a co-supervisor at HCMUT for each jointly supervised student | Prior to commencement of each student's programme |
+| NUS | Nominate eligible doctoral and master's students for joint supervision and designate a co-supervisor at NUS for each jointly supervised student | Prior to commencement of each student's programme |
+| HCMUT | Identify and nominate faculty members for outgoing exchange visits to NUS; receive and host incoming NUS faculty | Ongoing; nominations to be confirmed at least eight (8) weeks before each exchange |
+| NUS | Identify and nominate faculty members for outgoing exchange visits to HCMUT; receive and host incoming HCMUT faculty | Ongoing; nominations to be confirmed at least eight (8) weeks before each exchange |
+| Both parties | Jointly develop a minimum of three curriculum modules per academic year for the VASTN joint certificate programme | Module development schedule to be agreed at the start of each academic year |
+| Both parties | Prepare and submit joint applications for external research funding, with lead applicant roles alternating between institutions | As funding opportunities arise; lead applicant to be confirmed at least twelve (12) weeks before submission deadlines |
+| Both parties | Observe the 45-day mutual review period for all jointly authored publications prior to submission to any journal, conference, or public repository | Applied to each publication on a rolling basis from the date the draft is circulated |
+| HCMUT | Ensure that any student credit recognition at NUS is limited to pre-approved modules, not exceeding 18 credit units per semester at NUS | Prior to each semester of student enrolment |
+| NUS | Maintain and update the list of pre-approved modules eligible for credit recognition by HCMUT students; communicate changes to HCMUT with reasonable notice | Ongoing; updates to be communicated no later than eight (8) weeks before the relevant semester |
+| Both parties | Organise and host the annual joint research seminar, alternating venue between HCMUT and NUS campuses | Once per academic year; hosting institution to confirm arrangements at least twelve (12) weeks in advance |
+| Both parties | Conduct an annual review of the framework's implementation and progress against agreed targets | Annually, within sixty (60) days of each anniversary of the signing date |
+
+---
+
+### Resource Sharing Arrangements
+
+All financial arrangements specific to individual activities conducted under this framework — including but not limited to faculty exchange costs, student support, seminar organisation, and curriculum development — shall be negotiated separately and documented in activity-specific agreements or annexes concluded under this framework. [LEGAL REVIEW REQUIRED]
+
+With respect to intellectual property arising from jointly developed outputs — including curriculum modules, research outputs, software, datasets, and other materials — ownership shall be shared equally between HCMUT and NUS unless an alternative arrangement is agreed upon in writing by both parties prior to the commencement of the relevant activity. Any such written agreement shall take precedence over this default provision. [LEGAL REVIEW REQUIRED]
+
+All jointly authored publications are subject to a mandatory 45-day mutual review period before submission. Either party may raise substantive objections during this period; the parties shall endeavour to resolve any such objections by good-faith consultation within the review window.
+
+---
+
+### Governance and Dispute Resolution [LEGAL REVIEW REQUIRED]
+
+**Governance Structure:** Each institution shall designate a primary institutional coordinator responsible for overseeing implementation of this framework, serving as the principal point of contact, and facilitating communication between the parties. Decisions regarding the day-to-day operation of collaborative activities may be made jointly by the two institutional coordinators. Decisions that materially alter the scope, obligations, or resource commitments of either party shall require written agreement at the level of the relevant institutional authority at each institution.
+
+**Annual Review Mechanism:** The institutional coordinators shall convene a formal annual review meeting within sixty (60) days of each anniversary of the signing date to assess progress, address implementation issues, and agree on priorities for the forthcoming year. Outcomes of the annual review shall be documented in writing and retained by both parties.
+
+**Dispute Resolution:** The governing law applicable to this framework and the specific mechanism for resolving disputes between the parties — including the choice of jurisdiction, arbitration, or other resolution process — are to be agreed upon by the legal teams of HCMUT and NUS and incorporated into the final executed agreement. Until such agreement is reached, the parties commit to attempting resolution of any dispute through good-faith negotiation between senior institutional representatives before pursuing any formal process. [LEGAL REVIEW REQUIRED]
+
+---
+
+### Review and Renewal Conditions
+
+This framework shall be subject to a formal annual review conducted by the institutional coordinators of both parties, as described under Governance above. The annual review shall assess quantitative progress against agreed targets (including student supervision numbers, exchange visits, curriculum modules developed, and funding applications submitted), identify any implementation challenges, and propose adjustments for the following year.
+
+A comprehensive mid-term review shall be conducted at the end of year three (3) to assess the overall effectiveness of the collaboration and to consider whether any structural amendments to the framework are warranted.
+
+Prior to the expiry of the five-year effective period, both parties shall initiate renewal discussions no later than six (6) months before the end date. Renewal of the framework for a further period shall require the written agreement of both institutions and shall be subject to any applicable institutional and legal approval processes. Either party may propose amendments to the terms of the framework as part of the renewal process. If no renewal agreement is reached before the expiry date, the framework shall lapse, provided that obligations relating to ongoing jointly supervised students, active funding applications, and any activity-specific agreements in force at the time of expiry shall continue to apply until those specific activities are concluded. [LEGAL REVIEW REQUIRED]
+
+---
+
+### Open Items [LEGAL REVIEW REQUIRED]
+
+- **Governing law and jurisdiction:** The applicable governing law and the formal dispute resolution mechanism (including choice of jurisdiction or arbitration forum) have not yet been agreed and must be determined by the legal teams of HCMUT and NUS before the framework is executed.
+- **Activity-specific financial agreements:** Financial arrangements for all individual activities (faculty exchanges, seminar organisation, curriculum development, student support, etc.) are to be negotiated and documented separately; no specific financial commitments are established by this framework.
+- **IP agreement templates:** Standard-form written agreements for activity-specific intellectual property arrangements that deviate from the default equal-ownership provision have not yet been developed and should be prepared prior to or concurrent with execution.
+- **Student supervision agreement template:** A standard template governing the terms of individual joint supervision arrangements (including roles of supervisors, degree-granting arrangements, student obligations, and applicable institutional regulations) has not yet been agreed.
+- **Credit recognition pre-approval list:** The definitive list of NUS modules pre-approved for

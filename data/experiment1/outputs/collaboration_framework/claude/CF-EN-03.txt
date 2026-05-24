@@ -1,0 +1,76 @@
+## Collaboration Framework Outline
+
+**Parties:** Ho Chi Minh City University of Technology (HCMUT); Bosch Vietnam Engineering
+**Purpose:** To establish an applied research collaboration for the joint investigation of predictive maintenance solutions using embedded AI on Bosch manufacturing equipment at the Bosch Dong Nai production facility. The collaboration pursues two complementary goals: (1) producing publishable, peer-reviewed research findings on predictive maintenance and anomaly detection; and (2) developing a deployable prototype anomaly detection system with documented performance benchmarks.
+**Effective period:** 18 months from the agreed project kick-off date, with an option to extend by a single period of 6 months upon mutual written agreement of both parties prior to the original expiry date. [LEGAL REVIEW REQUIRED]
+
+---
+
+### Scope of Collaboration
+
+The collaboration encompasses the following areas of joint activity:
+
+**Joint Research on Predictive Maintenance:** Both parties will conduct collaborative research using anonymised operational sensor data drawn from the Bosch Dong Nai production line. Research activities will focus on the application of embedded AI techniques to predictive maintenance challenges specific to Bosch manufacturing equipment.
+
+**Data Collection and Facility Access:** HCMUT researchers will conduct on-site data collection visits to the Bosch Dong Nai production facility. Such visits are capped at four per year for the duration of the collaboration, subject to scheduling coordination with Bosch engineering staff.
+
+**Prototype Development:** The parties will jointly develop a prototype anomaly detection system. The prototype must be accompanied by documented performance benchmarks agreed upon by both parties prior to final delivery.
+
+**Dissemination of Research Findings:** The parties will collaborate on the preparation and submission of at least one peer-reviewed conference or journal paper presenting findings from the joint research. All publications must comply with the confidentiality and approval conditions set out in this framework. Research outputs must not identify specific production line configurations without prior written approval from Bosch.
+
+---
+
+### Responsibilities of Each Party
+
+| Party | Responsibility | Timeline |
+|---|---|---|
+| HCMUT | Assign a research team comprising one faculty member and two postgraduate students to the project | By project kick-off |
+| HCMUT | Bear all costs associated with its own staff and student participation, including salaries, stipends, and institutional overheads | Ongoing |
+| HCMUT | Lead the academic research design, analysis, and drafting of publishable outputs in coordination with Bosch | Ongoing |
+| HCMUT | Coordinate and schedule data collection visits with Bosch engineering liaison, within the cap of four visits per year | Ongoing |
+| HCMUT | Ensure that all published or submitted outputs are reviewed and approved by Bosch prior to submission, in accordance with the confidentiality hold provision | Prior to each submission |
+| Bosch Vietnam Engineering | Provide anonymised operational sensor data from the Dong Nai production line to HCMUT under a data processing agreement | Per agreed data release schedule; data processing agreement to be finalised before first data transfer [LEGAL REVIEW REQUIRED] |
+| Bosch Vietnam Engineering | Designate an engineering liaison to support HCMUT researchers, facilitate data collection visits, and provide technical context | By project kick-off; Ongoing |
+| Bosch Vietnam Engineering | Provide access to the Dong Nai production facility for up to four data collection visits per year, at no charge to HCMUT | Ongoing, per agreed visit schedule |
+| Bosch Vietnam Engineering | Cover logistics costs associated with data collection visits at the Dong Nai facility | Per each approved visit |
+| Bosch Vietnam Engineering | Draft and provide the data processing agreement governing the sharing of Bosch internal data | Prior to first data transfer [LEGAL REVIEW REQUIRED] |
+| Bosch Vietnam Engineering | Review draft publications and notify HCMUT within the 90-day confidentiality hold window if a hold is to be exercised | Within 90 days of receiving each draft submission |
+| Both parties | Jointly develop the prototype anomaly detection system and agree on performance benchmark criteria | Benchmarks to be agreed within first 3 months of kick-off; prototype to be completed within the effective period |
+| Both parties | Jointly author at least one peer-reviewed conference or journal paper | Submission target to be agreed within first 6 months of kick-off |
+| Both parties | Participate in periodic project governance reviews as defined under the Governance section | Per agreed review schedule |
+
+---
+
+### Resource Sharing Arrangements
+
+**Personnel:** HCMUT will provide its research team (one faculty member and two postgraduate students) and will bear all associated personnel costs independently. Bosch will provide engineering liaison support and facility access as described above; no financial transfer from Bosch to HCMUT for personnel costs is contemplated under this framework.
+
+**Data:** Bosch will share anonymised operational sensor data from the Dong Nai production line with HCMUT. All such data sharing will be governed by a dedicated data processing agreement to be drafted by the Bosch legal team and executed by both parties before any data transfer occurs. [LEGAL REVIEW REQUIRED]
+
+**Facility and Equipment Access:** Bosch will provide access to the Dong Nai production facility for up to four data collection visits per year at no charge to HCMUT. Bosch will cover the logistics costs of such visits. No transfer of physical equipment between the parties is specified under this framework.
+
+**Intellectual Property:** Intellectual property arising from the jointly developed prototype system and jointly developed algorithms will be jointly owned by HCMUT and Bosch Vietnam Engineering. The precise terms of joint ownership, including rights to commercialise, sublicense, and enforce, shall be set out in a separate IP agreement to be negotiated and executed by both parties. [LEGAL REVIEW REQUIRED] Pre-existing IP and background IP of each party remain the sole property of the originating party.
+
+**Publication Rights:** Both parties retain the right to publish research findings subject to the confidentiality review process described in the Governance section. Bosch retains the right to request a confidentiality hold of up to 90 days on any proposed publication to assess commercial sensitivity. HCMUT may not submit any publication for external review or public dissemination until either Bosch has confirmed no hold is required or the 90-day hold period has elapsed without a further written objection from Bosch.
+
+---
+
+### Governance and Dispute Resolution [LEGAL REVIEW REQUIRED]
+
+**Joint Steering Committee:** A Joint Steering Committee (JSC) shall be established at project kick-off, comprising at least one designated representative from each party. The JSC will serve as the primary decision-making body for the collaboration, responsible for approving project milestones, resolving operational issues, and authorising any material changes to the scope or timeline of activities.
+
+**Meeting Cadence:** The JSC shall meet no less than once every three months throughout the effective period. Meetings may be held in person or by video conference. Minutes shall be recorded and circulated to both parties within ten business days of each meeting.
+
+**Publication Approval Process:** Prior to submitting any manuscript, conference abstract, or other research output for external review or publication, HCMUT shall provide a complete draft to the Bosch engineering liaison. Bosch shall have 90 calendar days from receipt to notify HCMUT in writing if it wishes to exercise a confidentiality hold. If no written notification is received within 90 days, HCMUT may proceed with submission. If a hold is exercised, both parties shall meet within 15 business days to agree on necessary amendments or a revised submission timeline.
+
+**Changes to Scope:** Any material change to the scope, resource commitments, or timeline of the collaboration must be agreed in writing by authorised representatives of both parties and reviewed by the JSC before taking effect.
+
+**Dispute Resolution:** In the event of a dispute arising from or related to this collaboration framework, the parties shall first attempt to resolve the matter through good-faith negotiation at the JSC level within 30 calendar days of written notice of the dispute. If the dispute is not resolved at JSC level, it shall be escalated to senior institutional representatives of each party for further negotiation. If resolution remains unachieved after a further 30 calendar days, the parties agree to pursue mediation through a mutually agreed neutral mediator before initiating any formal legal proceedings. The governing law and jurisdiction for any unresolved disputes shall be determined in the formal collaboration agreement. [LEGAL REVIEW REQUIRED]
+
+---
+
+### Review and Renewal Conditions
+
+**Mid-Term Review:** A formal mid-term review of the collaboration shall be conducted by the JSC at or around the 9-month mark from project kick-off. The review shall assess progress against agreed milestones, the status of the prototype development, data sharing arrangements, and the publication pipeline. The outcomes of the mid-term review shall be documented in writing and shared with authorised representatives of both institutions.
+
+**End-of-Term Review:** No later than 60 calendar days before the end of the 18-month effective period, both parties shall

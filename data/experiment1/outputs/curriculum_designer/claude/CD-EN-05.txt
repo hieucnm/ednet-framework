@@ -1,0 +1,58 @@
+## Curriculum Framework: Master of Engineering in AI Systems — Joint Degree Programme
+
+**Participating institutions:** Ho Chi Minh City University of Technology (HCMUT), National University of Singapore (NUS), Hanoi University of Science and Technology (HUST)
+
+**Program goals:** This programme delivers a research-informed postgraduate degree that integrates AI engineering depth with semiconductor systems knowledge, equipping graduates to lead applied AI research and advanced engineering development across both industry and academic contexts. The curriculum is designed to bridge foundational AI theory with hardware-aware systems engineering, reflecting the convergence of AI workloads and specialised silicon architectures in contemporary technology development. Beyond individual graduate outcomes, the programme establishes a reusable joint degree infrastructure — including shared governance protocols, credit transfer mechanisms, and co-supervision frameworks — that can serve as a template for future collaborative programmes across VASTN member institutions. All instruction is delivered in English to ensure accessibility for international students and to prepare graduates for global professional environments.
+
+**Target audience:** The programme is designed for students holding a bachelor's degree in computer engineering, electrical engineering, computer science, or a closely related discipline, with a minimum cumulative GPA equivalent to 7.0 out of 10 (or recognised international equivalent). Both domestic and international applicants are eligible. The programme specifically targets individuals seeking careers in AI research, semiconductor design, and AI systems engineering, including those transitioning from industry into research-oriented roles and recent graduates pursuing advanced technical specialisation.
+
+**Total duration:** 2 years full-time (4 semesters), with Semesters 1–2 delivered at HCMUT, Semester 3 delivered at NUS (with a parallel track option at HUST subject to partner agreement), and Semester 4 dedicated to joint thesis research supervised across all three institutions.
+
+---
+
+### Module Structure
+
+| Module | Title | Learning Outcomes | Credits | Modality |
+|---|---|---|---|---|
+| M01 | Mathematical and Computational Foundations for AI | Students will be able to apply advanced linear algebra, probability theory, optimisation methods, and computational complexity concepts relevant to AI system design and analysis. | 4 | In-person (HCMUT) |
+| M02 | Machine Learning: Theory and Engineering Practice | Students will be able to formulate, train, evaluate, and critically analyse machine learning models; apply regularisation, generalisation theory, and model selection in engineering contexts. | 4 | In-person (HCMUT) |
+| M03 | Deep Learning Systems and Architectures | Students will be able to design and implement deep neural network architectures; analyse training dynamics; apply techniques for scalable and efficient deep learning across standard benchmarks and engineering tasks. | 4 | In-person (HCMUT) |
+| M04 | Semiconductor Devices and VLSI Fundamentals | Students will be able to explain the operating principles of semiconductor devices; describe VLSI design flows; relate device-level characteristics to system-level AI hardware performance. | 4 | In-person (HCMUT) |
+| M05 | Research Methods and Academic Communication | Students will be able to critically review literature, formulate research questions, design experimental methodologies, and communicate findings in written and oral forms to technical and non-technical audiences. | 2 | Hybrid (HCMUT, with online components) |
+| M06 | AI Hardware Accelerators and Co-design | Students will be able to analyse the design space of AI accelerator architectures; apply hardware-software co-design principles; evaluate trade-offs in performance, power, and area for AI workloads. | 4 | In-person (HCMUT) |
+| M07 | Embedded AI and Edge Systems | Students will be able to deploy AI models on resource-constrained edge platforms; apply model compression, quantisation, and pruning techniques; evaluate latency and energy constraints in embedded contexts. | 4 | In-person (HCMUT) |
+| M08 | Advanced Topics in AI Systems | Students will be able to engage critically with current research literature in at least one specialised area of AI systems (e.g., neuromorphic computing, AI for EDA, reliable AI); synthesise findings across sources. | 3 | Hybrid (HCMUT) |
+| M09 | Semiconductor Design for AI Applications | Students will be able to apply advanced VLSI and chip design methodologies to AI-specific workloads; analyse memory hierarchy, interconnect, and dataflow architectures in AI chip design. | 4 | In-person (NUS / HUST) |
+| M10 | AI Systems Security and Reliability | Students will be able to identify threat models relevant to AI systems; apply techniques for adversarial robustness, fault tolerance, and secure inference in hardware and software stacks. | 3 | In-person (NUS / HUST) |
+| M11 | Industry Practicum or Research Lab Rotation | Students will be able to apply programme knowledge in a supervised industry or laboratory setting; produce a structured technical report demonstrating problem scoping, methodology, and outcomes. | 4 | In-person (NUS / HUST or partner industry site) |
+| M12 | Elective I — Specialisation Track | Students will be able to demonstrate advanced knowledge in a chosen specialisation area aligned with their thesis direction, as defined by the elective catalogue agreed by all three institutions. [PARTNER REVIEW REQUIRED] | 3 | In-person or Online (NUS / HUST) |
+| M13 | Elective II — Specialisation Track | Students will be able to integrate knowledge from a second elective specialisation with their broader programme learning, demonstrating cross-domain synthesis relevant to their thesis topic. [PARTNER REVIEW REQUIRED] | 3 | In-person or Online (NUS / HUST) |
+| M14 | Joint Thesis Research | Students will be able to independently conduct original research at the intersection of AI engineering and semiconductor systems; produce a thesis demonstrating scholarly rigour, technical depth, and capacity for independent inquiry, under joint supervision across at least two participating institutions. | 16 | Hybrid (distributed across HCMUT, NUS, HUST) |
+
+**Total Credits: 62** [PARTNER REVIEW REQUIRED — final credit count must be reconciled against Thông tư 38/2020 minimum requirements, NUS MEngcredit norms, and HUST postgraduate credit regulations before programme approval]
+
+---
+
+### Assessment Approach
+
+Assessment across the programme is designed to be continuous, research-aligned, and consistent with the academic standards of all three participating institutions. Each module employs a combination of formative and summative assessment instruments calibrated to its learning outcomes and modality.
+
+For foundational and technical modules (M01–M04, M06–M07, M09–M10), assessment typically combines written examinations or timed problem sets with practical assignments, laboratory reports, or implementation projects. This dual approach ensures both conceptual understanding and applied engineering competence are evaluated. Grading rubrics for all shared modules are jointly developed and approved by academic representatives from all three institutions to ensure equivalence of standards across sites.
+
+M05 (Research Methods and Academic Communication) is assessed through a structured literature review, a research proposal presentation, and a peer review exercise, reflecting the scholarly practices students will employ throughout their thesis work.
+
+M08 (Advanced Topics in AI Systems) is assessed through a seminar presentation and a critical synthesis paper, requiring students to engage with primary research literature and demonstrate the ability to situate emerging work within broader technical and societal contexts.
+
+M11 (Industry Practicum or Research Lab Rotation) is assessed through a structured technical report and a supervisor evaluation form completed by the industry or laboratory host. Assessment criteria are standardised across all placement sites and reviewed by the programme's joint academic committee.
+
+Elective modules (M12, M13) are assessed according to the host institution's standard assessment practices for those courses, provided that learning outcomes and assessment criteria are disclosed to students in advance and are consistent with the programme's overall standards. [PARTNER REVIEW REQUIRED]
+
+M14 (Joint Thesis Research) is the capstone assessment of the programme. Students produce a written thesis evaluated by an examination panel comprising at least one supervisor from each of the two or more institutions involved in co-supervision, plus one independent examiner. The thesis defence is conducted in English and may be held in person or via videoconference to accommodate cross-institutional participation. Thesis assessment criteria — including originality, technical rigour, clarity of exposition, and capacity for independent scholarship — are jointly defined and documented in the programme handbook. The thesis must satisfy the examination requirements of all three institutions for the joint degree to be conferred. [PARTNER REVIEW REQUIRED]
+
+Grade conversion and transcript notation protocols are established in the inter-institutional agreement to ensure that credits and grades earned at each site are accurately represented on all three institutions' official transcripts.
+
+---
+
+### Collaboration Mechanisms Between Institutions
+
+**Governance and Coordination:** The programme is overseen by a Joint Programme Steering Committee comprising designated academic representatives and administrative leads from HCMUT, NUS, and HUST. The Steering Committee meets at minimum

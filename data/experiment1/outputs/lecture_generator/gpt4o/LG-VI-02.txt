@@ -1,0 +1,29 @@
+## Lecture: Mạng Nơ-ron Tích chập và Ứng dụng trong Nhận dạng Ảnh
+**Course:** Học sâu Ứng dụng — Chứng chỉ Liên trường VASTN  
+**Audience level:** postgraduate  
+**Duration:** 120 phút
+
+### Learning Objectives
+Sau khi hoàn thành bài giảng này, học viên sẽ có khả năng giải thích cơ chế tích chập hai chiều và ý nghĩa của bộ lọc trong việc trích xuất đặc trưng từ ảnh; mô tả các thành phần cơ bản của một mạng CNN bao gồm lớp tích chập, lớp pooling và lớp kết nối đầy đủ; so sánh kiến trúc VGG, ResNet và MobileNet về độ phức tạp tính toán và độ chính xác; áp dụng transfer learning để huấn luyện mô hình phân loại ảnh trên tập dữ liệu mới với số lượng mẫu hạn chế.
+
+### Part 1 — Cơ chế Tích chập và Bộ lọc (~30 phút)
+Phần này nhằm giải thích cơ chế tích chập hai chiều và vai trò của bộ lọc trong việc trích xuất đặc trưng từ ảnh. Tích chập là một phép toán cơ bản trong mạng nơ-ron tích chập (CNN), cho phép mô hình học được các đặc trưng không gian từ dữ liệu đầu vào. Bộ lọc (hay kernel) là một ma trận nhỏ trượt qua ảnh để tính toán các đặc trưng cục bộ. Mỗi bộ lọc có thể phát hiện các đặc trưng khác nhau như cạnh, góc, hoặc các mẫu phức tạp hơn. Chúng ta sẽ xem xét cách các bộ lọc này được học trong quá trình huấn luyện và cách chúng ảnh hưởng đến khả năng nhận dạng của mô hình.
+
+### Part 2 — Các Thành phần Cơ bản của CNN (~40 phút)
+Phần này nhằm mô tả các thành phần cơ bản của một mạng CNN, bao gồm lớp tích chập, lớp pooling và lớp kết nối đầy đủ. Lớp tích chập thực hiện phép toán tích chập để trích xuất đặc trưng, trong khi lớp pooling giảm kích thước không gian của đặc trưng, giúp giảm số lượng tham số và tính toán. Lớp kết nối đầy đủ (fully connected layer) thường nằm ở cuối mạng, kết hợp các đặc trưng đã trích xuất để đưa ra dự đoán cuối cùng. Chúng ta sẽ phân tích chi tiết từng lớp và cách chúng phối hợp để tạo thành một mạng CNN hoàn chỉnh.
+
+### Part 3 — So sánh Kiến trúc CNN và Ứng dụng Transfer Learning (~50 phút)
+Phần này nhằm so sánh kiến trúc VGG, ResNet và MobileNet về độ phức tạp tính toán và độ chính xác, đồng thời áp dụng transfer learning để huấn luyện mô hình phân loại ảnh trên tập dữ liệu mới với số lượng mẫu hạn chế. VGG nổi bật với cấu trúc đơn giản nhưng sâu, ResNet giới thiệu khái niệm skip connections giúp giải quyết vấn đề gradient vanishing, trong khi MobileNet tối ưu hóa cho thiết bị di động với kiến trúc nhẹ. Chúng ta sẽ thảo luận về ưu và nhược điểm của từng kiến trúc và cách lựa chọn mô hình phù hợp cho các ứng dụng thực tế. Cuối cùng, chúng ta sẽ thực hành áp dụng transfer learning để tận dụng các mô hình đã được huấn luyện trước trên tập dữ liệu lớn, nhằm cải thiện hiệu suất trên tập dữ liệu nhỏ.
+
+### Discussion Questions
+1. Tại sao việc sử dụng bộ lọc trong CNN lại quan trọng cho việc trích xuất đặc trưng từ ảnh?
+2. So sánh vai trò của lớp pooling và lớp kết nối đầy đủ trong một mạng CNN.
+3. Khi nào nên sử dụng transfer learning và lợi ích của nó là gì?
+
+### Suggested Further Reading
+1. Goodfellow, I., Bengio, Y., & Courville, A. (2016). *Deep Learning*. MIT Press.
+2. He, K., Zhang, X., Ren, S., & Sun, J. (2016). Deep Residual Learning for Image Recognition. *Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*.
+3. Howard, A. G., et al. (2017). MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications. *arXiv preprint arXiv:1704.04861*.
+
+---
+*This lecture content was generated with AI assistance and requires review by the course instructor before use in teaching.*

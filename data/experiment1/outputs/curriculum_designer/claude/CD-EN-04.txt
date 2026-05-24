@@ -1,0 +1,59 @@
+## Curriculum Framework: AI for Engineering Managers — Professional Upskilling Programme
+
+**Participating institutions:** Ho Chi Minh City University of Technology (HCMUT); Intel Vietnam
+
+**Program goals:** This programme enables mid-career engineering managers to make informed, confident decisions about AI adoption within product development pipelines and operational contexts. Participants will develop the capacity to scope AI initiatives realistically, critically evaluate technical proposals from engineering teams or external vendors, and lead cross-functional teams working on AI-enabled projects. The programme further provides a working knowledge of AI system capabilities, constraints, and failure modes sufficient for managerial oversight — without requiring any programming or machine learning background. Upon completion, participants should be able to serve as effective bridges between business stakeholders and technical AI practitioners inside their organisations.
+
+**Target audience:** Mid-career engineers and engineering team leads with five or more years of industry experience who hold, or are transitioning into, management or technical leadership roles. Participants are expected to bring active professional contexts — ongoing projects, team structures, and organisational challenges — that will enrich peer discussion and applied exercises. No prior knowledge of programming, statistics, or machine learning is required or assumed.
+
+**Total duration:** 6 weeks × 3 hours per session = 18 contact hours total. All sessions are scheduled in evening or weekend formats to accommodate full-time working professionals. Cohort size is capped at 30 participants per intake.
+
+---
+
+### Module Structure
+
+| Module | Title | Learning Outcomes | Credits | Modality |
+|---|---|---|---|---|
+| M01 | AI Landscape for Engineering Leaders | Distinguish between AI, machine learning, and related terms as used in industry contexts; identify categories of AI applications relevant to engineering and manufacturing; recognise common misconceptions that affect managerial decision-making | 0.5 | Hybrid (evening session, HCMUT campus + live stream option) |
+| M02 | How AI Systems Work: A Manager's Mental Model | Describe at a conceptual level how supervised learning, classification, and generative AI systems produce outputs; explain why AI systems can fail, degrade, or behave unexpectedly; use a structured vocabulary when communicating with technical teams | 0.5 | Hybrid (evening session) |
+| M03 | Scoping and Evaluating AI Projects | Apply a feasibility framework to assess whether a proposed AI initiative is technically and operationally viable; identify data requirements, infrastructure dependencies, and organisational preconditions; critically review an AI project proposal using a structured checklist | 0.5 | Hybrid (evening session, includes no-code tool exercise) |
+| M04 | AI in Engineering Operations — Industry Perspectives | Analyse real-world cases of AI deployment in semiconductor manufacturing, supply chain, and hardware engineering contexts; evaluate trade-offs between AI-driven automation and human oversight; formulate questions to probe vendor or team claims about AI performance [PARTNER REVIEW REQUIRED: case selection and speaker content to be confirmed with Intel Vietnam] | 0.5 | In-person (weekend session; includes at least one Intel Vietnam senior engineering speaker) |
+| M05 | Leading Cross-Functional AI Teams | Design a stakeholder and responsibility map for an AI project team; identify common friction points between data science, engineering, product, and operations functions; apply communication and governance practices that reduce misalignment during AI project execution | 0.5 | Hybrid (evening session, includes structured peer scenario exercise) |
+| M06 | Responsible AI, Risk, and Strategic Decision-Making | Evaluate an AI adoption decision against criteria of fairness, transparency, regulatory compliance, and organisational risk appetite; construct a concise AI adoption recommendation suitable for senior leadership; reflect on personal leadership posture toward AI-driven change [PARTNER REVIEW REQUIRED: alignment with Intel's internal responsible AI guidelines to be reviewed] | 0.5 | In-person (weekend capstone session; includes Intel Vietnam speaker and certificate presentation) |
+
+> **Credit note:** The total of 3.0 programme credits above reflects internal HCMUT professional development credit units. Equivalence to formal academic credits or continuing professional education (CPE) hours under other institutional or professional frameworks requires separate negotiation. [PARTNER REVIEW REQUIRED]
+
+---
+
+### Assessment Approach
+
+Assessment across this programme is designed to be directly applicable to participants' professional roles, entirely free of coding or algorithmic tasks, and completable within the time constraints of working professionals.
+
+**Formative assessment (ungraded, ongoing):** Each session incorporates a short structured reflection or discussion prompt — typically a scenario drawn from engineering management practice — completed individually or in pairs during the session. These are not graded but are used by facilitators to calibrate pacing and surface misconceptions in real time. Participation in these activities is expected of all enrolled participants.
+
+**Module M03 — Applied Feasibility Exercise:** Participants use a provided no-code project scoping template to assess a supplied AI project brief (a fictional but realistic engineering context). They produce a one-page structured assessment identifying viability, risks, and missing information. This is submitted asynchronously within 48 hours of the session and reviewed by the facilitating instructor with written feedback. Graded on a pass/needs revision basis.
+
+**Capstone Assessment — AI Adoption Recommendation (M06):** Each participant prepares a short written recommendation (approximately 500–700 words plus a one-page summary slide) proposing whether and how a specific AI capability should be adopted within a context drawn from their own organisation or a provided case. The recommendation must address technical feasibility, team and organisational readiness, risk considerations, and a proposed next step. This is presented in summary form during the final session and submitted in writing. Graded on a three-point scale: Distinction, Pass, or Needs Revision. Participants receiving Needs Revision are given one opportunity to resubmit within one week of the final session.
+
+**Certificate eligibility:** Participants must attend a minimum of five of the six sessions (with the capstone session in M06 being mandatory), complete the M03 exercise at pass level, and submit the capstone assessment. The certificate is awarded by HCMUT and acknowledges Intel Vietnam as industry partner. [PARTNER REVIEW REQUIRED: certificate wording, logo usage, and issuance process to be confirmed between HCMUT academic registry and Intel Vietnam]
+
+---
+
+### Collaboration Mechanisms Between Institutions
+
+**HCMUT responsibilities:** HCMUT serves as the degree-granting and administratively responsible institution. HCMUT faculty design and deliver the core curriculum content across all six modules, manage participant enrolment and records, provide or arrange physical and digital learning infrastructure for hybrid delivery, and issue the programme certificate through its standard professional development or continuing education registry.
+
+**Intel Vietnam responsibilities:** Intel Vietnam contributes a minimum of two senior engineering speakers from its Vietnam operations, appearing in M04 and M06 respectively. These speakers provide practitioner perspectives on AI deployment in advanced manufacturing and engineering environments, grounding the curriculum in current industrial reality. Intel Vietnam is acknowledged on all programme materials, the certificate, and any public-facing programme descriptions. Intel Vietnam may optionally contribute anonymised case study material for use in M03 and M04 exercises, subject to internal review and approval. [PARTNER REVIEW REQUIRED]
+
+**Joint programme governance:** A lightweight joint coordination group — comprising one academic lead from HCMUT and one programme liaison from Intel Vietnam — meets at least once before each intake to review speaker scheduling, case material relevance, and any updates required to reflect changes in the AI landscape or Intel's operational context. This group also reviews aggregate participant feedback after each cohort and may propose curriculum revisions on a cycle aligned with HCMUT's professional programme review calendar. [PARTNER REVIEW REQUIRED: formal terms of reference and meeting cadence to be agreed]
+
+**Intellectual property:** All core curriculum materials are developed and owned by HCMUT. Intel Vietnam retains ownership of any proprietary materials its speakers choose to share and may restrict distribution of such materials to session participants only. No Intel-proprietary operational data is expected or required for programme delivery. [PARTNER REVIEW REQUIRED]
+
+---
+
+### Open Issues [PARTNER REVIEW REQUIRED]
+
+- **Credit recognition and equivalence:** The programme's 3.0 internal credit units must be mapped to HCMUT's formal professional development credit framework and, if desired by either party, to external CPE or continuing education hour standards recognised by relevant Vietnamese engineering professional bodies.
+- **Speaker confirmation and scheduling:** Intel Vietnam must confirm the identity, availability, and session dates for the two required senior engineering speakers at least six weeks before each cohort intake. A contingency protocol for speaker unavailability (e.g., recorded contribution, substitute speaker) must be agreed.
+- **Case study and material sharing:** The scope of any Intel Vietnam operational case material to be shared with participants — including confidentiality classification, permitted use, and whether materials may be retained by participants after the programme — requires explicit internal approval from Intel Vietnam and a written agreement with HCMUT.
+- **Certificate wording and co-branding:** Exact language on the certificate, placement and size of Intel Vietnam acknowledgement, and use of Intel trademarks or logos on programme collateral must be reviewed and approved by Intel Vietnam's legal and communications functions and

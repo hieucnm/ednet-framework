@@ -1,0 +1,33 @@
+## Collaboration Framework Outline
+**Parties:** HCMUT, HUST, NUS, Intel Vietnam, Bosch Vietnam  
+**Purpose:** Establish a multi-party knowledge transfer and workforce development framework enabling systematic sharing of industry expertise, research capabilities, and training resources across the VASTN network, in support of Vietnam's national strategy for AI and semiconductor talent development.  
+**Effective period:** 3 years, with a mid-term review at 18 months and renewal option subject to steering committee approval.
+
+### Scope of Collaboration
+The collaboration will focus on conducting annual joint workforce needs assessments to identify skill gaps, co-developing and delivering short courses with joint certification, implementing an industry mentorship program, sharing licensed software tools, and organizing an annual VASTN Innovation Challenge.
+
+### Responsibilities of Each Party
+| Party | Responsibility | Timeline |
+|---|---|---|
+| HCMUT | Conduct workforce needs assessments, co-develop courses, and participate in mentorship programs | Ongoing |
+| HUST | Conduct workforce needs assessments, co-develop courses, and participate in mentorship programs | Ongoing |
+| NUS | Support course development and provide access to resources | Ongoing |
+| Intel Vietnam | Provide industry expertise, mentorship, and potentially in-kind contributions | Ongoing |
+| Bosch Vietnam | Provide industry expertise, mentorship, and potentially in-kind contributions | Ongoing |
+
+### Resource Sharing Arrangements
+To be determined by mutual agreement [LEGAL REVIEW REQUIRED].
+
+### Governance and Dispute Resolution [LEGAL REVIEW REQUIRED]
+Governance will be managed by a steering committee with one representative from each party, meeting quarterly. Decisions on resource allocation require consensus from all five parties. Disputes will be resolved through mediation facilitated by the steering committee.
+
+### Review and Renewal Conditions
+The framework will undergo a mid-term review at 18 months. Renewal options will be considered based on the outcomes of this review and require approval from the steering committee.
+
+### Open Items [LEGAL REVIEW REQUIRED]
+- Finalization of the cost-sharing annex detailing financial contributions.
+- Specific terms for in-kind contributions from Intel Vietnam and Bosch Vietnam.
+- Detailed procedures for the anonymization and aggregation of shared data.
+
+---
+*This collaboration framework outline was generated with AI assistance. It is a working draft and does not constitute a legally binding agreement.*

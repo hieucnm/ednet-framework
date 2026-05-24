@@ -1,0 +1,29 @@
+## Meeting Minutes
+**Network:** VASTN
+**Date:** 28 tháng 2 năm 2024
+**Attendees:** PGS.TS. Trần Minh Quang (Đại học Bách khoa TP.HCM), Ông Klaus Hoffmann (Bosch Việt Nam)
+
+### Agenda Items Discussed
+
+PGS.TS. Trần Minh Quang cho biết mục tiêu của cuộc họp là xác nhận hai điểm cụ thể trước khi ông trình bày lên Ban Giám hiệu vào tuần tiếp theo.
+
+Điểm thứ nhất được thảo luận là cam kết tài trợ học bổng cho năm học 2024–2025. PGS.TS. Trần Minh Quang đề xuất mức 10 suất học bổng, mỗi suất trị giá 20 triệu đồng mỗi học kỳ, theo đúng nội dung đã được trao đổi qua email trước đó. Ông Klaus Hoffmann xác nhận phía Bosch Việt Nam chấp thuận mức tài trợ này, đồng thời bổ sung điều kiện rằng sinh viên nhận học bổng phải cam kết tham gia kỳ thực tập tại Bosch ít nhất một học kỳ trước khi tốt nghiệp. PGS.TS. Trần Minh Quang chấp nhận điều kiện này và xác nhận nó phù hợp với mục tiêu của chương trình.
+
+Điểm thứ hai được thảo luận là tiến độ ký kết Biên bản Ghi nhớ (MOU) giữa hai bên. PGS.TS. Trần Minh Quang hỏi về tình trạng xem xét bản thảo MOU từ phía bộ phận pháp lý của Bosch. Ông Klaus Hoffmann cho biết bộ phận pháp lý đang trong quá trình xem xét và dự kiến sẽ có phản hồi trong tuần tiếp theo. Ông Hoffmann cũng cho biết nếu không có vấn đề lớn phát sinh, hai bên có thể tiến hành ký kết trước cuối tháng 3 năm 2024.
+
+### Decisions Made
+
+Bosch Việt Nam chính thức xác nhận cam kết tài trợ 10 suất học bổng cho năm học 2024–2025, mỗi suất trị giá 20 triệu đồng mỗi học kỳ, kèm theo điều kiện sinh viên nhận học bổng phải cam kết thực tập tại Bosch ít nhất một học kỳ trước khi tốt nghiệp. Đại học Bách khoa TP.HCM chấp thuận điều kiện thực tập nêu trên.
+
+### Action Items
+| Owner | Deadline | Description |
+|---|---|---|
+| PGS.TS. Trần Minh Quang | Đầu tuần tiếp theo (sau ngày 28/02/2024) | Chuẩn bị dự thảo thoả thuận học bổng và gửi cho Ông Klaus Hoffmann |
+| Ông Klaus Hoffmann | Tuần tiếp theo (sau ngày 28/02/2024) | Nhận phản hồi từ bộ phận pháp lý của Bosch về bản thảo MOU |
+| Hai bên | Trước cuối tháng 3 năm 2024 | Tiến hành ký kết MOU nếu không có vấn đề pháp lý phát sinh |
+
+### Next Meeting
+Không có lịch họp tiếp theo được ấn định.
+
+---
+*This document was generated with AI assistance and is pending human review.*

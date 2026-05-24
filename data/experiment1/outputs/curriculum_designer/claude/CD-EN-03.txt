@@ -1,0 +1,54 @@
+## Curriculum Framework: Responsible AI in Practice — Cross-Disciplinary Certificate
+
+**Participating institutions:** Ho Chi Minh City University of Technology (HCMUT); Hanoi University of Science and Technology (HUST); RMIT University Vietnam; Intel Vietnam
+
+**Program goals:** This certificate program develops participants' critical understanding of the ethical, legal, and social dimensions of AI deployment across engineering, business, and public policy contexts. Grounded in the UNESCO Recommendation on AI Ethics (2021) as its primary normative framework, the program equips students to conduct structured ethical risk assessments of AI systems, build capacity to communicate AI risks and governance requirements to non-technical stakeholders, and prepares graduates for interdisciplinary roles in AI governance. The program bridges technical and non-technical perspectives, ensuring that engineering students gain fluency in governance discourse while business and policy students develop sufficient conceptual grounding in AI systems to engage meaningfully with technical risk.
+
+**Target audience:** Mixed postgraduate cohorts drawn from engineering, business administration, and public policy programmes at HCMUT and HUST, with participation open to RMIT Vietnam postgraduate students. No prior technical AI knowledge is required. The program is explicitly designed to be accessible to students from non-technical backgrounds while remaining substantive and challenging for engineering students through differentiated assessment tasks and layered learning materials.
+
+**Total duration:** 10 weeks; 2.5 contact hours per week (25 contact hours total), supplemented by structured asynchronous self-study components each week.
+
+---
+
+### Module Structure
+
+| Module | Title | Learning Outcomes | Credits | Modality |
+|---|---|---|---|---|
+| M01 | Foundations: AI Systems and the Governance Imperative | Describe the core capabilities and limitations of contemporary AI systems in non-technical terms; explain why AI deployment creates governance challenges that cannot be resolved by technical means alone; locate the UNESCO Recommendation on AI Ethics (2021) within the broader landscape of international AI governance instruments | 0.5 | Hybrid — synchronous inter-institution online session + asynchronous readings |
+| M02 | The UNESCO Ethical Framework: Values, Principles, and Policy Levers | Identify and explain the core values and principles of the UNESCO Recommendation on AI Ethics (2021); map these principles to concrete deployment scenarios; distinguish between aspirational norms and enforceable obligations in AI governance | 0.5 | Synchronous online (inter-institution) |
+| M03 | Legal and Regulatory Dimensions of AI — Regional and Global Perspectives | Analyse key AI regulatory frameworks relevant to the Southeast Asian context; compare regulatory approaches across jurisdictions; identify legal obligations that apply to AI developers, deployers, and procurers [RMIT Vietnam lead] | 0.5 | Hybrid — synchronous online (RMIT Vietnam-led) + asynchronous case readings |
+| M04 | AI in Industry: Real-World Deployment Contexts and Emerging Risks | Examine documented industry cases of AI deployment across sectors including manufacturing, logistics, and consumer technology; identify the ethical and operational risks that materialised or were anticipated in each case; evaluate how industry actors have responded to governance requirements [Intel Vietnam case studies] | 0.5 | Synchronous online (inter-institution, Intel Vietnam guest-led) |
+| M05 | Social and Distributional Impacts of AI | Assess how AI systems can reproduce, amplify, or mitigate social inequalities; apply concepts of fairness, non-discrimination, and inclusion as defined in the UNESCO framework to specific deployment scenarios; articulate the perspectives of affected communities in AI governance processes | 0.5 | Hybrid — synchronous online + asynchronous self-study |
+| M06 | Structured Ethical Risk Assessment — Methods and Tools | Apply a structured ethical risk assessment methodology to an AI system; identify relevant stakeholders, potential harms, and mitigation options; produce a written risk assessment document suitable for review by a non-technical audience | 1.0 | Hybrid — synchronous workshop (in-person at home institution) + asynchronous preparation |
+| M07 | Data Governance, Privacy, and Human Oversight | Explain the role of data governance in responsible AI; analyse privacy risks arising from AI data practices; evaluate mechanisms for maintaining meaningful human oversight of automated decision-making in line with UNESCO principles | 0.5 | Synchronous online (inter-institution) |
+| M08 | Communicating AI Risk to Non-Technical Stakeholders | Translate technical and ethical risk findings into accessible briefings, policy memos, or executive summaries; adapt communication register and format to different audiences including regulators, executives, and civil society; demonstrate awareness of how framing affects stakeholder responses | 0.5 | Hybrid — synchronous online workshop + asynchronous drafting exercise |
+| M09 | Interdisciplinary Collaboration in AI Governance Practice | Demonstrate effective collaboration across disciplinary boundaries on a shared governance task; reconcile divergent disciplinary framings of the same AI governance problem; reflect critically on the value and limitations of one's own disciplinary perspective | 0.5 | Synchronous online (inter-institution team workshop) |
+| M10 | Capstone: Integrated AI Governance Brief | Synthesise learning across all modules to produce a governance brief addressing a real or realistic AI deployment scenario; present findings to a mixed panel of academic and industry reviewers; respond to critical questions from reviewers representing different disciplinary perspectives | 1.0 | Hybrid — asynchronous preparation + synchronous inter-institution presentation session |
+
+**Total Credits: 6.0** [PARTNER REVIEW REQUIRED — see Open Issues]
+
+---
+
+### Assessment Approach
+
+Assessment across the program is designed to be both discipline-accessible and substantively rigorous, recognising the mixed postgraduate cohort. Differentiated task options are used where a single task format would disadvantage students from particular disciplinary backgrounds or unfairly advantage those with prior technical knowledge.
+
+**Formative assessment** occurs throughout the program via weekly reflection prompts submitted asynchronously. These short responses (approximately 300 words) ask students to connect module content to their own professional or disciplinary context. Reflection prompts are not graded for technical accuracy but for quality of reasoning, engagement with the UNESCO framework, and evidence of cross-disciplinary thinking. Facilitators from each institution provide written feedback within one week.
+
+**Module-level assessment** is concentrated in three assessed tasks:
+
+- *Ethical Risk Assessment Report* (M06): Students produce a structured ethical risk assessment of an AI system drawn from a provided list of scenarios. Engineering students are expected to engage with technical system characteristics in greater depth; business and policy students are expected to foreground stakeholder mapping and regulatory alignment. A shared rubric with discipline-differentiated performance descriptors is used to ensure comparability. This task constitutes approximately 30% of the final grade.
+
+- *Stakeholder Communication Artefact* (M08): Students produce a short communication artefact — a policy memo, executive briefing, or public explainer — directed at a specified non-technical audience. The scenario is drawn from the Intel Vietnam case study bank introduced in M04. All students are assessed on clarity, accuracy of risk representation, and appropriateness of register. This task constitutes approximately 20% of the final grade.
+
+- *Capstone Governance Brief and Presentation* (M10): Working in interdisciplinary teams of three to four students drawn from different institutions and disciplinary backgrounds, students produce a governance brief and deliver a 15-minute presentation to a mixed panel. The brief must explicitly reference the UNESCO Recommendation on AI Ethics (2021) and engage with at least one regulatory framework covered in M03. Assessment is both individual (quality of personal contribution and response to panel questions) and team-based (coherence and quality of the brief). This task constitutes approximately 50% of the final grade.
+
+All assessed tasks are submitted through a shared digital platform accessible to students and assessors at all participating institutions. [PARTNER REVIEW REQUIRED — platform selection and access provisioning]
+
+---
+
+### Collaboration Mechanisms Between Institutions
+
+**Academic leadership and coordination:** A program coordination committee comprising one academic representative from each of HCMUT, HUST, and RMIT Vietnam, and one representative from Intel Vietnam, oversees curriculum delivery, quality assurance, and issue resolution. The committee meets virtually at the start of the program, at the midpoint (end of M05), and at the conclusion. Day-to-day coordination is managed by a designated program coordinator, with the host role rotating by cohort. [PARTNER REVIEW REQUIRED — designation of first coordinating institution]
+
+**Teaching contributions by institution:** HCMUT and HUST jointly contribute facilitation of M01, M02, M05, M07, and M09, drawing on faculty expertise in engineering ethics, technology policy, and social impact of technology. RMIT Vietnam leads the design and delivery of M03 and M08, reflecting its expertise in law, regulation, and professional communication. Intel Vietnam provides the industry case study bank used in M04 and M10, contributes a guest facilitator for the M04 synchronous session, and provides at least one industry reviewer for the M10 capstone panel. All institutions contribute to M06 and M10 facilitation and

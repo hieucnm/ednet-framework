@@ -1,0 +1,29 @@
+## Curriculum Framework: Responsible AI in Practice — Cross-Disciplinary Certificate
+**Participating institutions:** HCMUT, HUST, RMIT Vietnam, Intel Vietnam  
+**Program goals:** Develop critical understanding of ethical, legal, and social dimensions of AI deployment across engineering, business, and policy contexts; equip students to conduct structured ethical risk assessments of AI systems; build capacity to communicate AI risks and governance requirements to non-technical stakeholders; prepare students for roles that require interdisciplinary collaboration on AI governance  
+**Target audience:** Mixed cohort of postgraduate students from engineering, business administration, and public policy programmes; no technical AI prerequisite required — the programme is designed to be accessible to students with varying technical backgrounds  
+**Total duration:** 10 weeks, 2.5 contact hours per week  
+
+### Module Structure
+| Module | Title | Learning Outcomes | Credits | Modality |
+|---|---|---|---|---|
+| M01 | Introduction to Responsible AI | Understand the basic principles of AI ethics and governance; Identify key ethical, legal, and social issues in AI | 1 | Online |
+| M02 | Ethical Risk Assessment in AI | Conduct structured ethical risk assessments of AI systems; Apply UNESCO Recommendation on AI Ethics | 1 | Hybrid |
+| M03 | Legal and Regulatory Frameworks | Analyze legal and regulatory requirements for AI; Understand international AI governance standards | 1 | Online |
+| M04 | AI in Industry: Case Studies | Evaluate real-world AI applications through industry case studies; Identify best practices and challenges in AI deployment | 1 | Hybrid |
+| M05 | Communicating AI Risks | Develop skills to communicate AI risks and governance requirements to non-technical stakeholders | 1 | Online |
+
+### Assessment Approach
+The assessment strategy across modules will include a mix of individual and group assignments, reflective essays, and case study analyses. Differentiated assessment tasks will be implemented to cater to the diverse technical backgrounds of students. For example, engineering students may focus on technical risk assessments, while business and policy students may engage more with the communication and policy aspects. Formative assessments will be used to provide ongoing feedback, and a final capstone project will synthesize learning outcomes from all modules.
+
+### Collaboration Mechanisms Between Institutions
+Each institution will contribute its expertise to the program: RMIT Vietnam will lead the legal and regulatory modules, leveraging its faculty's expertise in international law and policy. Intel Vietnam will provide industry case studies, offering practical insights and guest lectures from industry professionals. HCMUT and HUST will focus on the technical and ethical dimensions, ensuring that the content is accessible yet substantive. Regular coordination meetings will be held to align teaching methods and share resources.
+
+### Open Issues [PARTNER REVIEW REQUIRED]
+- Agreement on credit transfer and recognition across institutions
+- Finalization of differentiated assessment tasks to ensure alignment with diverse student backgrounds
+- Scheduling synchronous sessions to accommodate different time zones and academic calendars
+- Establishment of a shared platform for asynchronous materials and resources
+
+---
+*This curriculum framework was generated with AI assistance and requires review by all participating institutions before formal adoption.*

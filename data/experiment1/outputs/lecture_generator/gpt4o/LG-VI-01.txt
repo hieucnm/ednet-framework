@@ -1,0 +1,29 @@
+## Lecture: Học có giám sát: Hồi quy và Phân loại
+**Course:** Nhập môn Kỹ thuật AI — Chứng chỉ Liên trường VASTN  
+**Audience level:** Undergraduate  
+**Duration:** 90 phút
+
+### Learning Objectives
+Sau khi hoàn thành bài giảng này, người học sẽ có khả năng phân biệt giữa học có giám sát, học không có giám sát và học tăng cường; mô tả nguyên lý hoạt động của thuật toán hồi quy tuyến tính và phân loại logistic; giải thích khái niệm hàm mất mát và quá trình tối ưu hoá bằng gradient descent; nhận diện hiện tượng overfitting và underfitting trên đồ thị kết quả huấn luyện.
+
+### Part 1 — Giới thiệu về Học có giám sát (~20 phút)
+Phần này nhằm giúp người học hiểu rõ khái niệm cơ bản về học có giám sát và phân biệt nó với các phương pháp học máy khác. Học có giám sát là một phương pháp trong đó mô hình được huấn luyện trên một tập dữ liệu đã được gán nhãn. Người học sẽ tìm hiểu về hai loại bài toán chính trong học có giám sát: hồi quy và phân loại. Hồi quy được sử dụng để dự đoán các giá trị liên tục, trong khi phân loại được dùng để dự đoán các nhãn rời rạc.
+
+### Part 2 — Hồi quy tuyến tính và Phân loại logistic (~35 phút)
+Phần này tập trung vào việc mô tả chi tiết hai thuật toán cơ bản trong học có giám sát: hồi quy tuyến tính và phân loại logistic. Hồi quy tuyến tính là một phương pháp để dự đoán giá trị của một biến phụ thuộc dựa trên một hoặc nhiều biến độc lập. Người học sẽ được giới thiệu về phương trình hồi quy tuyến tính và cách tính toán hệ số hồi quy. Phân loại logistic, mặc dù tên gọi là hồi quy, thực chất là một phương pháp phân loại nhị phân, sử dụng hàm logistic để dự đoán xác suất của một nhãn thuộc về một trong hai lớp.
+
+### Part 3 — Hàm mất mát và Tối ưu hoá bằng Gradient Descent (~35 phút)
+Phần này giải thích khái niệm hàm mất mát và vai trò của nó trong việc đánh giá hiệu suất của một mô hình học có giám sát. Hàm mất mát đo lường sự khác biệt giữa giá trị dự đoán và giá trị thực tế. Người học sẽ tìm hiểu về quá trình tối ưu hoá bằng gradient descent, một kỹ thuật phổ biến để tìm giá trị tối ưu của các tham số mô hình. Phần này cũng sẽ đề cập đến hiện tượng overfitting và underfitting, cách nhận diện chúng qua đồ thị kết quả huấn luyện, và các phương pháp giảm thiểu như regularization.
+
+### Discussion Questions
+1. Phân biệt giữa hồi quy tuyến tính và phân loại logistic dựa trên mục tiêu và cách thức hoạt động của chúng.
+2. Tại sao gradient descent lại quan trọng trong việc tối ưu hoá các mô hình học có giám sát?
+3. Làm thế nào để nhận diện và khắc phục hiện tượng overfitting trong một mô hình học máy?
+
+### Suggested Further Reading
+1. Bishop, C. M. (2006). *Pattern Recognition and Machine Learning*. Springer.
+2. Goodfellow, I., Bengio, Y., & Courville, A. (2016). *Deep Learning*. MIT Press.
+3. Hastie, T., Tibshirani, R., & Friedman, J. (2009). *The Elements of Statistical Learning: Data Mining, Inference, and Prediction*. Springer.
+
+---
+*This lecture content was generated with AI assistance and requires review by the course instructor before use in teaching.*

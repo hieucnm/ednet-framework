@@ -1,0 +1,36 @@
+## Collaboration Framework Outline
+**Parties:** Ho Chi Minh City University of Technology (HCMUT), National University of Singapore (NUS)
+**Purpose:** Establish a structured bilateral framework for joint postgraduate research supervision, faculty exchange, and co-development of advanced AI and semiconductor engineering curriculum within the VASTN consortium.
+**Effective period:** 5 years from date of signing, with annual review
+
+### Scope of Collaboration
+The collaboration will focus on joint supervision of doctoral and master's research students, reciprocal short-term faculty exchanges, co-development of curriculum modules for the VASTN joint certificate programme, joint applications for external research funding, and hosting an annual joint research seminar.
+
+### Responsibilities of Each Party
+| Party | Responsibility | Timeline |
+|---|---|---|
+| HCMUT | Joint supervision of at least two research students per year | Ongoing |
+| NUS | Joint supervision of at least two research students per year | Ongoing |
+| HCMUT | Facilitate two short-term faculty exchanges per year | Ongoing |
+| NUS | Facilitate two short-term faculty exchanges per year | Ongoing |
+| HCMUT | Co-develop at least three curriculum modules per academic year | Ongoing |
+| NUS | Co-develop at least three curriculum modules per academic year | Ongoing |
+| HCMUT | Lead joint research seminar every alternate year | Annually |
+| NUS | Lead joint research seminar every alternate year | Annually |
+
+### Resource Sharing Arrangements
+To be determined by mutual agreement [LEGAL REVIEW REQUIRED].
+
+### Governance and Dispute Resolution [LEGAL REVIEW REQUIRED]
+Decision-making authority will be shared equally between the parties. Dispute resolution will involve mediation by a mutually agreed third party if initial direct negotiations fail. Governing law and specific dispute resolution mechanisms are to be agreed upon by the legal teams of both institutions.
+
+### Review and Renewal Conditions
+The framework will be reviewed annually to assess progress and make necessary adjustments. Renewal discussions will commence six months before the end of the effective period.
+
+### Open Items [LEGAL REVIEW REQUIRED]
+- Finalization of governing law and dispute resolution mechanism
+- Detailed financial arrangements for specific activities
+- Specific IP ownership agreements for each activity
+
+---
+*This collaboration framework outline was generated with AI assistance. It is a working draft and does not constitute a legally binding agreement.*

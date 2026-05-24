@@ -1,0 +1,1362 @@
+[
+  {
+    "input_id": "MM-EN-01",
+    "template_id": "meeting_minutes_v1",
+    "language": "en",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 18.999,
+    "word_count": 628,
+    "structure": {
+      "compliant": true,
+      "markers_found": 4,
+      "markers_total": 4
+    },
+    "rouge": {
+      "rouge1_f": 0.6958,
+      "rouge2_f": 0.4661,
+      "rougeL_f": 0.5328
+    }
+  },
+  {
+    "input_id": "MM-EN-02",
+    "template_id": "meeting_minutes_v1",
+    "language": "en",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 18.258,
+    "word_count": 547,
+    "structure": {
+      "compliant": true,
+      "markers_found": 4,
+      "markers_total": 4
+    },
+    "rouge": {
+      "rouge1_f": 0.5777,
+      "rouge2_f": 0.3674,
+      "rougeL_f": 0.4539
+    }
+  },
+  {
+    "input_id": "MM-EN-03",
+    "template_id": "meeting_minutes_v1",
+    "language": "en",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 17.806,
+    "word_count": 679,
+    "structure": {
+      "compliant": true,
+      "markers_found": 4,
+      "markers_total": 4
+    },
+    "rouge": {
+      "rouge1_f": 0.6966,
+      "rouge2_f": 0.4784,
+      "rougeL_f": 0.6014
+    }
+  },
+  {
+    "input_id": "MM-EN-04",
+    "template_id": "meeting_minutes_v1",
+    "language": "en",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 15.205,
+    "word_count": 426,
+    "structure": {
+      "compliant": true,
+      "markers_found": 4,
+      "markers_total": 4
+    },
+    "rouge": {
+      "rouge1_f": 0.5677,
+      "rouge2_f": 0.4045,
+      "rougeL_f": 0.4935
+    }
+  },
+  {
+    "input_id": "MM-EN-05",
+    "template_id": "meeting_minutes_v1",
+    "language": "en",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 21.458,
+    "word_count": 754,
+    "structure": {
+      "compliant": true,
+      "markers_found": 4,
+      "markers_total": 4
+    },
+    "rouge": {
+      "rouge1_f": 0.4585,
+      "rouge2_f": 0.2989,
+      "rougeL_f": 0.3684
+    }
+  },
+  {
+    "input_id": "MM-VI-01",
+    "template_id": "meeting_minutes_v1",
+    "language": "vi",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 29.515,
+    "word_count": 785,
+    "structure": {
+      "compliant": true,
+      "markers_found": 4,
+      "markers_total": 4
+    },
+    "rouge": {
+      "rouge1_f": 0.7629,
+      "rouge2_f": 0.6773,
+      "rougeL_f": 0.6351
+    }
+  },
+  {
+    "input_id": "MM-VI-02",
+    "template_id": "meeting_minutes_v1",
+    "language": "vi",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 32.447,
+    "word_count": 825,
+    "structure": {
+      "compliant": true,
+      "markers_found": 4,
+      "markers_total": 4
+    },
+    "rouge": {
+      "rouge1_f": 0.4732,
+      "rouge2_f": 0.3948,
+      "rougeL_f": 0.3866
+    }
+  },
+  {
+    "input_id": "MM-VI-03",
+    "template_id": "meeting_minutes_v1",
+    "language": "vi",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 26.57,
+    "word_count": 824,
+    "structure": {
+      "compliant": true,
+      "markers_found": 4,
+      "markers_total": 4
+    },
+    "rouge": {
+      "rouge1_f": 0.5864,
+      "rouge2_f": 0.5172,
+      "rougeL_f": 0.5271
+    }
+  },
+  {
+    "input_id": "MM-VI-04",
+    "template_id": "meeting_minutes_v1",
+    "language": "vi",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 17.374,
+    "word_count": 460,
+    "structure": {
+      "compliant": true,
+      "markers_found": 4,
+      "markers_total": 4
+    },
+    "rouge": {
+      "rouge1_f": 0.6738,
+      "rouge2_f": 0.5538,
+      "rougeL_f": 0.5762
+    }
+  },
+  {
+    "input_id": "MM-VI-05",
+    "template_id": "meeting_minutes_v1",
+    "language": "vi",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 27.333,
+    "word_count": 797,
+    "structure": {
+      "compliant": true,
+      "markers_found": 4,
+      "markers_total": 4
+    },
+    "rouge": {
+      "rouge1_f": 0.6403,
+      "rouge2_f": 0.5021,
+      "rougeL_f": 0.4572
+    }
+  },
+  {
+    "input_id": "DS-EN-01",
+    "template_id": "document_summarizer_v1",
+    "language": "en",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 7.601,
+    "word_count": 270,
+    "structure": {
+      "compliant": true,
+      "markers_found": 2,
+      "markers_total": 2
+    },
+    "rouge": {
+      "rouge1_f": 0.6014,
+      "rouge2_f": 0.3888,
+      "rougeL_f": 0.5221
+    }
+  },
+  {
+    "input_id": "DS-EN-02",
+    "template_id": "document_summarizer_v1",
+    "language": "en",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 9.194,
+    "word_count": 270,
+    "structure": {
+      "compliant": true,
+      "markers_found": 2,
+      "markers_total": 2
+    },
+    "rouge": {
+      "rouge1_f": 0.558,
+      "rouge2_f": 0.3226,
+      "rougeL_f": 0.4247
+    }
+  },
+  {
+    "input_id": "DS-EN-03",
+    "template_id": "document_summarizer_v1",
+    "language": "en",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 11.091,
+    "word_count": 275,
+    "structure": {
+      "compliant": true,
+      "markers_found": 2,
+      "markers_total": 2
+    },
+    "rouge": {
+      "rouge1_f": 0.4929,
+      "rouge2_f": 0.2143,
+      "rougeL_f": 0.3223
+    }
+  },
+  {
+    "input_id": "DS-EN-04",
+    "template_id": "document_summarizer_v1",
+    "language": "en",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 7.941,
+    "word_count": 251,
+    "structure": {
+      "compliant": true,
+      "markers_found": 2,
+      "markers_total": 2
+    },
+    "rouge": {
+      "rouge1_f": 0.5882,
+      "rouge2_f": 0.3499,
+      "rougeL_f": 0.4188
+    }
+  },
+  {
+    "input_id": "DS-EN-05",
+    "template_id": "document_summarizer_v1",
+    "language": "en",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 7.35,
+    "word_count": 210,
+    "structure": {
+      "compliant": true,
+      "markers_found": 2,
+      "markers_total": 2
+    },
+    "rouge": {
+      "rouge1_f": 0.5287,
+      "rouge2_f": 0.2601,
+      "rougeL_f": 0.3966
+    }
+  },
+  {
+    "input_id": "DS-VI-01",
+    "template_id": "document_summarizer_v1",
+    "language": "vi",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 16.033,
+    "word_count": 386,
+    "structure": {
+      "compliant": true,
+      "markers_found": 2,
+      "markers_total": 2
+    },
+    "rouge": {
+      "rouge1_f": 0.6124,
+      "rouge2_f": 0.4529,
+      "rougeL_f": 0.4197
+    }
+  },
+  {
+    "input_id": "DS-VI-02",
+    "template_id": "document_summarizer_v1",
+    "language": "vi",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 22.745,
+    "word_count": 333,
+    "structure": {
+      "compliant": true,
+      "markers_found": 2,
+      "markers_total": 2
+    },
+    "rouge": {
+      "rouge1_f": 0.7098,
+      "rouge2_f": 0.5477,
+      "rougeL_f": 0.522
+    }
+  },
+  {
+    "input_id": "DS-VI-03",
+    "template_id": "document_summarizer_v1",
+    "language": "vi",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 38.358,
+    "word_count": 346,
+    "structure": {
+      "compliant": true,
+      "markers_found": 2,
+      "markers_total": 2
+    },
+    "rouge": {
+      "rouge1_f": 0.6166,
+      "rouge2_f": 0.4521,
+      "rougeL_f": 0.4357
+    }
+  },
+  {
+    "input_id": "DS-VI-04",
+    "template_id": "document_summarizer_v1",
+    "language": "vi",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 13.587,
+    "word_count": 299,
+    "structure": {
+      "compliant": true,
+      "markers_found": 2,
+      "markers_total": 2
+    },
+    "rouge": {
+      "rouge1_f": 0.7779,
+      "rouge2_f": 0.6071,
+      "rougeL_f": 0.5912
+    }
+  },
+  {
+    "input_id": "DS-VI-05",
+    "template_id": "document_summarizer_v1",
+    "language": "vi",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 11.554,
+    "word_count": 320,
+    "structure": {
+      "compliant": true,
+      "markers_found": 2,
+      "markers_total": 2
+    },
+    "rouge": {
+      "rouge1_f": 0.6117,
+      "rouge2_f": 0.4736,
+      "rougeL_f": 0.4723
+    }
+  },
+  {
+    "input_id": "LG-EN-01",
+    "template_id": "lecture_generator_v1",
+    "language": "en",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 38.251,
+    "word_count": 1266,
+    "structure": {
+      "compliant": true,
+      "markers_found": 3,
+      "markers_total": 3
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "LG-EN-02",
+    "template_id": "lecture_generator_v1",
+    "language": "en",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 45.032,
+    "word_count": 1261,
+    "structure": {
+      "compliant": true,
+      "markers_found": 3,
+      "markers_total": 3
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "LG-EN-03",
+    "template_id": "lecture_generator_v1",
+    "language": "en",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 46.479,
+    "word_count": 1372,
+    "structure": {
+      "compliant": true,
+      "markers_found": 3,
+      "markers_total": 3
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "LG-EN-04",
+    "template_id": "lecture_generator_v1",
+    "language": "en",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 44.525,
+    "word_count": 1304,
+    "structure": {
+      "compliant": true,
+      "markers_found": 3,
+      "markers_total": 3
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "LG-EN-05",
+    "template_id": "lecture_generator_v1",
+    "language": "en",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 41.71,
+    "word_count": 1224,
+    "structure": {
+      "compliant": true,
+      "markers_found": 3,
+      "markers_total": 3
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "LG-VI-01",
+    "template_id": "lecture_generator_v1",
+    "language": "vi",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 40.352,
+    "word_count": 851,
+    "structure": {
+      "compliant": true,
+      "markers_found": 3,
+      "markers_total": 3
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "LG-VI-02",
+    "template_id": "lecture_generator_v1",
+    "language": "vi",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 37.651,
+    "word_count": 861,
+    "structure": {
+      "compliant": true,
+      "markers_found": 3,
+      "markers_total": 3
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "LG-VI-03",
+    "template_id": "lecture_generator_v1",
+    "language": "vi",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 41.066,
+    "word_count": 890,
+    "structure": {
+      "compliant": true,
+      "markers_found": 3,
+      "markers_total": 3
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "LG-VI-04",
+    "template_id": "lecture_generator_v1",
+    "language": "vi",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 35.323,
+    "word_count": 837,
+    "structure": {
+      "compliant": true,
+      "markers_found": 3,
+      "markers_total": 3
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "LG-VI-05",
+    "template_id": "lecture_generator_v1",
+    "language": "vi",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 36.727,
+    "word_count": 838,
+    "structure": {
+      "compliant": true,
+      "markers_found": 3,
+      "markers_total": 3
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "CD-EN-01",
+    "template_id": "curriculum_designer_v1",
+    "language": "en",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 43.61,
+    "word_count": 1308,
+    "structure": {
+      "compliant": true,
+      "markers_found": 3,
+      "markers_total": 3
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "CD-EN-02",
+    "template_id": "curriculum_designer_v1",
+    "language": "en",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 46.646,
+    "word_count": 1366,
+    "structure": {
+      "compliant": true,
+      "markers_found": 3,
+      "markers_total": 3
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "CD-EN-03",
+    "template_id": "curriculum_designer_v1",
+    "language": "en",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 43.731,
+    "word_count": 1386,
+    "structure": {
+      "compliant": true,
+      "markers_found": 3,
+      "markers_total": 3
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "CD-EN-04",
+    "template_id": "curriculum_designer_v1",
+    "language": "en",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 48.715,
+    "word_count": 1438,
+    "structure": {
+      "compliant": true,
+      "markers_found": 3,
+      "markers_total": 3
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "CD-EN-05",
+    "template_id": "curriculum_designer_v1",
+    "language": "en",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 42.18,
+    "word_count": 1387,
+    "structure": {
+      "compliant": true,
+      "markers_found": 3,
+      "markers_total": 3
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "CF-EN-01",
+    "template_id": "collaboration_framework_v1",
+    "language": "en",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 44.317,
+    "word_count": 1496,
+    "structure": {
+      "compliant": true,
+      "markers_found": 4,
+      "markers_total": 4
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "CF-EN-02",
+    "template_id": "collaboration_framework_v1",
+    "language": "en",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 39.744,
+    "word_count": 1384,
+    "structure": {
+      "compliant": true,
+      "markers_found": 4,
+      "markers_total": 4
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "CF-EN-03",
+    "template_id": "collaboration_framework_v1",
+    "language": "en",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 39.786,
+    "word_count": 1455,
+    "structure": {
+      "compliant": true,
+      "markers_found": 4,
+      "markers_total": 4
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "CF-EN-04",
+    "template_id": "collaboration_framework_v1",
+    "language": "en",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 34.184,
+    "word_count": 1235,
+    "structure": {
+      "compliant": true,
+      "markers_found": 4,
+      "markers_total": 4
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "CF-EN-05",
+    "template_id": "collaboration_framework_v1",
+    "language": "en",
+    "model_key": "claude",
+    "model_id": "claude-sonnet-4-6",
+    "latency_s": 38.572,
+    "word_count": 1470,
+    "structure": {
+      "compliant": true,
+      "markers_found": 4,
+      "markers_total": 4
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "MM-EN-01",
+    "template_id": "meeting_minutes_v1",
+    "language": "en",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 5.537,
+    "word_count": 413,
+    "structure": {
+      "compliant": true,
+      "markers_found": 4,
+      "markers_total": 4
+    },
+    "rouge": {
+      "rouge1_f": 0.8253,
+      "rouge2_f": 0.665,
+      "rougeL_f": 0.7013
+    }
+  },
+  {
+    "input_id": "MM-EN-02",
+    "template_id": "meeting_minutes_v1",
+    "language": "en",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 3.417,
+    "word_count": 297,
+    "structure": {
+      "compliant": true,
+      "markers_found": 4,
+      "markers_total": 4
+    },
+    "rouge": {
+      "rouge1_f": 0.7768,
+      "rouge2_f": 0.5926,
+      "rougeL_f": 0.6889
+    }
+  },
+  {
+    "input_id": "MM-EN-03",
+    "template_id": "meeting_minutes_v1",
+    "language": "en",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 4.095,
+    "word_count": 411,
+    "structure": {
+      "compliant": true,
+      "markers_found": 4,
+      "markers_total": 4
+    },
+    "rouge": {
+      "rouge1_f": 0.8836,
+      "rouge2_f": 0.7952,
+      "rougeL_f": 0.8527
+    }
+  },
+  {
+    "input_id": "MM-EN-04",
+    "template_id": "meeting_minutes_v1",
+    "language": "en",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 2.214,
+    "word_count": 189,
+    "structure": {
+      "compliant": true,
+      "markers_found": 4,
+      "markers_total": 4
+    },
+    "rouge": {
+      "rouge1_f": 0.877,
+      "rouge2_f": 0.7796,
+      "rougeL_f": 0.8556
+    }
+  },
+  {
+    "input_id": "MM-EN-05",
+    "template_id": "meeting_minutes_v1",
+    "language": "en",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 4.549,
+    "word_count": 240,
+    "structure": {
+      "compliant": true,
+      "markers_found": 4,
+      "markers_total": 4
+    },
+    "rouge": {
+      "rouge1_f": 0.8289,
+      "rouge2_f": 0.6708,
+      "rougeL_f": 0.7505
+    }
+  },
+  {
+    "input_id": "MM-VI-01",
+    "template_id": "meeting_minutes_v1",
+    "language": "vi",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 4.538,
+    "word_count": 516,
+    "structure": {
+      "compliant": true,
+      "markers_found": 4,
+      "markers_total": 4
+    },
+    "rouge": {
+      "rouge1_f": 0.9392,
+      "rouge2_f": 0.8583,
+      "rougeL_f": 0.8066
+    }
+  },
+  {
+    "input_id": "MM-VI-02",
+    "template_id": "meeting_minutes_v1",
+    "language": "vi",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 4.527,
+    "word_count": 406,
+    "structure": {
+      "compliant": true,
+      "markers_found": 4,
+      "markers_total": 4
+    },
+    "rouge": {
+      "rouge1_f": 0.8295,
+      "rouge2_f": 0.7585,
+      "rougeL_f": 0.7833
+    }
+  },
+  {
+    "input_id": "MM-VI-03",
+    "template_id": "meeting_minutes_v1",
+    "language": "vi",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 6.155,
+    "word_count": 439,
+    "structure": {
+      "compliant": true,
+      "markers_found": 4,
+      "markers_total": 4
+    },
+    "rouge": {
+      "rouge1_f": 0.8869,
+      "rouge2_f": 0.8237,
+      "rougeL_f": 0.8187
+    }
+  },
+  {
+    "input_id": "MM-VI-04",
+    "template_id": "meeting_minutes_v1",
+    "language": "vi",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 3.517,
+    "word_count": 282,
+    "structure": {
+      "compliant": true,
+      "markers_found": 4,
+      "markers_total": 4
+    },
+    "rouge": {
+      "rouge1_f": 0.9017,
+      "rouge2_f": 0.7881,
+      "rougeL_f": 0.7806
+    }
+  },
+  {
+    "input_id": "MM-VI-05",
+    "template_id": "meeting_minutes_v1",
+    "language": "vi",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 3.777,
+    "word_count": 329,
+    "structure": {
+      "compliant": true,
+      "markers_found": 4,
+      "markers_total": 4
+    },
+    "rouge": {
+      "rouge1_f": 0.8988,
+      "rouge2_f": 0.7674,
+      "rougeL_f": 0.7361
+    }
+  },
+  {
+    "input_id": "DS-EN-01",
+    "template_id": "document_summarizer_v1",
+    "language": "en",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 1.979,
+    "word_count": 145,
+    "structure": {
+      "compliant": true,
+      "markers_found": 2,
+      "markers_total": 2
+    },
+    "rouge": {
+      "rouge1_f": 0.8054,
+      "rouge2_f": 0.6892,
+      "rougeL_f": 0.7718
+    }
+  },
+  {
+    "input_id": "DS-EN-02",
+    "template_id": "document_summarizer_v1",
+    "language": "en",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 1.757,
+    "word_count": 142,
+    "structure": {
+      "compliant": true,
+      "markers_found": 2,
+      "markers_total": 2
+    },
+    "rouge": {
+      "rouge1_f": 0.85,
+      "rouge2_f": 0.7266,
+      "rougeL_f": 0.8286
+    }
+  },
+  {
+    "input_id": "DS-EN-03",
+    "template_id": "document_summarizer_v1",
+    "language": "en",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 2.604,
+    "word_count": 153,
+    "structure": {
+      "compliant": true,
+      "markers_found": 2,
+      "markers_total": 2
+    },
+    "rouge": {
+      "rouge1_f": 0.8219,
+      "rouge2_f": 0.6966,
+      "rougeL_f": 0.8082
+    }
+  },
+  {
+    "input_id": "DS-EN-04",
+    "template_id": "document_summarizer_v1",
+    "language": "en",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 2.162,
+    "word_count": 150,
+    "structure": {
+      "compliant": true,
+      "markers_found": 2,
+      "markers_total": 2
+    },
+    "rouge": {
+      "rouge1_f": 0.805,
+      "rouge2_f": 0.6604,
+      "rougeL_f": 0.7183
+    }
+  },
+  {
+    "input_id": "DS-EN-05",
+    "template_id": "document_summarizer_v1",
+    "language": "en",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 4.476,
+    "word_count": 139,
+    "structure": {
+      "compliant": true,
+      "markers_found": 2,
+      "markers_total": 2
+    },
+    "rouge": {
+      "rouge1_f": 0.8145,
+      "rouge2_f": 0.7033,
+      "rougeL_f": 0.8073
+    }
+  },
+  {
+    "input_id": "DS-VI-01",
+    "template_id": "document_summarizer_v1",
+    "language": "vi",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 2.454,
+    "word_count": 201,
+    "structure": {
+      "compliant": true,
+      "markers_found": 2,
+      "markers_total": 2
+    },
+    "rouge": {
+      "rouge1_f": 0.9155,
+      "rouge2_f": 0.742,
+      "rougeL_f": 0.7218
+    }
+  },
+  {
+    "input_id": "DS-VI-02",
+    "template_id": "document_summarizer_v1",
+    "language": "vi",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 2.926,
+    "word_count": 219,
+    "structure": {
+      "compliant": true,
+      "markers_found": 2,
+      "markers_total": 2
+    },
+    "rouge": {
+      "rouge1_f": 0.891,
+      "rouge2_f": 0.7406,
+      "rougeL_f": 0.7321
+    }
+  },
+  {
+    "input_id": "DS-VI-03",
+    "template_id": "document_summarizer_v1",
+    "language": "vi",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 2.003,
+    "word_count": 169,
+    "structure": {
+      "compliant": true,
+      "markers_found": 2,
+      "markers_total": 2
+    },
+    "rouge": {
+      "rouge1_f": 0.8831,
+      "rouge2_f": 0.6721,
+      "rougeL_f": 0.6976
+    }
+  },
+  {
+    "input_id": "DS-VI-04",
+    "template_id": "document_summarizer_v1",
+    "language": "vi",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 5.715,
+    "word_count": 199,
+    "structure": {
+      "compliant": true,
+      "markers_found": 2,
+      "markers_total": 2
+    },
+    "rouge": {
+      "rouge1_f": 0.9412,
+      "rouge2_f": 0.8766,
+      "rougeL_f": 0.9091
+    }
+  },
+  {
+    "input_id": "DS-VI-05",
+    "template_id": "document_summarizer_v1",
+    "language": "vi",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 3.042,
+    "word_count": 189,
+    "structure": {
+      "compliant": true,
+      "markers_found": 2,
+      "markers_total": 2
+    },
+    "rouge": {
+      "rouge1_f": 0.8685,
+      "rouge2_f": 0.716,
+      "rougeL_f": 0.7371
+    }
+  },
+  {
+    "input_id": "LG-EN-01",
+    "template_id": "lecture_generator_v1",
+    "language": "en",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 5.462,
+    "word_count": 546,
+    "structure": {
+      "compliant": true,
+      "markers_found": 3,
+      "markers_total": 3
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "LG-EN-02",
+    "template_id": "lecture_generator_v1",
+    "language": "en",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 7.361,
+    "word_count": 561,
+    "structure": {
+      "compliant": true,
+      "markers_found": 3,
+      "markers_total": 3
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "LG-EN-03",
+    "template_id": "lecture_generator_v1",
+    "language": "en",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 6.047,
+    "word_count": 504,
+    "structure": {
+      "compliant": true,
+      "markers_found": 3,
+      "markers_total": 3
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "LG-EN-04",
+    "template_id": "lecture_generator_v1",
+    "language": "en",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 6.088,
+    "word_count": 536,
+    "structure": {
+      "compliant": true,
+      "markers_found": 3,
+      "markers_total": 3
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "LG-EN-05",
+    "template_id": "lecture_generator_v1",
+    "language": "en",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 15.066,
+    "word_count": 679,
+    "structure": {
+      "compliant": true,
+      "markers_found": 3,
+      "markers_total": 3
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "LG-VI-01",
+    "template_id": "lecture_generator_v1",
+    "language": "vi",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 10.527,
+    "word_count": 604,
+    "structure": {
+      "compliant": true,
+      "markers_found": 3,
+      "markers_total": 3
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "LG-VI-02",
+    "template_id": "lecture_generator_v1",
+    "language": "vi",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 10.444,
+    "word_count": 705,
+    "structure": {
+      "compliant": true,
+      "markers_found": 3,
+      "markers_total": 3
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "LG-VI-03",
+    "template_id": "lecture_generator_v1",
+    "language": "vi",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 9.473,
+    "word_count": 652,
+    "structure": {
+      "compliant": true,
+      "markers_found": 3,
+      "markers_total": 3
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "LG-VI-04",
+    "template_id": "lecture_generator_v1",
+    "language": "vi",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 7.572,
+    "word_count": 624,
+    "structure": {
+      "compliant": true,
+      "markers_found": 3,
+      "markers_total": 3
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "LG-VI-05",
+    "template_id": "lecture_generator_v1",
+    "language": "vi",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 8.364,
+    "word_count": 674,
+    "structure": {
+      "compliant": true,
+      "markers_found": 3,
+      "markers_total": 3
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "CD-EN-01",
+    "template_id": "curriculum_designer_v1",
+    "language": "en",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 6.768,
+    "word_count": 418,
+    "structure": {
+      "compliant": true,
+      "markers_found": 3,
+      "markers_total": 3
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "CD-EN-02",
+    "template_id": "curriculum_designer_v1",
+    "language": "en",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 4.294,
+    "word_count": 450,
+    "structure": {
+      "compliant": true,
+      "markers_found": 3,
+      "markers_total": 3
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "CD-EN-03",
+    "template_id": "curriculum_designer_v1",
+    "language": "en",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 6.34,
+    "word_count": 502,
+    "structure": {
+      "compliant": true,
+      "markers_found": 3,
+      "markers_total": 3
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "CD-EN-04",
+    "template_id": "curriculum_designer_v1",
+    "language": "en",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 6.027,
+    "word_count": 451,
+    "structure": {
+      "compliant": true,
+      "markers_found": 3,
+      "markers_total": 3
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "CD-EN-05",
+    "template_id": "curriculum_designer_v1",
+    "language": "en",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 5.711,
+    "word_count": 498,
+    "structure": {
+      "compliant": true,
+      "markers_found": 3,
+      "markers_total": 3
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "CF-EN-01",
+    "template_id": "collaboration_framework_v1",
+    "language": "en",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 5.442,
+    "word_count": 375,
+    "structure": {
+      "compliant": true,
+      "markers_found": 4,
+      "markers_total": 4
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "CF-EN-02",
+    "template_id": "collaboration_framework_v1",
+    "language": "en",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 7.469,
+    "word_count": 404,
+    "structure": {
+      "compliant": true,
+      "markers_found": 4,
+      "markers_total": 4
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "CF-EN-03",
+    "template_id": "collaboration_framework_v1",
+    "language": "en",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 5.639,
+    "word_count": 395,
+    "structure": {
+      "compliant": true,
+      "markers_found": 4,
+      "markers_total": 4
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "CF-EN-04",
+    "template_id": "collaboration_framework_v1",
+    "language": "en",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 6.234,
+    "word_count": 418,
+    "structure": {
+      "compliant": true,
+      "markers_found": 4,
+      "markers_total": 4
+    },
+    "rouge": null
+  },
+  {
+    "input_id": "CF-EN-05",
+    "template_id": "collaboration_framework_v1",
+    "language": "en",
+    "model_key": "gpt4o",
+    "model_id": "gpt-4o",
+    "latency_s": 5.268,
+    "word_count": 355,
+    "structure": {
+      "compliant": true,
+      "markers_found": 4,
+      "markers_total": 4
+    },
+    "rouge": null
+  }
+]

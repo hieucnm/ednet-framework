@@ -1,0 +1,29 @@
+## Meeting Minutes
+**Network:** VASTN
+**Date:** 2024-04-04
+**Attendees:** Prof. Wiremu Tane (RMIT Vietnam), Dr. Vo Thanh Nam (HCMUT), [Speaker Unidentified] (Intel)
+
+### Agenda Items Discussed
+The working group convened to finalise the assessment weighting for the joint AI module. The primary point of contention carried over from the previous meeting was whether the project component should be weighted at 40 or 50 percent. The Intel representative argued strongly in favour of a 50 percent project weighting on the grounds that the programme is intended to develop applied skills, and that written examinations assess memory rather than capability. Prof. Wiremu Tane, speaking also on behalf of HCMUT based on a pre-meeting email, raised equity concerns regarding a 50 percent project weighting, noting that it disadvantages students with limited time outside of class, and proposed an alternative split of 40 percent project, 30 percent midterm, and 30 percent final examination. The Intel representative proposed a compromise of 45 percent project, 25 percent midterm, and 30 percent final. Dr. Vo Thanh Nam confirmed this compromise was acceptable to HCMUT, noting specifically that a project weighting at or above 50 percent would trigger a separate approval process at HCMUT, which the 45 percent figure avoids. No objections were raised and the proposal was adopted.
+
+The status of the project brief template was raised by Dr. Vo Thanh Nam. The template has been in draft form since January and requires an owner to bring it to a reviewable state ahead of the pilot scheduled for September. Prof. Wiremu Tane offered for RMIT to take ownership of the document and committed to producing a draft by 15 May 2024. Dr. Vo Thanh Nam requested a minimum of two weeks for review before submission to the full committee, resulting in a committee submission deadline of 1 June 2024.
+
+The Intel representative raised the question of grading responsibility for the project component in cases where a student has both a university supervisor and an industry mentor. This matter was not resolved during the call. Prof. Wiremu Tane and Dr. Vo Thanh Nam agreed that the issue requires a formal policy decision beyond the remit of the working group and should be escalated to the academic committee, with the item to be placed on the agenda for the next meeting.
+
+### Decisions Made
+The assessment weighting for the joint AI module was agreed as follows: 45 percent project, 25 percent midterm examination, and 30 percent final examination.
+
+The question of grading responsibility where a project involves both a university supervisor and an industry mentor was agreed to require a formal policy decision and will be escalated to the academic committee rather than resolved at working group level.
+
+### Action Items
+| Owner | Deadline | Description |
+|---|---|---|
+| Prof. Wiremu Tane (RMIT Vietnam) | 2024-05-15 | Produce a reviewable draft of the project brief template |
+| Prof. Wiremu Tane (RMIT Vietnam) | 2024-06-01 | Submit the project brief template to the full committee |
+| Prof. Wiremu Tane (RMIT Vietnam) | TBD | Place grading rubric policy (university supervisor vs. industry mentor) on the agenda for the next meeting and escalate to the academic committee |
+
+### Next Meeting
+Not scheduled.
+
+---
+*This document was generated with AI assistance and is pending human review.*

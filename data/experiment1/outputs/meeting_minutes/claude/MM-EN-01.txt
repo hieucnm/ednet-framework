@@ -1,0 +1,35 @@
+## Meeting Minutes
+**Network:** VASTN
+**Date:** 2024-03-15
+**Attendees:** Assoc. Prof. Tran Minh Quang (HCMUT), Dr. Nguyen Phuong Linh (Intel Vietnam), Ms. Le Thi Bich Ngoc (HCMUT Admin), Prof. Sarah Chen (NUS), Dr. Ha Duc Thinh (HUST)
+
+### Agenda Items Discussed
+
+Dr. Nguyen Phuong Linh (Intel Vietnam) provided a progress update on the AI hardware module. The module is approximately 70 percent complete, with lecture slides for weeks one through four finalised and FPGA lab exercises ready for review. A bottleneck was identified regarding simulation software licensing: university licences expected from HCMUT procurement by end of February had been delayed. Ms. Le Thi Bich Ngoc confirmed that the revised procurement estimate is end of March, approximately two weeks from the meeting date. In response, Assoc. Prof. Tran Minh Quang proposed reordering the module schedule so that weeks five and six are adjusted to push the simulation lab to week seven, to which Dr. Nguyen Phuong Linh agreed. Dr. Nguyen Phuong Linh committed to revising the module outline and distributing it to the committee by the following Friday.
+
+Prof. Sarah Chen (NUS) raised the matter of student mobility numbers for the second half of the year. Eight students from HCMUT have confirmed places at NUS for the summer semester; however, the minimum cohort size required by NUS to run the module as a joint cohort is eleven students, leaving a shortfall of three. Dr. Ha Duc Thinh reported that HUST has two students who have submitted applications and that a third student was expected to submit by the end of that week. Prof. Sarah Chen noted that if the third HUST application is received, the total cohort would reach eleven, and she committed to confirming this with the NUS international office and sending a formal update to all attendees by Monday.
+
+The scheduling of the mid-year review was discussed. Assoc. Prof. Tran Minh Quang noted that a June meeting in Hanoi had previously been discussed. Dr. Ha Duc Thinh confirmed that HUST could host the event on either June 14th or June 15th, with conference facilities available on both days. June 14th was tentatively selected, and Assoc. Prof. Tran Minh Quang indicated he would issue a calendar invite following the call.
+
+Dr. Nguyen Phuong Linh raised an outstanding administrative matter, noting that travel reimbursement forms for the Intel Vietnam team from the February workshop had not yet been processed. Ms. Le Thi Bich Ngoc agreed to follow up with the finance office on the same day as the meeting.
+
+### Decisions Made
+
+The AI hardware module schedule will be adjusted to defer the simulation lab component to week seven, pending the revised module outline to be prepared by Dr. Nguyen Phuong Linh.
+
+The VASTN mid-year review is tentatively scheduled for June 14th, 2024, to be hosted by HUST in Hanoi.
+
+### Action Items
+
+| Owner | Deadline | Description |
+|---|---|---|
+| Dr. Nguyen Phuong Linh | 2024-03-22 (next Friday) | Revise the AI hardware module outline to reorder weeks five and six, pushing the simulation lab to week seven, and distribute to the committee. |
+| Prof. Sarah Chen | 2024-03-18 (Monday) | Confirm the final student cohort numbers with the NUS international office and send a formal update to all attendees. |
+| Assoc. Prof. Tran Minh Quang | TBD | Send a calendar invite to all attendees for the mid-year review on June 14th, 2024, in Hanoi. |
+| Ms. Le Thi Bich Ngoc | 2024-03-15 (same day) | Follow up with the HCMUT finance office regarding the unprocessed travel reimbursement forms for the Intel Vietnam team from the February workshop. |
+
+### Next Meeting
+June 14th, 2024, in-person, hosted by HUST in Hanoi.
+
+---
+*This document was generated with AI assistance and is pending human review.*

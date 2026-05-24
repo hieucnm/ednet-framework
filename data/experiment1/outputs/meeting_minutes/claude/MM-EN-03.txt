@@ -1,0 +1,39 @@
+## Meeting Minutes
+**Network:** VASTN
+**Date:** 2024-05-22
+**Attendees:** Prof. Lim Beng Kiat (NUS), Dr. Pham Ngoc Tuan (HCMUT), Dr. Ha Duc Thinh (HUST), Assoc. Prof. Tran Minh Quang (HCMUT), Ms. Le Thi Bich Ngoc (HCMUT Admin), Dr. Nguyen Phuong Linh (Intel Vietnam), Prof. Sarah Chen (NUS)
+
+### Agenda Items Discussed
+
+**Item 1 — Student Performance Outcomes for Semester 1:** Dr. Pham Ngoc Tuan (HCMUT) presented the Semester 1 performance report. The cohort comprised 23 students across three institutions. The overall pass rate was 91 percent, exceeding the programme target of 85 percent. The mean grade was 73.4 out of 100. Two students did not complete the semester: one withdrew due to visa issues and one was academically discontinued. The strongest performance was recorded in the machine learning theory module. The weakest performance was in the embedded systems lab, where five students required supplementary assessment. Intel Vietnam's mentors noted that lab equipment at HUST was not fully equivalent to that available at HCMUT and NUS, and identified this disparity as a likely contributing factor to the performance gap. Dr. Ha Duc Thinh (HUST) responded that the equipment issue had been acknowledged and that HUST submitted a capital request in February 2024, with updated workstations expected to be in place before Semester 2.
+
+**Item 2 — Curriculum Revision Proposals:** Assoc. Prof. Tran Minh Quang (HCMUT) presented two proposals from the curriculum committee. The first proposal was to add a dedicated four-hour workshop on responsible AI and ethics, which is currently absent from the programme. The second proposal was to restructure the capstone project from a solo deliverable to a team project of two to three students, in order to better reflect industry practice. Dr. Nguyen Phuong Linh (Intel Vietnam) expressed strong support for both proposals, noting that AI ethics is now a hiring requirement at Intel and that solo projects do not reflect how engineers work in practice. Prof. Sarah Chen (NUS) expressed support but noted that a team capstone would require updated assessment rubrics and peer evaluation instruments, and that this work would need to be costed and assigned prior to formal approval.
+
+**Item 3 — Budget Review for the Year:** Ms. Le Thi Bich Ngoc (HCMUT Admin) presented the budget review. Total expenditure to date stands at 78 percent of the annual budget. Two line items are over-running: travel costs for the February consortium meeting exceeded budget by 12 percent, and software licences came in 18 percent above estimate due to a vendor price increase. The projected year-end position is a 6 percent overspend unless Q3 travel costs are reduced.
+
+**Items 4 and 5:** These agenda items were not reached due to time constraints and were carried forward to the next meeting.
+
+### Decisions Made
+
+**Decision 1:** The board accepted the Semester 1 performance report and formally recorded the 91 percent pass rate as meeting the programme target.
+
+**Decision 2:** The responsible AI and ethics workshop was approved for inclusion in Semester 2, with a four-hour allocation scheduled in week ten.
+
+**Decision 3:** The team capstone proposal was approved in principle, subject to RMIT Vietnam delivering updated assessment rubrics by 1 August 2024.
+
+**Decision 4:** The board approved substituting one planned in-person meeting in Q3 with a virtual meeting in order to recover the projected year-end overspend.
+
+**Decision 5:** The next Review Board meeting was scheduled for 19 September 2024, to be hosted by NUS, with all institutions required to confirm attendance by 30 August 2024.
+
+### Action Items
+| Owner | Deadline | Description |
+|---|---|---|
+| HUST | Before Semester 2 | Install updated workstations to resolve the lab equipment gap identified in the embedded systems module |
+| RMIT Vietnam | 2024-08-01 | Deliver updated assessment rubrics and peer evaluation instruments for the team capstone project |
+| All Institutions | 2024-08-30 | Confirm attendance at the next Review Board meeting scheduled for 19 September 2024 at NUS |
+
+### Next Meeting
+19 September 2024, hosted by NUS (format not specified in transcript).
+
+---
+*This document was generated with AI assistance and is pending human review.*

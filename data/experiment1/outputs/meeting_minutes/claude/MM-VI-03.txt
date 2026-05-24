@@ -1,0 +1,36 @@
+## Meeting Minutes
+**Network:** VASTN
+**Date:** 10 tháng 5 năm 2024
+**Attendees:** GS.TS. Lê Hùng Lân (Trường Đại học Bách khoa TP.HCM), TS. Nguyễn Thanh Tùng (Trưởng Tiểu ban Chương trình), PGS.TS. Lý Quốc Tuấn (Trường Đại học Bách khoa TP.HCM), TS. Phạm Ngọc Tuấn (Trường Đại học Bách khoa TP.HCM)
+
+### Agenda Items Discussed
+
+GS.TS. Lê Hùng Lân, Chủ tịch Hội đồng, khai mạc phiên xét duyệt và xác định nhiệm vụ của phiên họp là xem xét toàn bộ khung chương trình của hai chuyên ngành: Kỹ thuật AI và Thiết kế Vi mạch Bán dẫn. Hội đồng đặt ra bốn nội dung cần thông qua trong phiên họp.
+
+Về nội dung thứ nhất — chuẩn đầu ra — TS. Nguyễn Thanh Tùng trình bày đề xuất của Tiểu ban Chương trình. Bộ chuẩn đầu ra gồm 12 chuẩn được xây dựng trên cơ sở khảo sát 47 doanh nghiệp công nghệ tại Việt Nam và tham khảo chuẩn ABET của Hoa Kỳ cũng như chuẩn EUR-ACE của châu Âu. Về kiến thức, sinh viên tốt nghiệp cần nắm vững toán học nền tảng cho AI bao gồm đại số tuyến tính, xác suất thống kê và tối ưu hóa, đồng thời nắm vững nguyên lý thiết kế mạch tích hợp số. Về kỹ năng, sinh viên cần có khả năng triển khai và đánh giá mô hình học máy trên cả môi trường đám mây và thiết bị biên, cũng như có khả năng sử dụng công cụ thiết kế VLSI ở mức cơ bản. PGS.TS. Lý Quốc Tuấn nhận xét rằng chuẩn đầu ra về bảo mật AI còn rất mỏng, chỉ có một dòng về nhận thức mà không có năng lực thực hành cụ thể. Trong bối cảnh các cuộc tấn công adversarial ngày càng phổ biến, ông đề nghị bổ sung chuẩn đầu ra về khả năng đánh giá độ bền vững của mô hình trước dữ liệu đầu vào thù địch. TS. Nguyễn Thanh Tùng ghi nhận ý kiến và xác nhận Tiểu ban sẽ bổ sung chuẩn đầu ra thứ 13 về bảo mật AI thực hành.
+
+Về nội dung thứ hai — khung phân bổ tín chỉ — TS. Nguyễn Thanh Tùng trình bày cơ cấu tổng số 130 tín chỉ, bao gồm: khối kiến thức đại cương 30 tín chỉ, khối cơ sở ngành 45 tín chỉ, khối chuyên ngành 40 tín chỉ, và khóa luận tốt nghiệp hoặc học phần thay thế 15 tín chỉ. TS. Phạm Ngọc Tuấn nêu vấn đề về sự chênh lệch giữa khối chuyên ngành 40 tín chỉ và danh sách học phần lên tới 52 tín chỉ nếu chọn tất cả, và yêu cầu làm rõ cơ chế tự chọn cho sinh viên. TS. Nguyễn Thanh Tùng giải thích rằng trong 52 tín chỉ có 20 tín chỉ tự chọn, sinh viên chọn tối thiểu 20 tín chỉ trong số đó, và xác nhận sẽ làm rõ nội dung này trong văn bản chương trình.
+
+Về nội dung thứ ba và thứ tư — lịch triển khai và ngân sách — GS.TS. Lê Hùng Lân thông báo hai nội dung này sẽ được chuyển sang phiên họp tháng 6 do thời gian không cho phép. Phiên họp kết thúc lúc 11 giờ 45 phút.
+
+### Decisions Made
+
+Hội đồng thông qua bộ chuẩn đầu ra gồm 12 chuẩn hiện có với điều kiện Tiểu ban Chương trình bổ sung chuẩn đầu ra thứ 13 về bảo mật AI thực hành, cụ thể là năng lực đánh giá độ bền vững của mô hình trước dữ liệu đầu vào thù địch, trước khi trình lên Hội đồng Khoa học và Đào tạo.
+
+Hội đồng thông qua khung phân bổ tín chỉ tổng số 130 tín chỉ với yêu cầu Tiểu ban Chương trình làm rõ cơ chế tự chọn trong khối chuyên ngành trong văn bản chương trình chính thức.
+
+Hội đồng quyết định chuyển nội dung thứ ba về lịch triển khai và nội dung thứ tư về ngân sách sang phiên họp tháng 6 năm 2024.
+
+### Action Items
+
+| Owner | Deadline | Description |
+|---|---|---|
+| TS. Nguyễn Thanh Tùng | TBD | Bổ sung chuẩn đầu ra thứ 13 về bảo mật AI thực hành (năng lực đánh giá độ bền vững của mô hình trước dữ liệu đầu vào thù địch) vào bộ chuẩn đầu ra trước khi trình lên Hội đồng Khoa học và Đào tạo |
+| TS. Nguyễn Thanh Tùng | TBD | Làm rõ cơ chế tự chọn tín chỉ trong khối chuyên ngành (20 tín chỉ tự chọn trong tổng số 52 tín chỉ) trong văn bản chương trình chính thức |
+
+### Next Meeting
+
+Dự kiến ngày 7 tháng 6 năm 2024. Hình thức họp không được đề cập trong biên bản.
+
+---
+*This document was generated with AI assistance and is pending human review.*

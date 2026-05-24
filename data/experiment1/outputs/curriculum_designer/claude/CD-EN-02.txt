@@ -1,0 +1,56 @@
+## Curriculum Framework: Semiconductor Design Fundamentals — Industry Entry Programme
+
+**Participating institutions:** Ho Chi Minh City University of Technology (HCMUT); Bosch Vietnam
+
+**Program goals:** This programme equips final-year undergraduate engineers with the foundational competencies required for entry-level positions in semiconductor research and development and embedded product development. Specifically, it aims to build working knowledge of digital integrated circuit design and functional verification, provide direct exposure to commercial EDA toolchains in active industrial use, and develop a practical, end-to-end understanding of the design flow from RTL specification through synthesis, simulation, and tape-out preparation. The programme bridges the gap between academic digital logic instruction and the expectations of industry hiring managers in the semiconductor sector, with Bosch Vietnam contributing direct industrial context and toolchain access throughout.
+
+**Target audience:** Final-year undergraduate students enrolled in electrical engineering or computer engineering programmes at HCMUT. Students must have successfully completed at least one course in digital logic design prior to enrolment. The programme is specifically intended for students who are actively seeking employment in the semiconductor or embedded systems sector within twelve months of graduation and who wish to supplement their academic preparation with industry-aligned, practical training.
+
+**Total duration:** 8 weeks; 4 contact hours per week (32 contact hours total). Sessions are designed to be schedulable within a standard final-semester timetable and must not overlap with institutional thesis submission windows. [PARTNER REVIEW REQUIRED]
+
+---
+
+### Module Structure
+
+| Module | Title | Learning Outcomes | Credits | Modality |
+|---|---|---|---|---|
+| M01 | Semiconductor Industry Landscape and the IC Design Ecosystem | Students can describe the structure of the global semiconductor value chain; identify the roles of fabless design houses, foundries, and IP vendors; articulate where entry-level engineers contribute within an R&D organisation; relate Bosch Vietnam's product context to the broader industry map | Non-credit (orientation) | Hybrid |
+| M02 | RTL Design Principles and HDL Coding for Synthesis | Students can write synthesisable RTL in Verilog targeting combinational and sequential logic; apply coding guidelines that support downstream synthesis and verification; distinguish between simulation models and synthesisable constructs | 1 | In-person |
+| M03 | Functional Simulation and Testbench Development | Students can construct self-checking testbenches in Verilog; apply directed and constrained-random stimulus strategies; interpret simulation waveforms and log outputs to identify functional bugs; document verification intent | 1 | In-person |
+| M04 | Introduction to Logic Synthesis with Synopsys Design Compiler | Students can invoke a synthesis flow using Synopsys Design Compiler on university workstations; apply timing constraints via SDC; interpret synthesis reports for area, timing, and power; iterate RTL to resolve critical-path violations | 1 | In-person |
+| M05 | Static Timing Analysis and Design Constraints | Students can explain setup and hold timing concepts in a synthesised netlist context; read and annotate STA reports; write and refine SDC constraints for clock definition, input/output delays, and false paths | 1 | Hybrid |
+| M06 | Design-for-Verification: Lint, CDC, and Coding Quality | Students can run RTL lint checks and interpret rule-violation reports; identify common clock-domain crossing hazards; apply coding practices that reduce verification escape risk; relate quality metrics to tape-out readiness | 1 | Hybrid |
+| M07 | From Netlist to Tape-Out Simulation: The Back-End Interface | Students can describe the handoff between front-end design and physical implementation; interpret gate-level simulation results with back-annotated delays; understand sign-off criteria used in industrial flows; identify the role of DRC and LVS at a conceptual level | 1 | Hybrid |
+| M08 | Capstone Design Exercise and Industry Review | Students complete an end-to-end mini design project covering RTL coding, testbench development, synthesis, and timing closure on a defined specification; present results to a joint HCMUT–Bosch Vietnam review panel; receive structured feedback against industry hiring criteria | Non-credit (assessed project) | In-person |
+
+> **Credit note:** Credits assigned above (total 6 academic credits across M02–M07) are indicative and mapped to HCMUT's credit unit conventions. Formal credit recognition and any equivalency mapping to other frameworks require institutional agreement. [PARTNER REVIEW REQUIRED]
+
+---
+
+### Assessment Approach
+
+Assessment is distributed across the programme to reflect both conceptual understanding and practical execution capability, consistent with the programme's industry-entry orientation.
+
+**Formative assessment** occurs within each of M02 through M07. Each module includes a short in-session exercise or lab checkpoint that students complete on university workstations using the available EDA toolchain. These checkpoints are not individually graded but serve as readiness gates: students who cannot demonstrate completion of a checkpoint are expected to attend a remediation session before proceeding. Checkpoint outcomes are recorded and shared with the joint programme coordinator.
+
+**Module quizzes** are administered at the end of M03, M05, and M06. Each quiz is short (no more than 20 minutes) and tests conceptual understanding of the module's learning outcomes rather than tool-specific syntax. Quizzes are graded by HCMUT academic staff and collectively contribute 30% of the final programme grade.
+
+**Lab deliverables** are submitted at the conclusion of M04 and M07. Each deliverable requires students to submit a synthesis report, a timing report, and a brief written reflection (maximum one page) interpreting their results against the design specification. These deliverables are assessed jointly by an HCMUT instructor and a Bosch Vietnam technical reviewer using a shared rubric. Lab deliverables collectively contribute 30% of the final programme grade.
+
+**Capstone project (M08)** constitutes the remaining 40% of the final grade. Students are assessed on the functional correctness of their RTL, the quality and coverage of their testbench, the completeness of their synthesis and timing closure results, and the clarity of their oral presentation to the review panel. The capstone rubric is developed jointly by HCMUT and Bosch Vietnam and must be agreed before the programme commences. [PARTNER REVIEW REQUIRED]
+
+**Certification:** Students who achieve an overall passing grade (threshold to be agreed by both institutions) and who complete all lab checkpoints will receive a joint certificate issued under the names of HCMUT and Bosch Vietnam. The certificate will specify the programme title, duration, and the EDA toolchain environment in which practical work was conducted. Students who do not meet the passing threshold may receive a certificate of participation at the discretion of the programme coordinators. [PARTNER REVIEW REQUIRED]
+
+---
+
+### Collaboration Mechanisms Between Institutions
+
+**Role of HCMUT:** HCMUT serves as the primary academic host institution. HCMUT academic staff are responsible for delivering the conceptual and theoretical content in M02, M03, M05, and M06, administering quizzes, maintaining student enrolment records, and ensuring the programme is scheduled in compliance with the university's academic calendar and thesis deadline policies. HCMUT provides and maintains the workstation environment on which all lab sessions are conducted, ensuring that Synopsys Design Compiler licences supplied by Bosch Vietnam are correctly installed and accessible to enrolled students without requiring any personal hardware from students.
+
+**Role of Bosch Vietnam:** Bosch Vietnam contributes industrial expertise and toolchain access throughout the programme. Bosch Vietnam engineers deliver the industry-context session in M01 and co-deliver the synthesis and back-end modules M04 and M07, bringing direct experience of commercial design flows. Bosch Vietnam provides and administers Synopsys Design Compiler licence access for the duration of the programme, coordinating with HCMUT IT staff on installation and licence server configuration. Bosch Vietnam technical reviewers participate in grading lab deliverables (M04, M07) and serve on the capstone review panel in M08. Bosch Vietnam also contributes to the definition of the capstone specification and the assessment rubric to ensure alignment with entry-level hiring expectations.
+
+**Joint governance:** A programme coordination committee comprising at least one academic representative from HCMUT and one technical representative from Bosch Vietnam meets before the programme commences to finalise the schedule, the capstone specification, the assessment rubric, and the certificate template. The committee also conducts a post-programme review to evaluate student outcomes and identify improvements for subsequent cohorts. Meeting cadence and decision-making authority within the committee are to be defined in a memorandum of understanding between the two institutions. [PARTNER REVIEW REQUIRED]
+
+**Content co-development:** Module outlines for M04 and M07 are co-developed by HCMUT instructors and Bosch Vietnam engineers to ensure that academic rigour and industrial relevance are both reflected. Neither institution unilaterally modifies the content of jointly owned modules after the programme commences without agreement from the other party.
+
+**Resource

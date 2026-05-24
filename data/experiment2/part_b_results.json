@@ -1,0 +1,79 @@
+{
+  "n_runs": 5,
+  "hitl_triggered": 5,
+  "hitl_trigger_rate": 1.0,
+  "trail_complete": 5,
+  "trail_complete_rate": 1.0,
+  "trace_results": [
+    {
+      "input_id": "MM-EN-01",
+      "session_id": "bc4edec7-f4f8-4dcd-a623-0657259ef1bd",
+      "log_id": "378634f6-f55d-4fd7-823c-889270ffc900",
+      "status": "PENDING_REVIEW",
+      "trail_checks": {
+        "log_entry_exists": true,
+        "session_id_correct": true,
+        "ethics_result_recorded": true,
+        "language_recorded": true,
+        "status_correct": true
+      },
+      "trail_passed": true
+    },
+    {
+      "input_id": "MM-EN-03",
+      "session_id": "c1290ee2-05c9-4e2f-91c3-a47cebee29ee",
+      "log_id": "d8aa1bdf-2190-450b-a5f8-cf457f28ccba",
+      "status": "PENDING_REVIEW",
+      "trail_checks": {
+        "log_entry_exists": true,
+        "session_id_correct": true,
+        "ethics_result_recorded": true,
+        "language_recorded": true,
+        "status_correct": true
+      },
+      "trail_passed": true
+    },
+    {
+      "input_id": "MM-EN-05",
+      "session_id": "384557d6-8d42-4393-9fc3-42f5fb588e93",
+      "log_id": "3bd24235-fee0-4887-8031-89119980384f",
+      "status": "PENDING_REVIEW",
+      "trail_checks": {
+        "log_entry_exists": true,
+        "session_id_correct": true,
+        "ethics_result_recorded": true,
+        "language_recorded": true,
+        "status_correct": true
+      },
+      "trail_passed": true
+    },
+    {
+      "input_id": "MM-VI-01",
+      "session_id": "8a5ad06d-97de-4164-8ae6-d7121530b2fb",
+      "log_id": "a7f72aab-1ff2-4ba9-9921-b0ac040e1a06",
+      "status": "PENDING_REVIEW",
+      "trail_checks": {
+        "log_entry_exists": true,
+        "session_id_correct": true,
+        "ethics_result_recorded": true,
+        "language_recorded": true,
+        "status_correct": true
+      },
+      "trail_passed": true
+    },
+    {
+      "input_id": "MM-VI-03",
+      "session_id": "c8caf8f5-0f61-4f99-a6b5-e11369902698",
+      "log_id": "e14e680d-1c70-407f-bdf7-7de220f81acc",
+      "status": "PENDING_REVIEW",
+      "trail_checks": {
+        "log_entry_exists": true,
+        "session_id_correct": true,
+        "ethics_result_recorded": true,
+        "language_recorded": true,
+        "status_correct": true
+      },
+      "trail_passed": true
+    }
+  ]
+}

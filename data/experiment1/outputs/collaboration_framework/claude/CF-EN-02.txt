@@ -1,0 +1,90 @@
+## Collaboration Framework Outline
+
+**Parties:**
+- VASTN Consortium:
+  - Ho Chi Minh City University of Technology (HCMUT), Vietnam — Lead Applicant and Grant Administrator
+  - Hanoi University of Science and Technology (HUST), Vietnam
+  - National University of Singapore (NUS), Singapore
+  - RMIT University Vietnam, Vietnam
+- TU Delft (Delft University of Technology), Netherlands — EU Coordinator Institution
+- KTH Royal Institute of Technology, Sweden — EU Coordinator Institution
+
+**Purpose:** This framework establishes the terms of project collaboration among the VASTN Consortium, TU Delft, and KTH Royal Institute of Technology in support of a proposed Erasmus+ Capacity Building in Higher Education (CBHE) application. The collaboration aims to strengthen AI and semiconductor engineering education in Vietnam through the joint modernisation of curricula aligned with AUN-QA Version 4.0 standards, structured staff development, and the building of quality assurance capacity across VASTN partner institutions, with active methodological and academic support from the EU partner institutions.
+
+**Effective period:** Three (3) years, aligned with the Erasmus+ project grant cycle, commencing upon formal grant award by the European Commission (estimated Q1 2025). [LEGAL REVIEW REQUIRED]
+
+---
+
+### Scope of Collaboration
+
+The collaboration encompasses the following jointly agreed areas of activity, all contingent upon successful award of the Erasmus+ CBHE grant:
+
+1. **Curriculum Modernisation:** Joint development of two new AI engineering modules designed to meet AUN-QA Version 4.0 standards, integrating industry-relevant content applicable to the Southeast Asian higher education context.
+
+2. **Staff Development:** Design and delivery of three staff development workshops, hosted on a rotating basis at TU Delft, KTH, and HCMUT, targeting academic and professional staff across VASTN institutions.
+
+3. **Quality Assurance Capacity Building:** Establishment of a structured peer review mechanism for quality assurance, enabling systematic exchange of QA expertise between VASTN institutions and the EU partner institutions.
+
+4. **Student Mobility:** Implementation of a short-term student exchange programme of two to four weeks' duration, enabling up to twenty (20) VASTN students per project year to undertake study or research visits at TU Delft or KTH.
+
+5. **Knowledge Dissemination:** Joint authorship and publication of a best-practice guide on industry-integrated AI engineering education in Southeast Asia, intended for regional and international audiences.
+
+All activities must be conducted in compliance with European Commission Erasmus+ CBHE programme rules, including applicable procurement regulations and financial reporting requirements.
+
+---
+
+### Responsibilities of Each Party
+
+| Party | Responsibility | Timeline |
+|---|---|---|
+| HCMUT | Serve as lead applicant and grant administrator; manage financial reporting and disbursement to consortium partners in accordance with EC grant rules; coordinate submission of six-month progress reports to the European Commission; host one staff development workshop | Ongoing throughout project; reporting on six-month cycles from project start |
+| HCMUT | Lead coordination of AUN-QA Version 4.0 compliance process for jointly developed curriculum modules | Year 1–2 |
+| HUST | Contribute to joint curriculum development for the two AI engineering modules; participate in staff development workshops; nominate eligible students for the short-term exchange programme | Ongoing |
+| NUS | Contribute academic expertise to curriculum development and the best-practice guide; participate in quality assurance peer review mechanism | Ongoing |
+| RMIT Vietnam | Contribute industry-integration expertise to curriculum development and the best-practice guide; participate in quality assurance peer review mechanism and staff development activities | Ongoing |
+| TU Delft | Act as EU coordinator institution; provide academic and methodological guidance on curriculum development; host one staff development workshop; host VASTN students under the short-term exchange programme (up to 20 per year, subject to capacity); co-author the best-practice guide | Ongoing; workshop hosting by Year 2 at latest |
+| KTH Royal Institute of Technology | Act as EU coordinator institution; provide academic and methodological guidance on curriculum development and QA peer review; host one staff development workshop; host VASTN students under the short-term exchange programme (up to 20 per year, subject to capacity); co-author the best-practice guide | Ongoing; workshop hosting by Year 2 at latest |
+| All Parties | Comply with EU grant procurement rules for all project-related procurement; contribute to six-month reporting cycle; agree and submit a sustainability plan before project end | Procurement ongoing; sustainability plan agreed no later than Month 30 |
+
+---
+
+### Resource Sharing Arrangements
+
+Resource sharing arrangements are governed by the Erasmus+ CBHE grant agreement and the consortium's internal grant agreement. [LEGAL REVIEW REQUIRED] The following principles apply:
+
+- A minimum of seventy percent (70%) of total Erasmus+ grant funds must be allocated to and spent within VASTN partner countries (Vietnam and Singapore), in accordance with European Commission programme rules. [LEGAL REVIEW REQUIRED]
+- Financial flows between HCMUT as grant administrator and individual consortium partners shall be governed by partnership financial agreements to be concluded between HCMUT and each partner institution prior to project commencement. [LEGAL REVIEW REQUIRED]
+- Costs associated with hosting staff development workshops (at TU Delft, KTH, and HCMUT respectively) and student exchange visits shall be allocated in accordance with the approved project budget and EC eligibility rules.
+- No additional resource commitments beyond those fundable under the Erasmus+ grant have been agreed at this stage. Any supplementary contributions from individual institutions are to be determined by mutual agreement. [LEGAL REVIEW REQUIRED]
+
+---
+
+### Governance and Dispute Resolution [LEGAL REVIEW REQUIRED]
+
+**Project Steering Committee (PSC):** A Project Steering Committee shall be established as the primary decision-making body for the collaboration. The PSC shall comprise at least one designated representative from each party. HCMUT, as lead applicant, shall provide the PSC Chair. TU Delft and KTH shall each provide a co-chair from the EU partner side. The PSC shall meet at minimum twice per year, with meetings scheduled to align with the six-month EC reporting cycle. Decisions shall be taken by consensus where possible; where consensus cannot be reached, a simple majority of institutional votes shall apply, with each institution holding one vote.
+
+**Day-to-Day Coordination:** Operational coordination shall be managed by a Project Management Unit (PMU) hosted by HCMUT, working in close liaison with designated contact points at TU Delft and KTH.
+
+**Compliance Oversight:** All financial management and procurement decisions must comply with European Commission Erasmus+ grant rules. HCMUT, as grant administrator, bears primary responsibility for compliance and shall notify all partners promptly of any compliance issues identified.
+
+**Dispute Resolution:** In the event of a dispute between two or more parties, the parties concerned shall first seek resolution through direct negotiation at the PSC level within thirty (30) calendar days of the dispute being formally raised. If resolution is not achieved within this period, the matter shall be escalated to the senior institutional leadership of the parties concerned. If the dispute remains unresolved, the parties agree to pursue mediation before initiating any formal legal proceedings. The governing law and jurisdiction for any unresolved disputes shall be determined in the consortium agreement. [LEGAL REVIEW REQUIRED]
+
+---
+
+### Review and Renewal Conditions
+
+**Mid-Term Review:** A formal mid-term review of the collaboration framework shall be conducted at the end of Year 1 (or as required by EC reporting obligations), assessing progress against planned activities, financial compliance, and partnership functioning. The PSC shall be responsible for commissioning and reviewing this assessment.
+
+**Annual Activity Review:** The PSC shall conduct an annual review of activity delivery, student mobility outcomes, and curriculum development progress, with findings incorporated into the six-month EC progress reports as appropriate.
+
+**Sustainability Plan:** All parties are required to jointly develop and agree upon a written sustainability plan for the continuation of collaboration activities beyond the Erasmus+ grant period. This plan must be finalised and approved by the PSC no later than Month 30 of the project. The sustainability plan shall address, at minimum: continuation of the jointly developed curriculum modules within VASTN institutions, ongoing QA peer review arrangements, and the potential for continued student mobility. [LEGAL REVIEW REQUIRED]
+
+**Renewal:** Continuation of any formal collaboration beyond the three-year grant period is not automatic and shall be subject to a separate agreement among all parties, informed by the sustainability plan and the outcomes of the project evaluation. [LEGAL REVIEW REQUIRED]
+
+---
+
+### Open Items [LEGAL REVIEW REQUIRED]
+
+- Finalisation and execution of the Erasmus+ CBHE grant agreement with the European Commission, upon which this framework is contingent.
+- Execution of individual partnership financial agreements between HCMUT and each consortium partner institution, governing fund disbursement and financial obligations.
+- Confirmation of the precise annual student

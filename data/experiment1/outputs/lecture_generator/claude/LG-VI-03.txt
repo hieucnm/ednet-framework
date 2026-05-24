@@ -1,0 +1,46 @@
+## Lecture: Thiên kiến, Công bằng và Trách nhiệm giải trình trong Hệ thống AI
+**Course:** AI Có trách nhiệm cho Kỹ sư — Module Doanh nghiệp VASTN
+**Audience level:** Chuyên gia (Professional)
+**Duration:** 90 phút
+
+---
+
+### Learning Objectives
+
+Sau khi hoàn thành bài giảng này, học viên có khả năng: (1) định nghĩa thiên kiến thuật toán một cách chính xác và mô tả các nguồn gốc phổ biến của nó trong dữ liệu huấn luyện cũng như trong các quyết định thiết kế mô hình; (2) áp dụng các chỉ số công bằng định lượng — bao gồm tỷ lệ dương tính giả theo nhóm, cân bằng cơ hội và công bằng hiệu chỉnh — để đánh giá đầu ra của mô hình phân loại trên các nhóm dân số khác nhau; (3) nhận diện và lựa chọn cơ chế trách nhiệm giải trình phù hợp cho các ứng dụng AI có rủi ro cao trong lĩnh vực y tế, tài chính và giáo dục; (4) đánh giá phê phán một tình huống triển khai AI thực tế, xác định các rủi ro đạo đức tiềm ẩn và đề xuất biện pháp giảm thiểu có căn cứ kỹ thuật.
+
+---
+
+### Part 1 — Thiên kiến Thuật toán: Định nghĩa, Nguồn gốc và Hệ quả (~30 phút)
+
+Phần này thiết lập nền tảng khái niệm, giúp học viên phân biệt rõ ràng các loại thiên kiến và truy nguyên nguồn gốc của chúng trong vòng đời phát triển hệ thống AI.
+
+#### 1.1 Thiên kiến thuật toán là gì?
+
+Trong kỹ thuật học máy, **thiên kiến thuật toán** (algorithmic bias) được định nghĩa là sự sai lệch có hệ thống và có thể lặp lại trong đầu ra của một hệ thống AI, dẫn đến kết quả không công bằng hoặc phân biệt đối xử với một nhóm người nhất định so với các nhóm khác. Điều quan trọng cần nhấn mạnh ngay từ đầu là: thiên kiến không chỉ là "lỗi kỹ thuật" ngẫu nhiên — nó là sai lệch *có hướng* và *có cấu trúc*.
+
+Cần phân biệt thiên kiến thuật toán với hai khái niệm liên quan:
+- **Thiên kiến thống kê** (statistical bias): sai lệch giữa giá trị ước lượng và giá trị thực, là khái niệm kỹ thuật thuần túy, không nhất thiết mang hàm ý đạo đức.
+- **Thiên kiến nhận thức** (cognitive bias): xu hướng suy nghĩ lệch lạc của con người, có thể *gây ra* thiên kiến thuật toán khi con người đưa ra các quyết định thiết kế.
+
+#### 1.2 Phân loại nguồn gốc thiên kiến
+
+Thiên kiến trong hệ thống AI có thể xuất hiện ở nhiều giai đoạn khác nhau trong vòng đời phát triển. Dưới đây là bốn nguồn gốc chính mà kỹ sư cần nắm vững:
+
+**a) Thiên kiến trong dữ liệu huấn luyện**
+
+Đây là nguồn gốc phổ biến nhất và thường bị bỏ qua nhất. Có ba dạng chính:
+
+- **Thiên kiến lịch sử (Historical bias):** Dữ liệu phản ánh các bất bình đẳng xã hội đã tồn tại trong quá khứ. Ví dụ điển hình: một mô hình dự đoán khả năng hoàn trả khoản vay được huấn luyện trên dữ liệu từ thập niên 1990–2010, khi phụ nữ và các nhóm thiểu số bị từ chối vay vốn một cách có hệ thống. Mô hình sẽ "học" rằng các nhóm này có rủi ro cao hơn — không phải vì họ thực sự rủi ro hơn, mà vì dữ liệu lịch sử đã bị bóp méo bởi phân biệt đối xử.
+
+- **Thiên kiến đại diện (Representation bias):** Một số nhóm dân số bị thiếu đại diện hoặc không được đại diện trong tập dữ liệu. Nghiên cứu nổi tiếng của Buolamwini & Gebru (2018) về hệ thống nhận dạng khuôn mặt thương mại cho thấy tỷ lệ lỗi phân loại giới tính lên đến 34,7% đối với phụ nữ da tối màu, trong khi chỉ 0,8% đối với nam giới da sáng màu — trực tiếp do thiếu đại diện trong dữ liệu huấn luyện.
+
+- **Thiên kiến đo lường (Measurement bias):** Cách thu thập hoặc gán nhãn dữ liệu không nhất quán giữa các nhóm. Ví dụ: trong y tế, nếu một bệnh được chẩn đoán thường xuyên hơn ở nhóm dân số có điều kiện tiếp cận y tế tốt hơn, mô hình sẽ học sai mối liên hệ giữa đặc điểm nhân khẩu học và bệnh tật.
+
+**b) Thiên kiến trong thiết kế đặc trưng (Feature engineering bias)**
+
+Kỹ sư đôi khi sử dụng các biến đại diện (proxy variables) tưởng chừng trung lập nhưng thực chất tương quan cao với các thuộc tính nhạy cảm như chủng tộc, giới tính, hay tôn giáo. Ví dụ: mã bưu chính (zip code) tại nhiều quốc gia tương quan mạnh với chủng tộc do phân tầng cư trú lịch sử. Sử dụng mã bưu chính như một đặc trưng trong mô hình tín dụng về bản chất có thể tái tạo phân biệt đối xử theo chủng tộc, dù không có biến "chủng tộc" nào được đưa vào mô hình.
+
+**c) Thiên kiến trong hàm mục tiêu (Objective function bias)**
+
+Khi kỹ sư định nghĩa bài toán tối ưu hóa, họ phải chọn một chỉ số để t

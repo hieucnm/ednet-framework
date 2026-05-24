@@ -1,0 +1,22 @@
+## Meeting Minutes
+**Network:** VASTN  
+**Date:** 2024-02-08  
+**Attendees:** Assoc. Prof. Nguyen Van An (HCMUT), Mr. Klaus Hoffmann (Bosch Vietnam)
+
+### Agenda Items Discussed
+The meeting focused on exploring the potential for a structured research collaboration between HCMUT and Bosch Vietnam. Building on the existing student placement program, HCMUT proposed a joint applied research project in predictive maintenance using embedded AI on Bosch manufacturing equipment. The proposed collaboration would involve HCMUT providing the research team and Bosch supplying operational data and an engineering liaison, with the project potentially lasting 18 months and leading to a publication and prototype.
+
+### Decisions Made
+No formal decisions were recorded.
+
+### Action Items
+| Owner | Deadline | Description |
+|---|---|---|
+| Assoc. Prof. Nguyen Van An | End of this week | Send a one-page concept note to Mr. Hoffmann to aid internal discussions at Bosch. |
+| Mr. Klaus Hoffmann | Three weeks from meeting date | Consult Bosch's R&D and legal teams regarding data sharing and IP ownership, and respond to HCMUT. |
+
+### Next Meeting
+Not scheduled.
+
+---
+*This document was generated with AI assistance and is pending human review.*

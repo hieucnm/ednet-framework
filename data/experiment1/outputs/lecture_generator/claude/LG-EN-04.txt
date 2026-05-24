@@ -1,0 +1,114 @@
+## Lecture: Field-Programmable Gate Arrays: Architecture and Programming Model
+**Course:** Semiconductor Design Fundamentals — VASTN Joint Certificate
+**Audience level:** Undergraduate
+**Duration:** 60 minutes
+
+---
+
+### Learning Objectives
+
+After completing this lecture, learners will be able to describe the internal structure of an FPGA, including its configurable logic blocks, routing fabric, and I/O cells, and explain how these components work together to implement digital logic; distinguish between FPGA-based and ASIC-based design approaches and articulate the technical and economic trade-offs that guide the choice between them; write a simple combinational logic function in VHDL and trace its behaviour through a simulation waveform; and read a basic timing report produced by an FPGA synthesis tool, identifying critical path delay and understanding what it means for circuit performance.
+
+---
+
+### Part 1 — Inside an FPGA: Architecture and Key Components (~20 minutes)
+
+This part establishes the physical and logical structure of an FPGA so that learners have a concrete mental model before encountering programming abstractions.
+
+#### What Is an FPGA?
+
+A Field-Programmable Gate Array is an integrated circuit that can be configured by the designer after manufacturing. Unlike a fixed-function chip, an FPGA contains a large array of programmable building blocks connected by a programmable routing network. The word *field-programmable* means the device can be configured outside the semiconductor fabrication facility — on a laboratory bench, in a production line, or even in the field after deployment.
+
+The key insight is that the silicon itself does not change. What changes is a set of configuration bits stored in memory cells on the chip. Those bits control switches, multiplexers, and lookup tables throughout the device, effectively "wiring up" the logic the designer has specified.
+
+#### The Three Structural Layers
+
+Every modern FPGA can be understood as three interlocking layers:
+
+1. **Configurable Logic Blocks (CLBs)** — the computational fabric
+2. **Programmable Routing Fabric** — the interconnect network
+3. **I/O Cells** — the interface to the outside world
+
+Each layer is described below.
+
+---
+
+#### 1. Configurable Logic Blocks (CLBs)
+
+A CLB is the fundamental unit of logic in an FPGA. Although vendors use different names — Xilinx calls them CLBs, Intel/Altera calls them Logic Array Blocks (LABs) or Adaptive Logic Modules (ALMs) — the underlying concept is consistent.
+
+At the heart of every CLB is a **Look-Up Table (LUT)**. A LUT is a small memory that stores a truth table. A 4-input LUT (written 4-LUT) has 2⁴ = 16 memory cells, one for each possible combination of its four inputs. By programming those 16 cells, the LUT can implement *any* Boolean function of four variables. This is a powerful idea: rather than building dedicated AND, OR, and XOR gates, the FPGA uses programmable memory to mimic any gate combination.
+
+**Example:** Suppose you want to implement the function F = (A AND B) OR (NOT C). You would enumerate all eight combinations of A, B, and C, compute F for each, and load those eight values into the LUT. The LUT then behaves exactly like that logic expression.
+
+Modern FPGAs typically use 6-input LUTs (6-LUTs), which can implement any function of six variables. A single CLB usually contains several LUTs grouped together, along with:
+
+- **Flip-flops (registers):** D-type flip-flops that capture the LUT output on a clock edge, enabling sequential (clocked) logic.
+- **Carry logic:** Dedicated fast-carry chains that allow efficient implementation of arithmetic operations such as addition and comparison without consuming extra LUTs.
+- **Multiplexers:** Small multiplexers that allow LUTs within a CLB to be combined, implementing wider functions.
+
+A typical mid-range FPGA contains tens of thousands of CLBs, giving it the capacity to implement circuits of considerable complexity.
+
+---
+
+#### 2. Programmable Routing Fabric
+
+Logic blocks are useless without connections between them. The routing fabric is a grid of metal wires and programmable switches that allows any CLB output to be connected to any CLB input — subject to physical constraints.
+
+The routing fabric contains:
+
+- **Wire segments** of different lengths: short segments connect adjacent CLBs; longer segments span multiple rows or columns, reducing delay for signals that must travel far.
+- **Switch matrices (switch boxes):** Intersections in the routing grid where programmable transistors act as switches. Setting a configuration bit closes a switch and creates a connection.
+- **Connection blocks:** Programmable connections between wire segments and the input/output pins of CLBs.
+
+Routing is one of the most important factors in FPGA performance. A signal that passes through many switch matrices accumulates delay. The place-and-route tools that compile your design try to minimise this delay, but the designer must be aware that routing — not just logic — determines how fast a circuit can run.
+
+---
+
+#### 3. I/O Cells
+
+I/O cells sit at the periphery of the FPGA die and connect the internal logic to the device's physical pins. Each I/O cell is programmable and can be configured to support a wide range of electrical standards, including LVCMOS, LVDS, and SSTL, among others.
+
+Key features of I/O cells include:
+
+- **Voltage level selection:** The cell can be set to drive and receive signals at 1.8 V, 2.5 V, 3.3 V, or other voltages depending on what the external circuit requires.
+- **Drive strength:** The output driver strength can be adjusted to balance signal integrity against power consumption.
+- **Input/output registers:** Many I/O cells contain dedicated flip-flops placed physically close to the pin, minimising the delay between the pin and the first register in the design. This is critical for high-speed interfaces.
+- **Differential signalling support:** Pairs of I/O cells can be configured for differential standards such as LVDS, which offer better noise immunity at high data rates.
+
+---
+
+#### Specialised Hard Blocks
+
+Beyond the three core layers, modern FPGAs include **hard blocks** — fixed-function circuits that are more efficient than anything built from LUTs. Common examples include:
+
+- **Block RAM (BRAM):** Dedicated memory arrays, typically 18 Kb or 36 Kb each, used for on-chip data storage such as FIFOs and lookup tables.
+- **DSP slices:** Dedicated multiply-accumulate units optimised for signal processing arithmetic.
+- **Clock management tiles (PLLs/MMCMs):** Phase-locked loops and mixed-mode clock managers that generate precise, phase-aligned clock signals from a reference input.
+- **High-speed serial transceivers:** Hard-wired serialiser/deserialiser (SerDes) blocks for protocols such as PCIe, Ethernet, and JESD204B.
+- **Processor cores:** High-end devices (e.g., Xilinx Zynq, Intel Cyclone V SoC) embed ARM processor cores alongside the programmable fabric.
+
+The presence of hard blocks is a key reason why FPGAs can achieve high performance on specific tasks: the hard block does the heavy lifting while the programmable fabric handles control and glue logic.
+
+---
+
+### Part 2 — FPGA vs. ASIC: Choosing the Right Implementation (~15 minutes)
+
+This part develops the learner's ability to reason about design trade-offs, a skill that is central to engineering decision-making in industry.
+
+#### Two Paths to the Same Logic
+
+Both FPGAs and Application-Specific Integrated Circuits (ASICs) can implement the same digital logic function. The difference lies in *how* that logic is realised in silicon and what that means for cost, performance, power, and flexibility.
+
+An **ASIC** is a chip designed and fabricated for one specific purpose. The logic gates are physically etched into the silicon during manufacturing. Once fabricated, the function is fixed.
+
+An **FPGA** implements the same logic using its programmable fabric. The silicon is generic; the function is defined by configuration bits loaded at power-up.
+
+#### Comparing the Two Approaches
+
+| Dimension | FPGA | ASIC |
+|---|---|---|
+| **Non-recurring engineering (NRE) cost** | Low (no mask set needed) | Very high (mask sets cost $1M–$10M+ at advanced nodes) |
+| **Unit cost at high volume** | Higher (complex programmable chip) | Lower (optimised for one function) |
+| **Time to first silicon** | Days to weeks | 12–24 months |
+| **Performance (clock speed)** | Moderate (routing overhead limits speed) | High (custom layout, no routing overhead) |

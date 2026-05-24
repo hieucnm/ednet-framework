@@ -1,0 +1,30 @@
+## Curriculum Framework: AI for Engineering Managers — Professional Upskilling Programme
+**Participating institutions:** HCMUT, Intel Vietnam  
+**Program goals:** Enable mid-career engineering managers to make informed decisions about AI adoption in product development and operations; develop ability to scope AI projects, evaluate technical proposals, and manage cross-functional AI teams; provide working knowledge of AI system capabilities and limitations without requiring programming proficiency.  
+**Target audience:** Mid-career engineers and engineering team leads with 5 or more years of industry experience; participants are expected to have management or technical leadership responsibilities; no programming or machine learning background required.  
+**Total duration:** 6 weeks, 3 hours per week  
+
+### Module Structure
+| Module | Title | Learning Outcomes | Credits | Modality |
+|---|---|---|---|---|
+| M01 | Introduction to AI for Managers | Understand AI fundamentals and their relevance to engineering management. | 1 | Online |
+| M02 | AI in Product Development | Identify opportunities for AI integration in product development. | 1 | Hybrid |
+| M03 | Evaluating AI Proposals | Develop skills to critically evaluate AI project proposals. | 1 | Online |
+| M04 | Managing AI Teams | Learn strategies for managing cross-functional AI teams. | 1 | In-person |
+| M05 | AI Capabilities and Limitations | Gain insights into the practical capabilities and limitations of AI systems. | 1 | Online |
+| M06 | AI Project Scoping | Acquire techniques for scoping AI projects effectively. | 1 | Hybrid |
+
+### Assessment Approach
+Assessment will be based on a combination of practical exercises, case study analyses, and participation in discussions. Each module will include a short reflective assignment to consolidate learning. Practical exercises will utilize no-code or low-code tools to ensure accessibility for participants without programming backgrounds. Feedback will be provided by instructors from both HCMUT and Intel Vietnam to ensure a balanced academic and industry perspective.
+
+### Collaboration Mechanisms Between Institutions
+HCMUT will lead the academic delivery of the programme, providing instructors and coordinating the curriculum. Intel Vietnam will contribute industry insights through guest lectures and case studies, with at least two senior engineering speakers participating. Both institutions will collaborate on the development of course materials and assessments, ensuring alignment with industry needs and academic standards.
+
+### Open Issues [PARTNER REVIEW REQUIRED]
+- Agreement on the specific no-code or low-code tools to be used for practical exercises.
+- Finalization of the schedule for evening and weekend sessions to accommodate all participants.
+- Confirmation of the specific roles and topics for Intel Vietnam's senior engineering speakers.
+- Determination of the credit equivalency across different academic systems, if applicable.
+
+---
+*This curriculum framework was generated with AI assistance and requires review by all participating institutions before formal adoption.*

@@ -1,0 +1,32 @@
+## Meeting Minutes
+**Network:** VASTN  
+**Date:** 2024-03-15  
+**Attendees:** Assoc. Prof. Tran Minh Quang (HCMUT), Dr. Nguyen Phuong Linh (Intel Vietnam), Ms. Le Thi Bich Ngoc (HCMUT Admin), Prof. Sarah Chen (NUS), Dr. Ha Duc Thinh (HUST)
+
+### Agenda Items Discussed
+The meeting began with a progress update on the AI hardware module led by Intel Vietnam. Dr. Nguyen reported that the module draft is 70% complete, with lecture slides for the first four weeks finalized and lab exercises for the FPGA component ready for review. A delay in obtaining simulation software licenses from HCMUT's procurement office was noted, with a revised estimate for completion by the end of March.
+
+Assoc. Prof. Tran suggested adjusting the module schedule to accommodate the delay, which Dr. Nguyen agreed to by reordering weeks five and six to push the simulation lab to week seven. Dr. Nguyen committed to revising the module outline and sending it to the committee by the following Friday.
+
+Prof. Sarah Chen raised concerns about student mobility numbers for the second half of the year, noting that NUS requires a minimum cohort of eleven students for a joint module. Currently, eight students from HCMUT are confirmed, with two more applications from HUST and a third expected by the end of the week. Prof. Chen will confirm with the NUS international office and provide an update by Monday.
+
+The mid-year review schedule was discussed, with tentative plans to hold it in Hanoi on June 14th, as HUST has conference facilities available. Assoc. Prof. Tran will send a calendar invite after the meeting.
+
+Dr. Nguyen mentioned that travel reimbursement forms for the February workshop have not been processed for the Intel team. Ms. Ngoc agreed to follow up with the finance department.
+
+### Decisions Made
+No formal decisions were recorded.
+
+### Action Items
+| Owner | Deadline | Description |
+|---|---|---|
+| Dr. Nguyen Phuong Linh | 2024-03-22 | Revise the AI hardware module outline and send it to the committee. |
+| Prof. Sarah Chen | 2024-03-18 | Confirm student mobility numbers with NUS international office and send an update. |
+| Assoc. Prof. Tran Minh Quang | TBD | Send a calendar invite for the mid-year review on June 14th. |
+| Ms. Le Thi Bich Ngoc | 2024-03-15 | Follow up with finance on travel reimbursement forms for the Intel team. |
+
+### Next Meeting
+June 14, 2024, in Hanoi.
+
+---
+*This document was generated with AI assistance and is pending human review.*

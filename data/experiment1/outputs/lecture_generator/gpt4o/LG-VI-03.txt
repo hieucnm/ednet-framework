@@ -1,0 +1,29 @@
+## Lecture: Thiên kiến, Công bằng và Trách nhiệm giải trình trong Hệ thống AI
+**Course:** AI Có trách nhiệm cho Kỹ sư — Module Doanh nghiệp VASTN  
+**Audience level:** Professional  
+**Duration:** 90 phút
+
+### Learning Objectives
+Sau khi hoàn thành bài giảng này, người học sẽ có khả năng định nghĩa thiên kiến thuật toán và mô tả các nguồn gốc phổ biến trong dữ liệu huấn luyện và thiết kế mô hình; áp dụng các chỉ số công bằng để đánh giá đầu ra của mô hình phân loại theo các nhóm dân số khác nhau; nhận diện cơ chế trách nhiệm giải trình phù hợp cho các ứng dụng AI có rủi ro cao trong y tế, tài chính và giáo dục; và đánh giá phê phán một tình huống triển khai AI thực tế về rủi ro đạo đức.
+
+### Part 1 — Thiên kiến trong Hệ thống AI (~30 phút)
+Phần này nhằm giúp người học hiểu rõ về khái niệm thiên kiến thuật toán và các nguồn gốc phổ biến của nó. Thiên kiến trong AI thường xuất phát từ dữ liệu huấn luyện không đại diện hoặc thiên lệch, cũng như từ các quyết định thiết kế mô hình. Ví dụ, nếu một mô hình AI được huấn luyện trên dữ liệu chủ yếu từ một nhóm dân số cụ thể, nó có thể không hoạt động tốt trên các nhóm khác. Chúng ta sẽ thảo luận về các loại thiên kiến như thiên kiến xác nhận, thiên kiến lựa chọn và thiên kiến trong quá trình xử lý dữ liệu.
+
+### Part 2 — Công bằng trong AI và Các Chỉ số Đánh giá (~30 phút)
+Mục tiêu của phần này là trang bị cho người học khả năng áp dụng các chỉ số công bằng để đánh giá mô hình AI. Công bằng trong AI liên quan đến việc đảm bảo rằng các mô hình không tạo ra kết quả bất lợi không công bằng cho bất kỳ nhóm dân số nào. Các chỉ số như Disparate Impact, Equal Opportunity và Demographic Parity sẽ được giới thiệu. Chúng ta sẽ phân tích cách sử dụng các chỉ số này trong thực tế qua các ví dụ cụ thể trong lĩnh vực y tế và tài chính.
+
+### Part 3 — Trách nhiệm giải trình trong AI có Rủi ro Cao (~30 phút)
+Phần cuối cùng này tập trung vào việc nhận diện và thực thi trách nhiệm giải trình trong các ứng dụng AI có rủi ro cao. Trách nhiệm giải trình là yếu tố quan trọng để đảm bảo rằng các hệ thống AI hoạt động minh bạch và có thể kiểm tra được. Chúng ta sẽ thảo luận về các cơ chế như giám sát độc lập, báo cáo minh bạch và quy trình khiếu nại. Các ví dụ thực tế trong y tế, tài chính và giáo dục sẽ được sử dụng để minh họa cách thức áp dụng các cơ chế này.
+
+### Discussion Questions
+1. Làm thế nào để xác định và giảm thiểu thiên kiến trong dữ liệu huấn luyện AI?
+2. Các chỉ số công bằng nào là quan trọng nhất trong việc đánh giá mô hình AI và tại sao?
+3. Những thách thức nào có thể phát sinh khi thực hiện trách nhiệm giải trình trong các hệ thống AI có rủi ro cao?
+
+### Suggested Further Reading
+1. Barocas, S., Hardt, M., & Narayanan, A. (2019). *Fairness and Machine Learning*. fairmlbook.org.
+2. O'Neil, C. (2016). *Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy*. Crown Publishing Group.
+3. Danks, D., & London, A. J. (2017). Algorithmic Bias in Autonomous Systems. *Proceedings of the Twenty-Sixth International Joint Conference on Artificial Intelligence*.
+
+---
+*This lecture content was generated with AI assistance and requires review by the course instructor before use in teaching.*

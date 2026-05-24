@@ -1,0 +1,32 @@
+## Lecture: Transformer Architecture and Self-Attention Mechanism
+**Course:** Natural Language Processing for Engineers — VASTN Joint Certificate  
+**Audience level:** Postgraduate  
+**Duration:** 120 minutes  
+
+### Learning Objectives
+By the end of this lecture, learners will be able to explain the limitations of recurrent architectures that motivated the transformer design, derive the scaled dot-product attention computation step by step, describe the role of multi-head attention, positional encoding, and layer normalization in a transformer encoder, compare BERT and GPT architectural choices and explain how each is suited to different NLP tasks, and fine-tune a pre-trained transformer model for a text classification task using the Hugging Face library.
+
+### Part 1 — Limitations of Recurrent Architectures (~20 minutes)
+This part aims to provide an understanding of why transformers were developed by highlighting the limitations of recurrent neural networks (RNNs). RNNs and their variants, such as LSTMs and GRUs, have been the backbone of sequence modeling tasks. However, they suffer from issues like vanishing gradients, which make it difficult to capture long-range dependencies. Additionally, RNNs process sequences sequentially, which limits parallelization and increases computational time. These limitations motivated the development of the transformer architecture, which addresses these issues by using a self-attention mechanism that allows for parallel processing and better handling of long-range dependencies.
+
+### Part 2 — Scaled Dot-Product Attention and Multi-Head Attention (~30 minutes)
+This part focuses on the core component of the transformer: the attention mechanism. We will derive the scaled dot-product attention step by step. The attention mechanism involves three key components: queries, keys, and values. The attention score is computed by taking the dot product of the query with all keys, scaling by the square root of the dimension of the keys, and applying a softmax function to obtain attention weights. These weights are used to compute a weighted sum of the values. Multi-head attention extends this by allowing the model to focus on different parts of the input sequence simultaneously, enhancing the model's ability to capture diverse linguistic features.
+
+### Part 3 — Transformer Encoder Components and Architectural Comparisons (~40 minutes)
+In this part, we will explore the components of the transformer encoder, including positional encoding, layer normalization, and the feed-forward network. Positional encoding is crucial because transformers do not inherently capture sequence order, so it adds information about the position of tokens in a sequence. Layer normalization helps stabilize the training process by normalizing inputs across the features. We will also compare BERT and GPT architectures. BERT is designed for bidirectional context understanding, making it suitable for tasks like question answering and sentiment analysis. In contrast, GPT is unidirectional and excels in text generation tasks.
+
+### Part 4 — Fine-Tuning Pre-Trained Transformers with Hugging Face (~30 minutes)
+This part will provide practical insights into fine-tuning a pre-trained transformer model for a specific NLP task using the Hugging Face library. We will walk through the process of loading a pre-trained model, preparing a dataset, and fine-tuning the model for a text classification task. This hands-on approach will help solidify understanding of how transformers can be adapted to various applications and demonstrate the flexibility and power of transfer learning in NLP.
+
+### Discussion Questions
+1. What are the primary limitations of RNNs that transformers address, and how does the self-attention mechanism overcome these limitations?
+2. How does multi-head attention improve the model's ability to understand complex linguistic structures compared to single-head attention?
+3. In what scenarios would you choose to use BERT over GPT, and vice versa, for NLP tasks?
+
+### Suggested Further Reading
+1. Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., ... & Polosukhin, I. (2017). Attention is all you need. In Advances in Neural Information Processing Systems (pp. 5998-6008).
+2. Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2019). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv preprint arXiv:1810.04805.
+3. Radford, A., Narasimhan, K., Salimans, T., & Sutskever, I. (2018). Improving language understanding by generative pre-training. OpenAI.
+
+---
+*This lecture content was generated with AI assistance and requires review by the course instructor before use in teaching.*

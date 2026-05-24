@@ -1,0 +1,25 @@
+## Meeting Minutes
+**Network:** VASTN  
+**Date:** 2024-04-04  
+**Attendees:** Prof. Wiremu Tane (RMIT Vietnam), Dr. Vo Thanh Nam (HCMUT), [Intel representative, name unclear]
+
+### Agenda Items Discussed
+The meeting focused on finalizing the assessment weighting for the joint AI module. The discussion centered around whether the project component should constitute 40% or 50% of the total assessment. An industry representative advocated for a 50% project weighting to emphasize applied skills, while academic concerns highlighted potential equity issues for students. A compromise was reached with a proposal for a 45% project, 25% midterm, and 30% final exam weighting.
+
+Additionally, the group discussed the need to finalize the project brief template, which has been in draft since January, and the issue of determining who would be responsible for the final grading when both a university supervisor and an industry mentor are involved.
+
+### Decisions Made
+The group agreed on an assessment weighting of 45% for the project, 25% for the midterm, and 30% for the final exam. This proposal was accepted without objection. It was also decided that RMIT Vietnam would take responsibility for drafting the project brief by May 15th, with a submission to the full committee by June 1st. The issue of the grading rubric and final grading responsibility was escalated to the academic committee for further discussion.
+
+### Action Items
+| Owner | Deadline | Description |
+|---|---|---|
+| Prof. Wiremu Tane | May 15, 2024 | Draft the project brief template. |
+| Prof. Wiremu Tane | June 1, 2024 | Submit the project brief to the full committee. |
+| Academic Committee | TBD | Develop a policy for the grading rubric and final grading responsibility. |
+
+### Next Meeting
+Not scheduled.
+
+---
+*This document was generated with AI assistance and is pending human review.*

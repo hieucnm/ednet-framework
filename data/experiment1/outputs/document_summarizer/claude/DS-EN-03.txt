@@ -1,0 +1,15 @@
+## Summary
+**Document type:** Partnership agreement (extract)
+**Source language:** English
+
+### Key Points
+This extract from a Memorandum of Understanding signed on 14 January 2024 between Ho Chi Minh City University of Technology (HCMUT) and the National University of Singapore (NUS) establishes a joint research and education programme covering doctoral co-supervision, shared curriculum development for an AI Engineering Certificate, reciprocal faculty exchanges, and coordinated external funding applications. Intellectual property produced jointly is held in equal shares by default, joint publications are subject to a mutual review window of up to 45 days, and neither party may independently patent jointly developed technology. Financial responsibility defaults to each party covering its own costs unless a written cost-sharing arrangement is made for a specific activity. Student credit transfers are capped at 18 NUS credit units per semester, with host-institution regulations governing exchange participants, and credits must be pre-approved through a joint curriculum committee. The agreement runs for five years with annual reviews, allows termination on six months' written notice, and requires that obligations tied to already-commenced activities be honoured through completion.
+
+### Implications for the Network
+Network administrators should note the defined minimum activity targets—such as two jointly supervised doctoral candidates and four faculty exchanges per year—as these create measurable operational commitments for both institutions. The IP and publication review provisions will require clear pre-activity written agreements for any collaborative work involving commercially sensitive or patentable outputs.
+
+### Recommended Follow-up
+Confirm that the joint curriculum committee referenced in Article 6 is formally constituted and that module pre-approval procedures are documented before any student mobility begins.
+
+---
+*This summary was generated with AI assistance. Verify against the original document.*

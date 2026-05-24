@@ -1,0 +1,35 @@
+## Meeting Minutes
+**Network:** VASTN
+**Date:** 25 tháng 6 năm 2024
+**Attendees:** PGS.TS. Trần Minh Quang (ĐHBK TP.HCM), TS. Hà Đức Thịnh (ĐHBK Hà Nội), GS. Sarah Chen (NUS)
+
+### Agenda Items Discussed
+
+Hội đồng Chương trình VASTN họp với sự tham dự của ba trường thành viên: ĐHBK TP.HCM, ĐHBK Hà Nội và NUS. Chủ trì cuộc họp là PGS.TS. Trần Minh Quang (ĐHBK TP.HCM). Hai nội dung chính được đưa ra thảo luận là: (1) đề xuất điều chỉnh module Học sâu và (2) kế hoạch tuyển sinh thí điểm.
+
+Về nội dung thứ nhất, TS. Hà Đức Thịnh (ĐHBK Hà Nội) trình bày ba vấn đề được ghi nhận sau một học kỳ vận hành module Học sâu. Thứ nhất, lượng kiến thức lý thuyết chiếm tới 60 phần trăm thời lượng trong khi sinh viên cần nhiều thực hành hơn. Thứ hai, phần lập trình hiện đang sử dụng TensorFlow trong khi xu hướng ngành đã chuyển sang PyTorch một cách rõ rệt. Thứ ba, chương trình chưa có nội dung về fine-tuning mô hình nền tảng — một kỹ năng cốt lõi được doanh nghiệp yêu cầu. GS. Sarah Chen (NUS) đồng ý với cả ba nhận định trên và bổ sung đề xuất đưa Hugging Face Transformers vào chương trình thực hành, với lý do đây là công cụ tiêu chuẩn trong cả nghiên cứu lẫn công nghiệp hiện nay. Không có ý kiến phản đối nào được nêu ra.
+
+Về nội dung thứ hai, Hội đồng thảo luận kế hoạch tuyển sinh thí điểm dự kiến khai giảng vào tháng 9 năm 2024 với tổng chỉ tiêu 30 sinh viên. GS. Sarah Chen (NUS) cho biết NUS có thể tiếp nhận 10 sinh viên trong khuôn khổ chương trình trao đổi ngắn hạn, với điều kiện sinh viên đã hoàn thành ít nhất năm thứ hai và có điểm trung bình tích lũy từ 7,0 trở lên theo thang điểm 10. GS. Sarah Chen cũng lưu ý rằng NUS có yêu cầu thủ tục xác nhận từng sinh viên thông qua phỏng vấn ngắn hoặc xem xét hồ sơ học thuật, áp dụng với tất cả sinh viên trao đổi ngoài EU. TS. Hà Đức Thịnh (ĐHBK Hà Nội) cho biết trường đã có danh sách sơ bộ 10 sinh viên và sẵn sàng gửi hồ sơ ngay khi Hội đồng thông qua. PGS.TS. Trần Minh Quang (ĐHBK TP.HCM) xác nhận ĐHBK TP.HCM sẽ đề cử 10 sinh viên còn lại, đồng thời chấp thuận quy trình xác nhận sinh viên của NUS.
+
+### Decisions Made
+
+Hội đồng thống nhất giao Tiểu ban Chương trình tiến hành điều chỉnh module Học sâu theo các hướng sau: giảm tỷ lệ lý thuyết xuống còn 40 phần trăm thời lượng; chuyển sang PyTorch làm framework lập trình chính; bổ sung nội dung về fine-tuning mô hình nền tảng; và đưa Hugging Face Transformers vào chương trình thực hành. Bản điều chỉnh phải hoàn thành trước ngày 15 tháng 8 năm 2024 để kịp triển khai trong học kỳ 1 năm học 2024–2025.
+
+Hội đồng thống nhất thông qua kế hoạch tuyển sinh thí điểm với tổng chỉ tiêu 30 sinh viên, chia đều cho ba trường, mỗi trường 10 sinh viên. Hạn nộp hồ sơ được ấn định là ngày 31 tháng 7 năm 2024. Hội đồng chấp thuận yêu cầu thủ tục xác nhận sinh viên của NUS thông qua phỏng vấn ngắn hoặc xem xét hồ sơ học thuật.
+
+### Action Items
+
+| Owner | Deadline | Description |
+|---|---|---|
+| Tiểu ban Chương trình | 15 tháng 8 năm 2024 | Hoàn thành bản điều chỉnh module Học sâu: giảm lý thuyết xuống 40%, chuyển sang PyTorch, bổ sung nội dung fine-tuning mô hình nền tảng và Hugging Face Transformers |
+| Ban Thư ký | Trong tuần của ngày 25 tháng 6 năm 2024 | Gửi mẫu hồ sơ tuyển sinh thí điểm cho các trường thành viên |
+| ĐHBK Hà Nội | 31 tháng 7 năm 2024 | Nộp hồ sơ đề cử 10 sinh viên tham gia khoá thí điểm |
+| ĐHBK TP.HCM | 31 tháng 7 năm 2024 | Nộp hồ sơ đề cử 10 sinh viên tham gia khoá thí điểm |
+| NUS | 31 tháng 7 năm 2024 | Nộp hồ sơ đề cử 10 sinh viên tham gia khoá thí điểm và tiến hành xác nhận từng sinh viên qua phỏng vấn ngắn hoặc xem xét hồ sơ học thuật |
+
+### Next Meeting
+
+Cuộc họp tiếp theo dự kiến vào tháng 9 năm 2024. Ngày cụ thể và hình thức họp chưa được xác định.
+
+---
+*This document was generated with AI assistance and is pending human review.*

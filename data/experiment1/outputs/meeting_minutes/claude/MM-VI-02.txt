@@ -1,0 +1,38 @@
+## Meeting Minutes
+**Network:** VASTN
+**Date:** 06 tháng 3 năm 2024
+**Attendees:** TS. Võ Thành Nam (ĐHBK TP.HCM), TS. Phạm Thị Lan (ĐHBK Hà Nội), GS. Wiremu Tane (RMIT Việt Nam)
+
+---
+
+### Agenda Items Discussed
+
+Cuộc họp bắt đầu lúc 9h30 với sự chủ trì của TS. Võ Thành Nam (ĐHBK TP.HCM). Theo TS. Võ Thành Nam, cuộc họp tập trung giải quyết ba vấn đề còn tồn đọng từ cuộc họp tháng trước, gồm: khung đánh giá học phần, phân công biên soạn tài liệu, và lịch giảng dạy thử nghiệm.
+
+**Khung đánh giá học phần:** TS. Phạm Thị Lan (ĐHBK Hà Nội) nhận xét rằng đề xuất của RMIT nhìn chung phù hợp, tuy nhiên tỷ lệ 40% dành cho bài thi cuối kỳ được đánh giá là hơi cao so với định hướng đánh giá năng lực thực hành của chương trình. ĐHBK Hà Nội đề xuất giảm tỷ lệ thi cuối kỳ xuống 30% và tăng tỷ lệ đồ án nhóm lên 45%. GS. Wiremu Tane (RMIT Việt Nam) giải thích rằng tỷ lệ 40% cuối kỳ ban đầu được đề xuất nhằm duy trì khả năng tương thích với các chương trình cấp bằng tại campus RMIT Úc trong trường hợp sinh viên chuyển đổi, nhưng xác nhận rằng tỷ lệ 30% hoàn toàn khả thi nếu đây là chương trình standalone. TS. Võ Thành Nam lưu ý rằng chương trình không có cơ chế chuyển đổi tín chỉ sang Úc trong giai đoạn thí điểm, do đó đề nghị áp dụng phương án phân bổ tỷ lệ đánh giá gồm 45% đồ án nhóm, 25% kiểm tra giữa kỳ và 30% thi cuối kỳ. Cả ba đại diện đã nhất trí với phương án này.
+
+**Phân công biên soạn tài liệu:** TS. Võ Thành Nam thông báo danh sách các chủ đề chưa có đơn vị nhận biên soạn, gồm: xử lý ngôn ngữ tự nhiên ứng dụng, triển khai mô hình trên thiết bị biên, và đạo đức AI. GS. Wiremu Tane cho biết RMIT Việt Nam sẽ nhận biên soạn chủ đề xử lý ngôn ngữ tự nhiên ứng dụng, do có giảng viên đang nghiên cứu trong lĩnh vực này. TS. Phạm Thị Lan cho biết ĐHBK Hà Nội sẽ nhận chủ đề triển khai mô hình trên thiết bị biên, phù hợp với hướng nghiên cứu của nhóm IoT tại đơn vị. Đối với chủ đề đạo đức AI, TS. Võ Thành Nam cho biết ĐHBK TP.HCM có thể nhận biên soạn nhưng cần có sự hỗ trợ từ một đơn vị doanh nghiệp để cung cấp ví dụ thực tế, và sẽ trao đổi với Intel vào tuần tiếp theo. Thời hạn nộp bản thảo đầu tiên được TS. Võ Thành Nam đề nghị là ngày 30 tháng 5 năm 2024, nhằm đảm bảo đủ thời gian góp ý và hoàn thiện trước khi tiến hành giảng thử vào tháng 9. Cả GS. Wiremu Tane và TS. Phạm Thị Lan đều chấp nhận thời hạn này.
+
+**Lịch giảng dạy thử nghiệm:** TS. Phạm Thị Lan đề nghị chuyển nội dung thảo luận về lịch giảng dạy thử nghiệm sang cuộc họp lần sau do hết thời gian trong phiên họp hiện tại, đồng thời nêu rõ sự cần thiết phải xác nhận phòng học và số lượng sinh viên thí điểm trước khi tiến hành thảo luận. TS. Võ Thành Nam nhất trí với đề nghị này.
+
+---
+
+### Decisions Made
+
+Nhóm công tác thống nhất áp dụng tỷ lệ đánh giá học phần gồm 45% đồ án nhóm, 25% kiểm tra giữa kỳ và 30% thi cuối kỳ cho chương trình học phần AI Ứng dụng trong giai đoạn thí điểm.
+
+RMIT Việt Nam được phân công biên soạn tài liệu cho chủ đề xử lý ngôn ngữ tự nhiên ứng dụng. ĐHBK Hà Nội được phân công biên soạn tài liệu cho chủ đề triển khai mô hình trên thiết bị biên. ĐHBK TP.HCM được phân công biên soạn tài liệu cho chủ đề đạo đức AI, với điều kiện sẽ tìm kiếm sự hỗ trợ từ đơn vị doanh nghiệp.
+
+Thời hạn nộp bản thảo đầu tiên cho tất cả các chủ đề được ấn định vào ngày 30 tháng 5 năm 2024.
+
+Nội dung thảo luận về lịch giảng dạy thử nghiệm được chuyển sang cuộc họp lần sau.
+
+---
+
+### Action Items
+
+| Owner | Deadline | Description |
+|---|---|---|
+| GS. Wiremu Tane (RMIT Việt Nam) | 30/05/2024 | Nộp bản thảo đầu tiên tài liệu học phần chủ đề xử lý ngôn ngữ tự nhiên ứng dụng |
+| TS. Phạm Thị Lan (ĐHBK Hà Nội) | 30/05/2024 | Nộp bản thảo đầu tiên tài liệu học phần chủ đề triển khai mô hình trên thiết bị biên |
+| TS. Võ Thành Nam (ĐHBK TP.HCM) | 30/05/2024 | Nộp bản thảo đầu tiên tài liệu

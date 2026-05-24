@@ -98,9 +98,14 @@ class EthicsAuditor:
 
         # EC-07: AI disclosure marker check
         disclosure_markers = [
+            # English
             "generated with ai assistance",
             "ai assistance",
             "pending human review",
+            # Vietnamese
+            "hỗ trợ của ai",
+            "được tạo ra với sự hỗ trợ",
+            "chờ được xem xét bởi con người"
         ]
         has_disclosure = any(
             marker in output_text.lower() for marker in disclosure_markers

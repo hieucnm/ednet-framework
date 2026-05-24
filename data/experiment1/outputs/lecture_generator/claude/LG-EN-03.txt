@@ -1,0 +1,105 @@
+## Lecture: Bias, Fairness, and Accountability in AI Systems
+**Course:** Responsible AI for Engineers — VASTN Industry Module
+**Audience level:** Professional (practicing engineers and technical practitioners)
+**Duration:** 90 minutes
+
+---
+
+### Learning Objectives
+
+By the end of this lecture, participants will be able to define algorithmic bias and articulate its principal sources in training data and model design; apply established fairness metrics — including demographic parity, equalized odds, and individual fairness — to evaluate classification model outputs across demographic groups; identify and compare accountability mechanisms appropriate for high-stakes AI deployments in healthcare, finance, and education; and conduct a structured critical assessment of a real-world AI deployment case, identifying concrete ethical risks and proposing mitigation strategies grounded in engineering practice.
+
+---
+
+### Part 1 — Algorithmic Bias: Definitions, Sources, and Mechanisms (~25 minutes)
+
+This part establishes a precise, technically grounded vocabulary for algorithmic bias so that participants can diagnose bias systematically rather than treating it as an abstract ethical concern.
+
+#### 1.1 What Do We Mean by "Bias" in AI?
+
+The word *bias* carries different meanings depending on context, and conflating them creates confusion in engineering practice. We distinguish three uses:
+
+- **Statistical bias** refers to a systematic deviation of a model's predictions from true values — the bias term in the bias–variance tradeoff. This is a mathematical property of an estimator and is not inherently harmful.
+- **Cognitive bias** refers to systematic errors in human judgment, relevant when humans label training data or interpret model outputs.
+- **Algorithmic bias** (our primary focus) refers to systematic and unjustified differential treatment of individuals or groups by an automated decision system, typically in ways that reflect or amplify existing social inequities.
+
+Algorithmic bias is harmful not because a model makes errors — all models do — but because those errors are *patterned*: they fall disproportionately on groups defined by characteristics such as race, gender, age, disability status, or socioeconomic background. This patterning can cause concrete harm: denial of credit, misdiagnosis, wrongful flagging by a recidivism tool, or exclusion from educational opportunity.
+
+#### 1.2 A Taxonomy of Bias Sources
+
+Understanding where bias enters a system is a prerequisite for mitigating it. The following taxonomy covers the most consequential sources encountered in production systems.
+
+**1.2.1 Historical Bias**
+
+Historical bias arises when training data accurately reflects a world that was itself structured by discrimination. The data is not "wrong" in a narrow statistical sense — it faithfully records what happened — but what happened was shaped by unjust social arrangements. A hiring model trained on a decade of successful employee records at a company that historically promoted men over equally qualified women will learn to prefer male-associated features. The model is, in a sense, learning history. The problem is that deploying it perpetuates that history.
+
+*Example:* Amazon's experimental automated recruiting tool, trained on résumés submitted over ten years, downgraded résumés containing the word "women's" (as in "women's chess club") and penalised graduates of all-women's colleges. The company scrapped the tool in 2018 (Dastin, 2018).
+
+**1.2.2 Representation Bias**
+
+Representation bias occurs when the training dataset underrepresents or misrepresents certain groups relative to the population the model will serve. This is distinct from historical bias: the world may not have been discriminatory, but the data collection process was incomplete.
+
+*Example:* Facial recognition systems trained predominantly on lighter-skinned faces exhibit substantially higher error rates on darker-skinned faces. Buolamwini and Gebru (2018) demonstrated that commercial gender classification systems had error rates up to 34.7 percentage points higher for darker-skinned women than for lighter-skinned men.
+
+**1.2.3 Measurement Bias**
+
+Measurement bias arises when the features or labels used to represent a concept are systematically less accurate for some groups than others. This often occurs when a proxy variable is used because the true variable of interest is difficult to measure directly.
+
+*Example:* A healthcare algorithm studied by Obermeyer et al. (2019) used healthcare cost as a proxy for healthcare need. Because Black patients historically received less care for the same level of illness — due to systemic barriers — they incurred lower costs. The model therefore assigned them lower risk scores, effectively denying them access to care management programs. The proxy was biased even though the label (cost) was measured accurately.
+
+**1.2.4 Aggregation Bias**
+
+Aggregation bias occurs when a single model is built for a heterogeneous population whose subgroups have meaningfully different underlying distributions. A model optimised for the aggregate may perform poorly for subgroups whose patterns deviate from the majority.
+
+*Example:* Type 2 diabetes presents differently across ethnic groups in terms of the relationship between HbA1c levels and blood glucose. A model trained on a predominantly one-ethnicity dataset and applied universally may systematically misclassify patients from other groups.
+
+**1.2.5 Evaluation Bias**
+
+Evaluation bias occurs when the benchmark datasets or evaluation metrics used to validate a model do not adequately represent the deployment population. A model can achieve high aggregate accuracy on a benchmark while performing poorly on underrepresented subgroups — and this failure is invisible if the evaluation design does not include disaggregated performance analysis.
+
+**1.2.6 Deployment and Feedback Loop Bias**
+
+Even a model that is fair at deployment can become biased over time through feedback loops. Predictive policing systems direct officers to areas flagged as high-risk, generating more arrests in those areas, which produces more data confirming the original prediction — regardless of whether underlying crime rates differ. This is sometimes called *runaway feedback* or *performative prediction*.
+
+#### 1.3 Bias in Model Design
+
+Bias is not only a data problem. Architectural and design choices introduce bias independently:
+
+- **Objective function misalignment:** Optimising for aggregate accuracy implicitly weights majority-group performance more heavily when groups are imbalanced.
+- **Feature selection:** Including features that are proxies for protected characteristics (zip code as a proxy for race; name as a proxy for ethnicity or gender) can introduce discrimination even when protected attributes are explicitly excluded — a phenomenon known as *proxy discrimination* or *redlining by algorithm*.
+- **Threshold setting:** In binary classification, the decision threshold is a design choice. A single threshold applied uniformly across groups can produce disparate false positive or false negative rates.
+
+#### 1.4 Key Takeaway for Engineers
+
+Bias is not a bug introduced by careless practitioners; it is a structural tendency of machine learning systems trained on data generated by an unequal world. Mitigating it requires deliberate, systematic engineering effort at every stage of the ML pipeline: problem framing, data collection, feature engineering, model training, evaluation, and deployment monitoring.
+
+---
+
+### Part 2 — Fairness Metrics: Operationalising Equity (~30 minutes)
+
+This part moves from diagnosis to measurement, equipping participants with the mathematical tools needed to evaluate whether a deployed model treats demographic groups equitably — and to understand why no single metric is sufficient.
+
+#### 2.1 Why Metrics Matter (and Why They Are Not Enough)
+
+Fairness metrics translate normative ethical concepts into quantities that engineers can compute, monitor, and optimise. This is valuable: it makes fairness auditable and actionable. However, metrics are reductions of complex social concepts, and choosing a metric is itself a value-laden decision. We will examine the most widely used metrics, their mathematical definitions, and the tradeoffs among them.
+
+Throughout this section, we use a running example: a binary classification model that predicts whether a loan applicant will default (positive class = predicted default, leading to loan denial). We consider two demographic groups, A and B.
+
+Notation:
+- Ŷ = model prediction (0 or 1)
+- Y = true outcome (0 or 1)
+- A = sensitive attribute (group membership)
+
+#### 2.2 Group Fairness Metrics
+
+**2.2.1 Demographic Parity (Statistical Parity)**
+
+*Definition:* The model satisfies demographic parity if the probability of a positive prediction is equal across groups:
+
+> P(Ŷ = 1 | A = 0) = P(Ŷ = 1 | A = 1)
+
+In the loan context: the proportion of applicants denied loans should be the same in group A and group B.
+
+*Strengths:* Simple to compute; directly observable from model outputs without requiring ground truth labels.
+
+*Limitations:* Demographic parity can be satisfied even when the model is highly inaccurate for one group. It also ignores base rate differences: if group A genuinely defaults at a higher rate than group B (due to structural economic factors), enforcing demographic parity requires either denying loans to creditworthy group-B applicants or approving

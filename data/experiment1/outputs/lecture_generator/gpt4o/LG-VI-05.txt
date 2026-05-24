@@ -1,0 +1,29 @@
+## Lecture: Fine-tuning Mô hình Ngôn ngữ Nền tảng bằng LoRA
+**Course:** Mô hình Ngôn ngữ Lớn Ứng dụng — Chứng chỉ Liên trường VASTN  
+**Audience level:** postgraduate  
+**Duration:** 120 phút
+
+### Learning Objectives
+Sau khi hoàn thành bài giảng này, học viên sẽ có khả năng giải thích tại sao việc fine-tuning toàn bộ tham số của mô hình ngôn ngữ lớn (LLM) không khả thi trong hầu hết các bối cảnh tài nguyên hạn chế; mô tả nguyên lý của phương pháp Low-Rank Adaptation (LoRA) và cách nó giảm số lượng tham số cần cập nhật; cấu hình và chạy fine-tuning một mô hình transformer sử dụng thư viện PEFT của Hugging Face trên tập dữ liệu tiếng Việt; và đánh giá kết quả fine-tuning bằng các chỉ số phù hợp với tác vụ cụ thể.
+
+### Part 1 — Giới thiệu về Fine-tuning và Thách thức (~30 phút)
+Mục đích của phần này là giúp học viên hiểu rõ về khái niệm fine-tuning và những thách thức liên quan. Fine-tuning là quá trình điều chỉnh một mô hình đã được huấn luyện trước để phù hợp với một tác vụ cụ thể. Tuy nhiên, việc fine-tuning toàn bộ tham số của một LLM thường không khả thi do yêu cầu tài nguyên tính toán lớn và thời gian huấn luyện dài. Chúng ta sẽ thảo luận về các hạn chế này và lý do tại sao cần có các phương pháp tối ưu hơn.
+
+### Part 2 — Nguyên lý của Low-Rank Adaptation (LoRA) (~40 phút)
+Phần này nhằm mục đích giới thiệu và giải thích nguyên lý của phương pháp Low-Rank Adaptation (LoRA). LoRA là một kỹ thuật giúp giảm số lượng tham số cần cập nhật trong quá trình fine-tuning bằng cách sử dụng các ma trận hạng thấp. Chúng ta sẽ đi sâu vào cách LoRA hoạt động, bao gồm việc phân tích ma trận trọng số của mô hình và áp dụng các biến đổi hạng thấp để giảm độ phức tạp tính toán. Ví dụ minh họa sẽ được cung cấp để làm rõ cách LoRA có thể được tích hợp vào quá trình fine-tuning.
+
+### Part 3 — Thực hành Fine-tuning với PEFT của Hugging Face (~50 phút)
+Phần này có mục đích hướng dẫn học viên cách cấu hình và chạy fine-tuning một mô hình transformer sử dụng thư viện PEFT của Hugging Face trên tập dữ liệu tiếng Việt. Chúng ta sẽ bắt đầu với việc cài đặt môi trường, chuẩn bị dữ liệu, và sau đó thực hiện fine-tuning. Học viên sẽ học cách sử dụng các công cụ và hàm trong PEFT để áp dụng LoRA vào mô hình của mình. Cuối cùng, chúng ta sẽ thảo luận về cách đánh giá kết quả fine-tuning bằng các chỉ số như độ chính xác, F1-score, và các chỉ số khác phù hợp với tác vụ cụ thể.
+
+### Discussion Questions
+1. Tại sao fine-tuning toàn bộ tham số của một LLM có thể không khả thi trong một số bối cảnh?
+2. Làm thế nào LoRA giúp giảm số lượng tham số cần cập nhật trong quá trình fine-tuning?
+3. Những thách thức nào có thể gặp phải khi áp dụng LoRA trên tập dữ liệu tiếng Việt?
+
+### Suggested Further Reading
+1. Hu, E. J., Shen, Y., Wallis, P., Allen-Zhu, Z., Li, S., Wang, L., & Chen, W. (2021). LoRA: Low-Rank Adaptation of Large Language Models. arXiv preprint arXiv:2106.09685.
+2. Wolf, T., Debut, L., Sanh, V., Chaumond, J., Delangue, C., Moi, A., ... & Rush, A. M. (2020). Transformers: State-of-the-art natural language processing. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations (pp. 38-45).
+3. Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., ... & Polosukhin, I. (2017). Attention is all you need. Advances in neural information processing systems, 30.
+
+---
+*This lecture content was generated with AI assistance and requires review by the course instructor before use in teaching.*

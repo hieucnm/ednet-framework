@@ -1,0 +1,32 @@
+## Collaboration Framework Outline
+**Parties:** HCMUT (Ho Chi Minh City University of Technology), Bosch Vietnam Engineering  
+**Purpose:** Establish an applied research collaboration framework for joint investigation of predictive maintenance solutions using embedded AI on Bosch manufacturing equipment at the Dong Nai production facility, with the dual goal of producing publishable research findings and a deployable prototype system.  
+**Effective period:** 18 months from project kick-off, with option to extend by 6 months by mutual written agreement
+
+### Scope of Collaboration
+The collaboration will focus on a joint research project on predictive maintenance using sensor data from Bosch's Dong Nai production line. Activities include the provision of a research team by HCMUT, access to anonymised operational sensor data and the production facility by Bosch, joint authorship of research papers, and the development of a prototype anomaly detection system.
+
+### Responsibilities of Each Party
+| Party | Responsibility | Timeline |
+|---|---|---|
+| HCMUT | Provide research team of one faculty member and two postgraduate students | Ongoing |
+| Bosch Vietnam Engineering | Provide anonymised operational sensor data, engineering liaison, and access to the production facility for data collection visits (up to four per year) | Ongoing |
+| Both Parties | Joint authorship of at least one peer-reviewed conference or journal paper | Ongoing |
+| Both Parties | Development of a prototype anomaly detection system with documented performance benchmarks | Ongoing |
+
+### Resource Sharing Arrangements
+To be determined by mutual agreement [LEGAL REVIEW REQUIRED].
+
+### Governance and Dispute Resolution [LEGAL REVIEW REQUIRED]
+Decision-making authority will be shared equally between the parties, with a joint steering committee established to oversee project progress and resolve disputes. In the event of a conflict, the parties agree to first attempt resolution through negotiation, followed by mediation if necessary.
+
+### Review and Renewal Conditions
+The collaboration framework will be reviewed at the 12-month mark to assess progress and determine the need for extension. Any extension beyond the initial 18-month period will require mutual written agreement.
+
+### Open Items [LEGAL REVIEW REQUIRED]
+- Drafting and approval of the data processing agreement by Bosch legal team
+- Finalization of IP ownership terms for jointly developed prototype and algorithms
+- Agreement on confidentiality hold procedures and publication approval processes
+
+---
+*This collaboration framework outline was generated with AI assistance. It is a working draft and does not constitute a legally binding agreement.*

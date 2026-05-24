@@ -1,0 +1,29 @@
+## Lecture: Introduction to Neural Networks and Deep Learning
+**Course:** AI Engineering Fundamentals — VASTN Joint Certificate  
+**Audience level:** Undergraduate  
+**Duration:** 90 minutes  
+
+### Learning Objectives
+By the end of this lecture, learners will be able to explain the biological inspiration behind artificial neurons, describe the architecture of a feedforward neural network, demonstrate how forward propagation computes an output from inputs and weights, and identify common activation functions and their properties.
+
+### Part 1 — Biological Inspiration and Artificial Neurons (~20 minutes)
+In this section, we will explore the biological inspiration behind artificial neurons, which are the fundamental building blocks of neural networks. Biological neurons are specialized cells in the brain that transmit information through electrical and chemical signals. They consist of a cell body, dendrites, and an axon. Artificial neurons, or perceptrons, mimic this structure by taking multiple inputs, processing them, and producing a single output. Each input is associated with a weight, which determines its importance. The perceptron sums the weighted inputs and applies an activation function to produce the output. This process is analogous to how biological neurons process signals.
+
+### Part 2 — Architecture of a Feedforward Neural Network (~30 minutes)
+This part of the lecture will cover the architecture of a feedforward neural network, which is the simplest type of artificial neural network. A feedforward neural network consists of an input layer, one or more hidden layers, and an output layer. Information flows in one direction—from the input layer, through the hidden layers, to the output layer—without looping back. Each layer is composed of neurons, and each neuron in a layer is connected to every neuron in the subsequent layer. This architecture allows the network to learn complex patterns by adjusting the weights of the connections during training. We will discuss how the number of layers and neurons can affect the network's ability to model data.
+
+### Part 3 — Forward Propagation and Activation Functions (~40 minutes)
+In this final section, we will demonstrate how forward propagation works in a neural network to compute an output from given inputs and weights. Forward propagation involves passing the input data through the network, layer by layer, to generate an output. Each neuron computes a weighted sum of its inputs, applies an activation function, and passes the result to the next layer. We will examine common activation functions such as the sigmoid, hyperbolic tangent (tanh), and rectified linear unit (ReLU), discussing their mathematical properties and impact on the network's performance. Understanding these functions is crucial for designing effective neural networks, as they introduce non-linearity, enabling the network to learn complex patterns.
+
+### Discussion Questions
+1. How do artificial neurons differ from biological neurons, and what are the implications of these differences for neural network design?
+2. What are the advantages and limitations of using a feedforward neural network architecture?
+3. How do different activation functions affect the learning process and performance of a neural network?
+
+### Suggested Further Reading
+1. Goodfellow, I., Bengio, Y., & Courville, A. (2016). *Deep Learning*. MIT Press.
+2. Nielsen, M. (2015). *Neural Networks and Deep Learning*. Determination Press.
+3. Bishop, C. M. (2006). *Pattern Recognition and Machine Learning*. Springer.
+
+---
+*This lecture content was generated with AI assistance and requires review by the course instructor before use in teaching.*

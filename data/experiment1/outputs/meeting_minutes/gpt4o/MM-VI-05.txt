@@ -1,0 +1,26 @@
+## Biên bản Cuộc họp
+**Mạng lưới:** VASTN  
+**Ngày:** 25 tháng 6 năm 2024  
+**Thành viên tham dự:** PGS.TS. Trần Minh Quang (ĐHBK TP.HCM), TS. Hà Đức Thịnh (ĐHBK Hà Nội), GS. Sarah Chen (NUS)
+
+### Các nội dung thảo luận
+Cuộc họp đã thảo luận về đề xuất điều chỉnh module Học sâu. TS. Hà Đức Thịnh từ ĐHBK Hà Nội đã nêu ra ba vấn đề chính: lượng kiến thức lý thuyết quá cao, cần chuyển từ TensorFlow sang PyTorch, và thiếu nội dung về fine-tuning mô hình nền tảng. GS. Sarah Chen từ NUS bổ sung rằng nên đưa Hugging Face Transformers vào chương trình thực hành.
+
+Nội dung thứ hai là kế hoạch tuyển sinh thí điểm, với mục tiêu tuyển 30 sinh viên cho khóa thí điểm tháng 9. Phân bổ chỉ tiêu giữa ba trường là 10 sinh viên mỗi trường. NUS yêu cầu phỏng vấn hoặc xem xét hồ sơ học thuật cho sinh viên trao đổi.
+
+### Các quyết định đã được thông qua
+Hội đồng đã thống nhất điều chỉnh module Học sâu: giảm lý thuyết xuống còn 40%, chuyển sang PyTorch, bổ sung nội dung fine-tuning và Hugging Face. Bản điều chỉnh cần hoàn thành trước ngày 15 tháng 8 năm 2024.
+
+Hội đồng cũng đã thông qua kế hoạch tuyển sinh thí điểm với chỉ tiêu 30 sinh viên, chia đều cho ba trường. Hạn nộp hồ sơ là ngày 31 tháng 7 năm 2024.
+
+### Hạng mục công việc
+| Người phụ trách | Hạn chót | Mô tả |
+|---|---|---|
+| Tiểu ban Chương trình | 15 tháng 8 năm 2024 | Điều chỉnh module Học sâu |
+| Ban Thư ký | Trong tuần này | Gửi mẫu hồ sơ cho các trường |
+
+### Cuộc họp tiếp theo
+Tháng 9 năm 2024
+
+---
+*Tài liệu này được tạo ra với sự hỗ trợ của AI và đang chờ được xem xét bởi con người.*

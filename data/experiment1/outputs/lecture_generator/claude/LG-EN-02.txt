@@ -1,0 +1,94 @@
+## Lecture: Deploying Machine Learning Models on Edge Devices
+**Course:** Applied AI Systems — VASTN Joint Certificate
+**Audience level:** Postgraduate
+**Duration:** 120 minutes
+
+---
+
+### Learning Objectives
+
+By the end of this lecture, learners will be able to distinguish between cloud-based and edge-based inference architectures and articulate the engineering and operational trade-offs between them; apply model quantisation and structured pruning techniques to reduce the memory footprint and computational cost of a trained neural network; configure and deploy a TensorFlow Lite (TFLite) model for inference on a microcontroller-class device using the TensorFlow Lite for Microcontrollers (TFLM) runtime; and systematically evaluate latency, static and dynamic memory consumption, and task accuracy to justify deployment decisions for a specified edge scenario.
+
+---
+
+### Part 1 — Cloud Inference vs. Edge Inference: Architectures and Trade-offs (~25 minutes)
+
+This part establishes the conceptual and architectural foundation for the lecture by contrasting the two dominant inference deployment paradigms, enabling learners to reason about which is appropriate for a given system context.
+
+#### 1.1 Defining the Inference Pipeline
+
+When a trained machine learning model is used to produce predictions on new data, that process is called **inference** (as distinct from training). The inference pipeline encompasses data acquisition, pre-processing, model execution, and post-processing. Where this pipeline executes — and on what hardware — is the central design decision in edge ML deployment.
+
+In **cloud inference**, raw or lightly pre-processed data is transmitted over a network to a remote server or managed ML service (e.g., AWS SageMaker endpoints, Google Cloud AI Platform, Azure ML). The server executes the model and returns the result. The client device is essentially a data collector and display terminal.
+
+In **edge inference**, the model executes locally on the device that acquires the data — or on a nearby gateway device — without a round-trip to a remote server. "Edge" spans a wide hardware spectrum: from powerful edge servers and NVIDIA Jetson modules, through single-board computers such as the Raspberry Pi, down to microcontroller units (MCUs) such as the ARM Cortex-M series running at tens of megahertz with kilobytes of RAM.
+
+#### 1.2 The Trade-off Space
+
+The choice between cloud and edge inference is not binary; it is a multi-dimensional engineering trade-off. The following dimensions are the most consequential at postgraduate level:
+
+**Latency.** Cloud inference introduces network round-trip time (RTT), which on a 4G link is typically 30–100 ms and on congested or rural networks can exceed 500 ms. For real-time control systems (e.g., motor fault detection, gesture recognition for HCI), this is often unacceptable. Edge inference can achieve sub-millisecond to single-digit millisecond latency on MCU-class hardware for small models.
+
+**Bandwidth and data volume.** Transmitting raw sensor streams — particularly audio, video, or high-frequency vibration data — consumes significant uplink bandwidth and incurs cost. Edge inference allows only the result (a classification label, an anomaly flag) to be transmitted, reducing bandwidth by orders of magnitude. This is sometimes called **data reduction at the source**.
+
+**Privacy and data sovereignty.** Raw sensor data may contain personally identifiable information (PII) — voice recordings, images, biometric signals. Processing on-device means sensitive data never leaves the hardware boundary, which is architecturally significant for GDPR compliance and for deployments in healthcare, defence, and industrial settings.
+
+**Reliability and offline operation.** Cloud inference requires continuous network connectivity. Edge inference operates independently of network availability, which is critical for remote industrial assets, agricultural sensors, or disaster-response systems.
+
+**Energy consumption.** Transmitting data over a radio interface (Wi-Fi, cellular, LoRa) is energetically expensive relative to local computation on a low-power MCU. For battery-powered or energy-harvesting devices, eliminating or reducing transmissions can extend operational lifetime from days to years.
+
+**Model capability and update agility.** Cloud inference can use arbitrarily large models (GPT-scale transformers, large CNNs) and can be updated instantaneously. Edge models are constrained by device resources and require firmware update mechanisms (OTA — over-the-air updates) to be refreshed, which adds operational complexity.
+
+**Cost at scale.** Cloud inference incurs per-inference API costs or compute instance costs that scale linearly with fleet size. A fleet of 100,000 sensors making 10 inferences per second generates 10⁹ inference requests per day — a non-trivial cloud cost. Edge inference amortises compute cost at manufacturing time.
+
+#### 1.3 The Fog and Hierarchical Inference Pattern
+
+A pragmatic architecture for many industrial IoT deployments is **hierarchical inference**: a lightweight anomaly-detection model runs on the MCU and triggers transmission only when an anomaly is detected; a more capable model on a gateway or in the cloud then performs detailed diagnosis. This pattern — sometimes called **fog computing** or **tiered inference** — captures the latency and bandwidth benefits of edge inference while retaining access to cloud-scale model capacity for infrequent, complex decisions.
+
+#### 1.4 Hardware Taxonomy for Edge ML
+
+Understanding the hardware landscape prevents misapplication of techniques:
+
+| Class | Example Devices | Typical RAM | Typical Clock | Typical TDP |
+|---|---|---|---|---|
+| Edge server | NVIDIA Jetson AGX Orin | 32 GB | 2+ GHz (GPU) | 15–60 W |
+| Single-board computer | Raspberry Pi 4 | 1–8 GB | 1.8 GHz | 3–7 W |
+| Embedded Linux SoC | STM32MP1, i.MX 8 | 128 MB–1 GB | 650 MHz | <2 W |
+| Cortex-M MCU | STM32H7, nRF5340 | 256–1024 KB | 64–480 MHz | <100 mW |
+| Ultra-low-power MCU | STM32L4, Arduino Nano 33 BLE | 64–256 KB | 4–80 MHz | <10 mW |
+
+The techniques covered in Parts 2 and 3 of this lecture are primarily targeted at the bottom two rows of this table — MCU-class devices — where resource constraints are most severe.
+
+---
+
+### Part 2 — Model Compression: Quantisation and Pruning (~40 minutes)
+
+This part develops the technical skills required to reduce a trained model's size and computational cost to levels compatible with MCU-class deployment, with emphasis on the mathematical basis and practical implementation of quantisation and pruning.
+
+#### 2.1 Why Compression Is Necessary
+
+A standard MobileNetV2 trained in float32 precision occupies approximately 14 MB of flash storage and requires roughly 300 MB of RAM during inference due to activation buffers. A typical Cortex-M4 MCU has 512 KB of flash and 128 KB of RAM. The gap is three to four orders of magnitude. Compression is not an optimisation — it is a prerequisite.
+
+The two primary compression techniques applicable before or after training are **quantisation** and **pruning**. They address different aspects of the resource budget:
+
+- **Quantisation** reduces the numerical precision of weights and activations, shrinking both storage and arithmetic cost.
+- **Pruning** removes redundant parameters entirely, reducing the number of operations and (with structured pruning) the model's memory footprint.
+
+These techniques can be applied independently or in combination.
+
+#### 2.2 Quantisation
+
+##### 2.2.1 Conceptual Basis
+
+Standard neural network training uses 32-bit floating-point (float32) arithmetic. Each weight and activation value occupies 4 bytes. Quantisation maps these continuous float32 values to a lower-precision discrete representation — most commonly **8-bit integers (int8)** or **16-bit integers (int16)**, though 4-bit and binary quantisation exist for extreme compression.
+
+The mapping from float to integer is defined by two parameters: a **scale** (s) and a **zero-point** (z):
+
+```
+x_int = round(x_float / s) + z
+x_float ≈ s × (x_int − z)
+```
+
+For int8, values are in the range [−128, 127] (signed) or [0, 255] (unsigned). The scale and zero-point are chosen to minimise the quantisation error over the observed range of the tensor.
+
+This reduces weight storage by 4× (from 4 bytes to 1 byte per value) and enables integer arithmetic on hardware that lacks a floating-point unit (FPU) — which is the case for many Cortex-M0/M0
