@@ -1,0 +1,34 @@
+Ghi chú cuộc họp — Nhóm công tác Chương trình học phần AI Ứng dụng
+Ngày 6 tháng 3 năm 2024
+
+Cuộc họp bắt đầu lúc 9h30. Tham dự gồm đại diện từ ĐHBK TP.HCM, ĐHBK Hà Nội và RMIT Việt Nam.
+
+[TS. Võ Thành Nam, ĐHBK TP.HCM]: Hôm nay chúng ta tập trung vào ba vấn đề còn tồn đọng từ cuộc họp tháng trước: khung đánh giá học phần, phân công biên soạn tài liệu, và lịch giảng dạy thử nghiệm. Bắt đầu với khung đánh giá nhé.
+
+[TS. Phạm Thị Lan, ĐHBK Hà Nội]: Tôi đã xem lại đề xuất của RMIT tuần trước. Nhìn chung phù hợp, nhưng có một điểm là tỷ lệ 40 phần trăm cho bài thi cuối kỳ theo tôi là hơi cao so với định hướng đánh giá năng lực thực hành của chương trình. ĐHBK Hà Nội đề xuất giảm xuống 30 phần trăm và tăng phần đồ án nhóm lên 45 phần trăm.
+
+[GS. Wiremu Tane, RMIT Việt Nam]: Tôi hiểu quan điểm đó. Lý do RMIT đề xuất 40 phần trăm cuối kỳ là để duy trì khả năng tương thích với các chương trình cấp bằng tại campus RMIT Úc nếu sinh viên chuyển đổi. Nhưng nếu đây là chương trình standalone thì 30 phần trăm hoàn toàn khả thi.
+
+[TS. Võ Thành Nam, ĐHBK TP.HCM]: Chương trình này không có cơ chế chuyển đổi tín chỉ sang Úc trong giai đoạn thí điểm, nên tôi nghĩ ta có thể linh hoạt hơn. Nhất trí với phương án 45 đồ án, 25 giữa kỳ, 30 cuối kỳ không?
+
+[TS. Phạm Thị Lan, ĐHBK Hà Nội]: Nhất trí.
+
+[GS. Wiremu Tane, RMIT Việt Nam]: Nhất trí.
+
+[TS. Võ Thành Nam, ĐHBK TP.HCM]: Tốt. Vậy là thống nhất tỷ lệ 45-25-30. Chuyển sang phân công biên soạn. Danh sách các chủ đề còn chưa có người nhận gồm: xử lý ngôn ngữ tự nhiên ứng dụng, triển khai mô hình trên thiết bị biên, và đạo đức AI.
+
+[GS. Wiremu Tane, RMIT Việt Nam]: RMIT có thể nhận xử lý ngôn ngữ tự nhiên. Chúng tôi có giảng viên đang nghiên cứu mảng này.
+
+[TS. Phạm Thị Lan, ĐHBK Hà Nội]: ĐHBK Hà Nội nhận triển khai mô hình trên thiết bị biên — đây gần với hướng nghiên cứu của nhóm IoT bên tôi.
+
+[TS. Võ Thành Nam, ĐHBK TP.HCM]: Vậy còn đạo đức AI chưa có ai nhận. ĐHBK TP.HCM có thể nhận nhưng cần hỗ trợ từ một đơn vị doanh nghiệp về ví dụ thực tế. Sẽ trao đổi với Intel tuần tới.
+
+[TS. Phạm Thị Lan, ĐHBK Hà Nội]: Thời hạn nộp bản thảo đầu tiên là khi nào?
+
+[TS. Võ Thành Nam, ĐHBK TP.HCM]: Tôi đề nghị 30 tháng 5 để còn kịp góp ý và hoàn thiện trước khi giảng thử vào tháng 9. Mọi người chấp nhận deadline này chứ?
+
+[GS. Wiremu Tane, RMIT Việt Nam]: Được với RMIT.
+
+[TS. Phạm Thị Lan, ĐHBK Hà Nội]: Được. Riêng lịch giảng thử nghiệm tôi đề nghị chuyển sang họp lần sau vì hôm nay đã hết thời gian. Cần xác nhận phòng học và số sinh viên thí điểm trước khi bàn.
+
+[TS. Võ Thành Nam, ĐHBK TP.HCM]: Nhất trí. Cuộc họp lần sau dự kiến đầu tháng 4. Thư ký gửi thông báo sau.

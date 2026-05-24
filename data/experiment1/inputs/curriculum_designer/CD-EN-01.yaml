@@ -1,0 +1,7 @@
+program_name: "Applied Generative AI for Engineers"
+institutions: "HCMUT, NUS, Intel Vietnam"
+goals: "Equip students with practical skills to design, fine-tune, evaluate, and deploy generative AI systems in engineering contexts; develop understanding of responsible AI principles and their application in product development; bridge academic foundations with industry workflows used at semiconductor and software companies"
+audience: "Final-year undergraduate and first-year postgraduate students in computer engineering, software engineering, and electrical engineering; students should have completed at least one prior machine learning course"
+duration: "12 weeks, 3 contact hours per week"
+constraints: "Must be deliverable as a hybrid programme with NUS components delivered online and HCMUT/Intel components in-person in Ho Chi Minh City; credit recognition target is 3 academic credits at HCMUT and equivalent NUS credit; Intel Vietnam to contribute at least 4 industry-led sessions; no prerequisite course on transformers assumed"
+language: "en"

@@ -1,0 +1,18 @@
+HCMUT–Bosch Vietnam Bilateral Discussion — Research Collaboration Scoping
+Informal call notes, 8 February 2024
+
+[Assoc. Prof. Nguyen Van An, HCMUT]: Thank you for making time, Mr. Hoffmann. As I mentioned in my email, we wanted to explore whether there is appetite on Bosch's side for a more structured research collaboration, building on the student placement arrangement we have had for the past two years.
+
+[Mr. Klaus Hoffmann, Bosch Vietnam — Head of Engineering]: Yes, the placement programme has worked well from our end. We have taken four students from HCMUT over two years and two of them are now full-time employees. That is a good conversion rate for us. What kind of collaboration did you have in mind?
+
+[Assoc. Prof. Nguyen Van An, HCMUT]: We are thinking about a joint applied research project — something in the area of predictive maintenance using embedded AI on Bosch manufacturing equipment. HCMUT would provide the research team, Bosch would provide access to operational data and an engineering liaison. Duration around 18 months, potentially leading to a publication and a prototype.
+
+[Mr. Klaus Hoffmann, Bosch Vietnam]: That is interesting. The predictive maintenance area is relevant to us — we have a line in Dong Nai where we are seeing unplanned downtime that current monitoring is not catching. I would need to check with our R&D and legal teams on data sharing. IP ownership would be a question.
+
+[Assoc. Prof. Nguyen Van An, HCMUT]: Understood. Our standard position is joint IP for jointly developed outputs, with the university retaining rights to publish findings with a 90-day review period for Bosch to flag confidential content.
+
+[Mr. Klaus Hoffmann, Bosch Vietnam]: That is a reasonable starting point. Let me take it internally and come back to you within three weeks.
+
+[Assoc. Prof. Nguyen Van An, HCMUT]: That works. I will send you a one-page concept note by end of this week to help frame the internal discussion.
+
+[Mr. Klaus Hoffmann, Bosch Vietnam]: Perfect. I will be in touch.

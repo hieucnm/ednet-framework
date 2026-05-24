@@ -1,0 +1,7 @@
+program_name: "Semiconductor Design Fundamentals — Industry Entry Programme"
+institutions: "HCMUT, Bosch Vietnam"
+goals: "Provide graduating engineers with foundational skills in digital IC design and verification sufficient for entry-level roles in semiconductor R&D and embedded product development; familiarise students with commercial EDA toolchains used in industry; develop practical understanding of the full design flow from RTL to tape-out simulation"
+audience: "Final-year undergraduate students in electrical engineering and computer engineering; students must have completed a digital logic design course; programme targets students seeking employment in the semiconductor sector within 12 months of graduation"
+duration: "8 weeks, 4 contact hours per week"
+constraints: "Bosch Vietnam to provide access to Synopsys Design Compiler licences for the practical sessions; all hands-on lab work must be completable on university workstations — no personal hardware requirements for students; programme must be schedulable in the final semester without conflicting with thesis submission deadlines; certification to be jointly issued by HCMUT and Bosch Vietnam"
+language: "en"

@@ -1,0 +1,12 @@
+Báo cáo Tổng kết Hoạt động Chương trình Đào tạo VASTN — Năm học 2023–2024
+Phần III: Kết quả Đào tạo và Đánh giá Chất lượng
+
+Quy mô và tuyển sinh: Trong năm học 2023–2024, chương trình đào tạo liên kết của VASTN tuyển sinh tổng cộng 214 học viên, tăng 14 phần trăm so với năm học trước. Trong đó, Chứng chỉ Kỹ thuật AI Liên trường thu hút 156 học viên từ bốn cơ sở đào tạo thành viên, vượt 8 phần trăm so với chỉ tiêu đề ra. Khoá học Thiết kế Vi mạch Cơ bản tuyển được 58 học viên, đạt 96 phần trăm chỉ tiêu. Tỷ lệ học viên hoàn thành chương trình đạt 86,4 phần trăm, vượt ngưỡng mục tiêu 85 phần trăm. Số học viên không hoàn thành gồm 12 trường hợp tự nguyện rút và 17 trường hợp không đáp ứng yêu cầu học thuật.
+
+Kết quả học tập: Điểm trung bình tích lũy của toàn khoá là 7,3 trên thang điểm 10. Học phần có kết quả cao nhất là Thực hành Học sâu với điểm trung bình 8,1 và tỷ lệ đạt 94 phần trăm. Học phần có kết quả thấp nhất là Thiết kế Mạch tích hợp số với điểm trung bình 6,4 và tỷ lệ đạt 78 phần trăm. Khảo sát học viên sau khoá học ghi nhận điểm hài lòng trung bình 3,8 trên 5 điểm; các học viên đánh giá cao nhất nội dung các học phần do doanh nghiệp phụ trách và thấp nhất là chất lượng tài liệu học tập của học phần Toán ứng dụng.
+
+Kết quả việc làm: Trong số 185 học viên tốt nghiệp đến thời điểm khảo sát, 162 học viên đã có việc làm hoặc tiếp tục học lên bậc cao hơn, đạt tỷ lệ 87,6 phần trăm. Trong đó 43 học viên được tuyển dụng bởi các doanh nghiệp đối tác của VASTN. Thời gian trung bình để có việc làm sau tốt nghiệp là 2,3 tháng, giảm so với mức 3,1 tháng của năm học trước.
+
+Đánh giá chất lượng bên ngoài: Hội đồng đánh giá ngoài gồm ba chuyên gia độc lập do Ban Chỉ đạo mời, thực hiện đánh giá vào tháng 11 năm 2023, nhận xét chương trình có nội dung thực tiễn tốt và sự tham gia tích cực của doanh nghiệp, nhưng khuyến nghị cải thiện hai điểm: tăng cường hướng dẫn nghiên cứu khoa học cho học viên và bổ sung tiêu chí đánh giá kỹ năng làm việc nhóm đa văn hoá vào rubric đánh giá đồ án cuối khoá.
+
+Định hướng cải tiến năm học tiếp theo: Dựa trên kết quả đánh giá, Ban Điều phối Chương trình đề xuất ba hành động ưu tiên: cập nhật học phần Thiết kế Vi mạch theo phản hồi của học viên và chuyên gia; bổ sung hai buổi hướng dẫn nghiên cứu khoa học vào học kỳ 2; và xây dựng rubric đánh giá kỹ năng làm việc nhóm đa văn hoá trước tháng 3 năm 2025.

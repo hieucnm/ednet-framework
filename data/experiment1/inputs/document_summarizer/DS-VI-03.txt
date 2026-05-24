@@ -1,0 +1,15 @@
+Biên bản Thoả thuận Hợp tác Đào tạo và Nghiên cứu
+Giữa Trường Đại học Bách khoa TP. Hồ Chí Minh và Công ty TNHH Intel Products Việt Nam
+Ký kết ngày 20 tháng 02 năm 2024 — Trích các Điều từ 3 đến 6
+
+Điều 3 — Phạm vi Hợp tác
+Hai bên thống nhất hợp tác trong các lĩnh vực sau: (a) Đồng giảng dạy các học phần thuộc chương trình Kỹ thuật AI trong khuôn khổ VASTN, với tối thiểu bốn học phần mỗi năm học có giảng viên hoặc kỹ sư của Intel tham gia trực tiếp trong vai trò đồng giảng viên hoặc khách mời; (b) Tiếp nhận sinh viên thực tập với chỉ tiêu tối thiểu mười sinh viên mỗi học kỳ, trong đó ít nhất ba vị trí dành cho sinh viên năm ba tham gia thực tập nghiên cứu; (c) Hỗ trợ trang thiết bị thực hành bao gồm kit phát triển FPGA và phần mềm thiết kế vi mạch, với giá trị tương đương không dưới 500 triệu đồng trong giai đoạn đầu ba năm; và (d) Đặt đề bài cho đồ án tốt nghiệp từ các bài toán kỹ thuật thực tế của Intel, với mục tiêu ít nhất mười phần trăm sinh viên tốt nghiệp mỗi khoá có đề tài liên quan đến bài toán của doanh nghiệp.
+
+Điều 4 — Sở hữu Trí tuệ và Bảo mật
+Kết quả nghiên cứu và phát triển phát sinh từ hoạt động hợp tác theo Thoả thuận này thuộc sở hữu chung của hai bên trừ khi có thoả thuận bằng văn bản khác trước khi bắt đầu hoạt động cụ thể. Intel có quyền yêu cầu bảo mật kết quả nghiên cứu trong thời hạn không quá sáu tháng kể từ khi kết thúc dự án liên quan, trong thời gian đó ĐHBK TP.HCM chưa được công bố kết quả mà không có sự đồng ý của Intel.
+
+Điều 5 — Học bổng và Hỗ trợ Tài chính
+Intel cam kết cấp tối thiểu mười lăm suất học bổng mỗi năm học cho sinh viên xuất sắc của các chương trình VASTN, mỗi suất trị giá 25 triệu đồng một học kỳ. Điều kiện xét học bổng do Hội đồng Học bổng Chung gồm đại diện hai bên quyết định và công bố định kỳ vào đầu mỗi năm học.
+
+Điều 6 — Cơ chế Điều phối và Giải quyết Tranh chấp
+Hai bên thành lập Uỷ ban Điều phối Chung họp định kỳ mỗi sáu tháng để đánh giá tiến độ thực hiện và điều chỉnh kế hoạch hoạt động. Trong trường hợp phát sinh tranh chấp không thể giải quyết qua thương lượng trực tiếp trong vòng ba mươi ngày, hai bên đồng ý đưa tranh chấp ra giải quyết theo thủ tục trọng tài thương mại tại Trung tâm Trọng tài Quốc tế Việt Nam. Thoả thuận này có hiệu lực từ ngày ký và có thời hạn ba năm, tự động gia hạn thêm một năm trừ khi một bên thông báo chấm dứt trước ít nhất chín mươi ngày.

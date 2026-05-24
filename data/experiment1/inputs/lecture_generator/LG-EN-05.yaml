@@ -1,0 +1,6 @@
+course_name: "Natural Language Processing for Engineers — VASTN Joint Certificate"
+topic: "Transformer Architecture and Self-Attention Mechanism"
+objectives: "Explain the limitations of recurrent architectures that motivated the transformer design; derive the scaled dot-product attention computation step by step; describe the role of multi-head attention, positional encoding, and layer normalisation in a transformer encoder; compare BERT and GPT architectural choices and explain how each is suited to different NLP tasks; fine-tune a pre-trained transformer model for a text classification task using the Hugging Face library"
+level: "postgraduate"
+duration: "120 minutes"
+language: "en"

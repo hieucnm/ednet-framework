@@ -1,0 +1,42 @@
+{
+  "CF-EN-01": {
+    "language": "en",
+    "purpose": "Bilateral research and curriculum collaboration",
+    "institutions": "HCMUT, NUS",
+    "period": "5 years",
+    "complexity": "medium",
+    "domain": "research collaboration, curriculum"
+  },
+  "CF-EN-02": {
+    "language": "en",
+    "purpose": "Erasmus+ Capacity Building project framework",
+    "institutions": "VASTN Consortium, TU Delft, KTH",
+    "period": "3 years",
+    "complexity": "complex",
+    "domain": "funding, governance, curriculum"
+  },
+  "CF-EN-03": {
+    "language": "en",
+    "purpose": "Industry-university applied research on predictive maintenance",
+    "institutions": "HCMUT, Bosch Vietnam",
+    "period": "18 months",
+    "complexity": "medium",
+    "domain": "research collaboration, industry"
+  },
+  "CF-EN-04": {
+    "language": "en",
+    "purpose": "Short-term student mobility and credit recognition",
+    "institutions": "HCMUT, RMIT Vietnam",
+    "period": "2 academic years",
+    "complexity": "simple",
+    "domain": "mobility, governance"
+  },
+  "CF-EN-05": {
+    "language": "en",
+    "purpose": "Multi-party knowledge transfer and workforce development",
+    "institutions": "HCMUT, HUST, NUS, Intel Vietnam, Bosch Vietnam",
+    "period": "3 years",
+    "complexity": "complex",
+    "domain": "governance, industry collaboration, curriculum"
+  }
+}

@@ -1,0 +1,6 @@
+course_name: "AI Engineering Fundamentals — VASTN Joint Certificate"
+topic: "Introduction to Neural Networks and Deep Learning"
+objectives: "Explain the biological inspiration behind artificial neurons; describe the architecture of a feedforward neural network; demonstrate how forward propagation computes an output from inputs and weights; identify common activation functions and their properties"
+level: "undergraduate"
+duration: "90 minutes"
+language: "en"

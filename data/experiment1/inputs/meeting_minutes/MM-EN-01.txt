@@ -1,0 +1,32 @@
+VASTN Steering Committee — Q1 2024 Coordination Meeting
+Recorded transcript (partial), 15 March 2024
+
+[Assoc. Prof. Tran Minh Quang, HCMUT]: Good morning everyone. I think we have most people on the call now. Let us begin. The first item today is the progress update on the AI hardware module that Intel Vietnam was leading. Dr. Nguyen, would you like to start?
+
+[Dr. Nguyen Phuong Linh, Intel Vietnam]: Yes, thank you. So the hardware module draft is about 70 percent complete. We have the lecture slides for weeks one through four finalised, and the lab exercises for the FPGA component are ready for review. The main bottleneck right now is the simulation software licensing — we were expecting the university licences to come through by end of February but there has been a delay on the HCMUT procurement side.
+
+[Assoc. Prof. Tran Minh Quang, HCMUT]: Understood. Can procurement confirm a revised date?
+
+[Ms. Le Thi Bich Ngoc, HCMUT Admin]: I checked with the procurement office yesterday. The revised estimate is end of March, so approximately two weeks from now.
+
+[Assoc. Prof. Tran Minh Quang, HCMUT]: That is workable if we adjust the module schedule slightly. Dr. Nguyen, can weeks five and six be reordered to push the simulation lab to week seven?
+
+[Dr. Nguyen Phuong Linh, Intel Vietnam]: Yes, we can do that. I will revise the module outline and send it to the committee by next Friday.
+
+[Prof. Sarah Chen, NUS]: I want to raise the student mobility numbers for the second half of the year. We currently have confirmed places for eight students from HCMUT at NUS for the summer semester, but the application deadline was extended twice and we are still three students short of the minimum cohort of eleven that NUS requires to run the module as a joint cohort. What is the status on the HUST side?
+
+[Dr. Ha Duc Thinh, HUST]: HUST has two students who have submitted applications. A third is still preparing documents — we expect submission by end of this week.
+
+[Prof. Sarah Chen, NUS]: If that comes through we are at eleven total. I will confirm with the NUS international office and send a formal update to everyone by Monday.
+
+[Assoc. Prof. Tran Minh Quang, HCMUT]: Good. The third item is the mid-year review schedule. We had discussed holding it in June in Hanoi. Is that still feasible?
+
+[Dr. Ha Duc Thinh, HUST]: HUST can host on June 14th or 15th. We have the conference facilities available both days.
+
+[Assoc. Prof. Tran Minh Quang, HCMUT]: Let us tentatively set June 14th. I will send a calendar invite after this call. Any other business?
+
+[Dr. Nguyen Phuong Linh, Intel Vietnam]: One small item — the travel reimbursement forms for the February workshop still have not been processed for the Intel team. Ms. Ngoc, can you follow up with finance?
+
+[Ms. Le Thi Bich Ngoc, HCMUT Admin]: I will do that today.
+
+[Assoc. Prof. Tran Minh Quang, HCMUT]: Thank you everyone. We will reconvene on June 14th in Hanoi.

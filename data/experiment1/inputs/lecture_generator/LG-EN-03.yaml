@@ -1,0 +1,6 @@
+course_name: "Responsible AI for Engineers — VASTN Industry Module"
+topic: "Bias, Fairness, and Accountability in AI Systems"
+objectives: "Define algorithmic bias and describe common sources of bias in training data and model design; apply fairness metrics to evaluate a classification model's outputs across demographic groups; identify accountability mechanisms appropriate for high-stakes AI applications in healthcare, finance, and education; critically assess a real-world AI deployment case for ethical risks"
+level: "professional"
+duration: "90 minutes"
+language: "en"

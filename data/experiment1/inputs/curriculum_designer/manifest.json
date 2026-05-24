@@ -1,0 +1,42 @@
+{
+  "CD-EN-01": {
+    "language": "en",
+    "program_name": "Applied Generative AI for Engineers",
+    "institutions": "HCMUT, NUS, Intel Vietnam",
+    "duration": "12 weeks",
+    "complexity": "medium",
+    "domain": "AI, industry collaboration"
+  },
+  "CD-EN-02": {
+    "language": "en",
+    "program_name": "Semiconductor Design Fundamentals — Industry Entry Programme",
+    "institutions": "HCMUT, Bosch Vietnam",
+    "duration": "8 weeks",
+    "complexity": "simple",
+    "domain": "semiconductor, industry collaboration"
+  },
+  "CD-EN-03": {
+    "language": "en",
+    "program_name": "Responsible AI in Practice — Cross-Disciplinary Certificate",
+    "institutions": "HCMUT, HUST, RMIT Vietnam, Intel Vietnam",
+    "duration": "10 weeks",
+    "complexity": "medium",
+    "domain": "AI ethics, governance"
+  },
+  "CD-EN-04": {
+    "language": "en",
+    "program_name": "AI for Engineering Managers — Professional Upskilling Programme",
+    "institutions": "HCMUT, Intel Vietnam",
+    "duration": "6 weeks",
+    "complexity": "simple",
+    "domain": "AI, professional development"
+  },
+  "CD-EN-05": {
+    "language": "en",
+    "program_name": "Master of Engineering in AI Systems — Joint Degree Programme",
+    "institutions": "HCMUT, NUS, HUST",
+    "duration": "2 years",
+    "complexity": "complex",
+    "domain": "AI, semiconductor, research"
+  }
+}

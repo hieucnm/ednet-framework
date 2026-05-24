@@ -1,0 +1,22 @@
+Biên bản ghi âm — Cuộc họp Ban Chỉ đạo VASTN Quý 2 năm 2024
+Ngày 18 tháng 4 năm 2024 — Trích xuất transcript
+
+[PGS.TS. Trần Minh Quang, ĐHBK TP.HCM]: Kính thưa các quý vị đại biểu, tôi xin tuyên bố khai mạc phiên họp Ban Chỉ đạo Mạng lưới Đào tạo AI và Bán dẫn Việt Nam lần thứ hai năm 2024. Chúng ta có đủ mặt đại diện từ tất cả sáu tổ chức thành viên. Nội dung chương trình hôm nay gồm ba điểm chính.
+
+[PGS.TS. Trần Minh Quang, ĐHBK TP.HCM]: Điểm thứ nhất là báo cáo tiến độ xây dựng chương trình giảng dạy học kỳ 2. Xin mời Tiến sĩ Nguyễn Phương Linh trình bày.
+
+[TS. Nguyễn Phương Linh, Intel Việt Nam]: Kính thưa Ban Chỉ đạo, tính đến ngày 15 tháng 4, chúng tôi đã hoàn thiện 80 phần trăm nội dung các module thuộc khối kiến thức cốt lõi. Cụ thể, bốn module về thiết kế vi mạch tích hợp và ba module về học máy ứng dụng đã được nghiệm thu nội bộ. Còn lại ba module về hệ thống nhúng thời gian thực đang trong giai đoạn hoàn thiện tài liệu thực hành. Dự kiến hoàn thành trước ngày 30 tháng 4.
+
+[TS. Hà Đức Thịnh, ĐHBK Hà Nội]: Tôi có một câu hỏi về module hệ thống nhúng. Các bài thực hành có yêu cầu thiết bị đặc thù gì không? Phòng thí nghiệm ĐHBK Hà Nội hiện có kit phát triển FPGA dòng Xilinx và STM32. Cần xác nhận trước để chuẩn bị kịp thời.
+
+[TS. Nguyễn Phương Linh, Intel Việt Nam]: Cảm ơn câu hỏi của Tiến sĩ Hà. Các bài thực hành được thiết kế tương thích với cả kit Xilinx và Intel — Altera. Chúng tôi sẽ gửi danh sách thiết bị yêu cầu tối thiểu trong tuần tới.
+
+[PGS.TS. Trần Minh Quang, ĐHBK TP.HCM]: Ban Chỉ đạo ghi nhận tiến độ tích cực. Điểm thứ hai là công nhận tín chỉ chéo giữa các trường. Bà Lê Thị Bích Ngọc, kết quả làm việc với Vụ Giáo dục Đại học như thế nào?
+
+[Bà Lê Thị Bích Ngọc, Phòng Hợp tác Quốc tế, ĐHBK TP.HCM]: Thưa PGS, sau ba vòng trao đổi với Vụ Giáo dục Đại học, phía Vụ đã có công văn phản hồi ngày 12 tháng 4, nêu rõ rằng cơ chế công nhận tín chỉ chéo trong khuôn khổ chương trình liên kết đào tạo đã có quy định tại Thông tư 38/2020. Tuy nhiên cần bổ sung điều khoản về chương trình liên kết với doanh nghiệp. Phía Vụ đề nghị chúng ta gửi bản dự thảo quy chế để thẩm định trong tháng 6.
+
+[PGS.TS. Trần Minh Quang, ĐHBK TP.HCM]: Được. Giao Phòng Đào tạo ĐHBK TP.HCM soạn thảo dự thảo quy chế, hoàn thành trước ngày 20 tháng 5 để Ban Chỉ đạo cho ý kiến trước khi gửi Vụ. Điểm thứ ba là kế hoạch đánh giá chất lượng giữa kỳ. Tôi đề xuất tổ chức đợt đánh giá vào tháng 7. Các thành viên có ý kiến gì không?
+
+[TS. Hà Đức Thịnh, ĐHBK Hà Nội]: ĐHBK Hà Nội đề xuất kết hợp đánh giá chất lượng với hội thảo chia sẻ kết quả nghiên cứu để tận dụng lần di chuyển của các đại biểu.
+
+[PGS.TS. Trần Minh Quang, ĐHBK TP.HCM]: Đề xuất hợp lý. Ban Chỉ đạo nhất trí tổ chức Hội thảo và Đánh giá Chất lượng Giữa kỳ VASTN vào tuần đầu tháng 7 năm 2024. Giao Ban Thư ký dự thảo kế hoạch chi tiết và gửi xin ý kiến thành viên trước ngày 5 tháng 5. Không có ý kiến nào khác, xin tuyên bố kết thúc phiên họp.

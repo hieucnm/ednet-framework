@@ -1,0 +1,92 @@
+{
+  "DS-EN-01": {
+    "file": "DS-EN-01",
+    "language": "en",
+    "document_type": "Policy framework (AUN-QA)",
+    "domain": "quality assurance, governance",
+    "formality": "formal",
+    "complexity": "complex",
+    "word_count": 403
+  },
+  "DS-EN-02": {
+    "file": "DS-EN-02",
+    "language": "en",
+    "document_type": "Annual progress report",
+    "domain": "curriculum, mobility, governance",
+    "formality": "formal",
+    "complexity": "complex",
+    "word_count": 408
+  },
+  "DS-EN-03": {
+    "file": "DS-EN-03",
+    "language": "en",
+    "document_type": "MOU extract (HCMUT–NUS)",
+    "domain": "research collaboration, governance",
+    "formality": "formal",
+    "complexity": "medium",
+    "word_count": 416
+  },
+  "DS-EN-04": {
+    "file": "DS-EN-04",
+    "language": "en",
+    "document_type": "Briefing note (Erasmus+)",
+    "domain": "funding, governance",
+    "formality": "semi-formal",
+    "complexity": "simple",
+    "word_count": 321
+  },
+  "DS-EN-05": {
+    "file": "DS-EN-05",
+    "language": "en",
+    "document_type": "Outcomes report (mobility)",
+    "domain": "mobility",
+    "formality": "formal",
+    "complexity": "medium",
+    "word_count": 435
+  },
+  "DS-VI-01": {
+    "file": "DS-VI-01",
+    "language": "vi",
+    "document_type": "Thông tư 38/2020 / Policy circular",
+    "domain": "governance, quality assurance",
+    "formality": "formal",
+    "complexity": "complex",
+    "word_count": 544
+  },
+  "DS-VI-02": {
+    "file": "DS-VI-02",
+    "language": "vi",
+    "document_type": "Báo cáo tổng kết / Annual report",
+    "domain": "curriculum, mobility, governance",
+    "formality": "formal",
+    "complexity": "complex",
+    "word_count": 509
+  },
+  "DS-VI-03": {
+    "file": "DS-VI-03",
+    "language": "vi",
+    "document_type": "Biên bản thoả thuận / MOU extract",
+    "domain": "research collaboration, governance",
+    "formality": "formal",
+    "complexity": "medium",
+    "word_count": 510
+  },
+  "DS-VI-04": {
+    "file": "DS-VI-04",
+    "language": "vi",
+    "document_type": "Phiếu thông tin nội bộ / Briefing note",
+    "domain": "funding, governance",
+    "formality": "semi-formal",
+    "complexity": "simple",
+    "word_count": 366
+  },
+  "DS-VI-05": {
+    "file": "DS-VI-05",
+    "language": "vi",
+    "document_type": "Báo cáo trao đổi SV / Outcomes report",
+    "domain": "mobility",
+    "formality": "formal",
+    "complexity": "medium",
+    "word_count": 470
+  }
+}

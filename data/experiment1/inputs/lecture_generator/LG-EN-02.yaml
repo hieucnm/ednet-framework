@@ -1,0 +1,6 @@
+course_name: "Applied AI Systems — VASTN Joint Certificate"
+topic: "Deploying Machine Learning Models on Edge Devices"
+objectives: "Distinguish between cloud inference and edge inference and explain the trade-offs; apply model quantisation and pruning to reduce model size for deployment; configure a TensorFlow Lite model for inference on a microcontroller-class device; evaluate latency, memory, and accuracy trade-offs for a given deployment scenario"
+level: "postgraduate"
+duration: "120 minutes"
+language: "en"

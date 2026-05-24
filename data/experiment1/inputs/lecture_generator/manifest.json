@@ -1,0 +1,82 @@
+{
+  "LG-EN-01": {
+    "file": "LG-EN-01",
+    "language": "en",
+    "topic": "Introduction to Neural Networks and Deep Learning",
+    "level": "undergraduate",
+    "domain": "AI fundamentals",
+    "duration": "90 minutes"
+  },
+  "LG-EN-02": {
+    "file": "LG-EN-02",
+    "language": "en",
+    "topic": "Deploying Machine Learning Models on Edge Devices",
+    "level": "postgraduate",
+    "domain": "AI systems, embedded",
+    "duration": "120 minutes"
+  },
+  "LG-EN-03": {
+    "file": "LG-EN-03",
+    "language": "en",
+    "topic": "Bias, Fairness, and Accountability in AI Systems",
+    "level": "professional",
+    "domain": "AI ethics",
+    "duration": "90 minutes"
+  },
+  "LG-EN-04": {
+    "file": "LG-EN-04",
+    "language": "en",
+    "topic": "Field-Programmable Gate Arrays: Architecture and Programming Model",
+    "level": "undergraduate",
+    "domain": "semiconductor, hardware",
+    "duration": "60 minutes"
+  },
+  "LG-EN-05": {
+    "file": "LG-EN-05",
+    "language": "en",
+    "topic": "Transformer Architecture and Self-Attention Mechanism",
+    "level": "postgraduate",
+    "domain": "NLP, deep learning",
+    "duration": "120 minutes"
+  },
+  "LG-VI-01": {
+    "file": "LG-VI-01",
+    "language": "vi",
+    "topic": "Học có giám sát: Hồi quy và Phân loại",
+    "level": "undergraduate",
+    "domain": "AI fundamentals",
+    "duration": "90 phút"
+  },
+  "LG-VI-02": {
+    "file": "LG-VI-02",
+    "language": "vi",
+    "topic": "Mạng Nơ-ron Tích chập và Ứng dụng trong Nhận dạng Ảnh",
+    "level": "postgraduate",
+    "domain": "deep learning, computer vision",
+    "duration": "120 phút"
+  },
+  "LG-VI-03": {
+    "file": "LG-VI-03",
+    "language": "vi",
+    "topic": "Thiên kiến, Công bằng và Trách nhiệm giải trình trong Hệ thống AI",
+    "level": "professional",
+    "domain": "AI ethics",
+    "duration": "90 phút"
+  },
+  "LG-VI-04": {
+    "file": "LG-VI-04",
+    "language": "vi",
+    "topic": "Lập trình Vi điều khiển ARM Cortex-M: GPIO và Ngắt",
+    "level": "undergraduate",
+    "domain": "embedded systems, semiconductor",
+    "duration": "60 phút"
+  },
+  "LG-VI-05": {
+    "file": "LG-VI-05",
+    "language": "vi",
+    "topic": "Fine-tuning Mô hình Ngôn ngữ Nền tảng bằng LoRA",
+    "level": "postgraduate",
+    "domain": "NLP, LLM",
+    "duration": "120 phút"
+  }
+}

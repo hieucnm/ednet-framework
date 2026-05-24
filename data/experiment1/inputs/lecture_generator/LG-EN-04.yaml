@@ -1,0 +1,6 @@
+course_name: "Semiconductor Design Fundamentals — VASTN Joint Certificate"
+topic: "Field-Programmable Gate Arrays: Architecture and Programming Model"
+objectives: "Describe the internal structure of an FPGA including logic blocks, routing fabric, and I/O cells; explain the difference between FPGA-based and ASIC-based implementations and when each is appropriate; write a simple combinational logic function in VHDL and simulate its behaviour; interpret a basic timing report from an FPGA synthesis tool"
+level: "undergraduate"
+duration: "60 minutes"
+language: "en"

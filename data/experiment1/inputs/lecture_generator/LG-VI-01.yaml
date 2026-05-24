@@ -1,0 +1,6 @@
+course_name: "Nhập môn Kỹ thuật AI — Chứng chỉ Liên trường VASTN"
+topic: "Học có giám sát: Hồi quy và Phân loại"
+objectives: "Phân biệt học có giám sát, học không có giám sát và học tăng cường; mô tả nguyên lý hoạt động của thuật toán hồi quy tuyến tính và phân loại logistic; giải thích khái niệm hàm mất mát và quá trình tối ưu hoá bằng gradient descent; nhận diện hiện tượng overfitting và underfitting trên đồ thị kết quả huấn luyện"
+level: "undergraduate"
+duration: "90 phút"
+language: "vi"

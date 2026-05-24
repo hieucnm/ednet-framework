@@ -1,0 +1,112 @@
+{
+  "MM-EN-01": {
+    "file": "MM-EN-01",
+    "language": "en",
+    "network_name": "VASTN",
+    "meeting_date": "2024-03-15",
+    "meeting_type": "Steering committee",
+    "formality": "formal",
+    "complexity": "medium",
+    "domain": "curriculum, mobility",
+    "word_count": 502
+  },
+  "MM-EN-02": {
+    "file": "MM-EN-02",
+    "language": "en",
+    "network_name": "VASTN",
+    "meeting_date": "2024-04-04",
+    "meeting_type": "Working group",
+    "formality": "semi-formal",
+    "complexity": "medium",
+    "domain": "curriculum, governance",
+    "word_count": 423
+  },
+  "MM-EN-03": {
+    "file": "MM-EN-03",
+    "language": "en",
+    "network_name": "VASTN",
+    "meeting_date": "2024-05-22",
+    "meeting_type": "Programme review board",
+    "formality": "formal",
+    "complexity": "complex",
+    "domain": "multi-topic, 5 decisions",
+    "word_count": 577
+  },
+  "MM-EN-04": {
+    "file": "MM-EN-04",
+    "language": "en",
+    "network_name": "VASTN",
+    "meeting_date": "2024-02-08",
+    "meeting_type": "Bilateral meeting",
+    "formality": "semi-formal",
+    "complexity": "simple",
+    "domain": "research collaboration, bilateral",
+    "word_count": 327
+  },
+  "MM-EN-05": {
+    "file": "MM-EN-05",
+    "language": "en",
+    "network_name": "VASTN",
+    "meeting_date": "2024-06-11",
+    "meeting_type": "Emergency coordination call",
+    "formality": "informal/urgent",
+    "complexity": "medium",
+    "domain": "emergency call",
+    "word_count": 437
+  },
+  "MM-VI-01": {
+    "file": "MM-VI-01",
+    "language": "vi",
+    "network_name": "VASTN",
+    "meeting_date": "2024-04-18",
+    "meeting_type": "Họp Ban Chỉ đạo",
+    "formality": "formal",
+    "complexity": "medium",
+    "domain": "curriculum, governance",
+    "word_count": 608
+  },
+  "MM-VI-02": {
+    "file": "MM-VI-02",
+    "language": "vi",
+    "network_name": "VASTN",
+    "meeting_date": "2024-03-06",
+    "meeting_type": "Nhóm công tác",
+    "formality": "semi-formal",
+    "complexity": "medium",
+    "domain": "curriculum working group",
+    "word_count": 547
+  },
+  "MM-VI-03": {
+    "file": "MM-VI-03",
+    "language": "vi",
+    "network_name": "VASTN",
+    "meeting_date": "2024-05-10",
+    "meeting_type": "Hội đồng xét duyệt chương trình",
+    "formality": "formal",
+    "complexity": "complex",
+    "domain": "programme review board",
+    "word_count": 557
+  },
+  "MM-VI-04": {
+    "file": "MM-VI-04",
+    "language": "vi",
+    "network_name": "VASTN",
+    "meeting_date": "2024-02-28",
+    "meeting_type": "Trao đổi song phương",
+    "formality": "semi-formal",
+    "complexity": "simple",
+    "domain": "bilateral, ngắn",
+    "word_count": 276
+  },
+  "MM-VI-05": {
+    "file": "MM-VI-05",
+    "language": "vi",
+    "network_name": "VASTN",
+    "meeting_date": "2024-06-25",
+    "meeting_type": "Họp Hội đồng Chương trình",
+    "formality": "formal",
+    "complexity": "complex",
+    "domain": "3 institutions, 2 decisions",
+    "word_count": 550
+  }
+}

@@ -1,0 +1,6 @@
+course_name: "Mô hình Ngôn ngữ Lớn Ứng dụng — Chứng chỉ Liên trường VASTN"
+topic: "Fine-tuning Mô hình Ngôn ngữ Nền tảng bằng LoRA"
+objectives: "Giải thích tại sao fine-tuning toàn bộ tham số của LLM không khả thi trong hầu hết bối cảnh tài nguyên hạn chế; mô tả nguyên lý của phương pháp Low-Rank Adaptation (LoRA) và cách nó giảm số lượng tham số cần cập nhật; cấu hình và chạy fine-tuning một mô hình transformer sử dụng thư viện PEFT của Hugging Face trên tập dữ liệu tiếng Việt; đánh giá kết quả fine-tuning bằng các chỉ số phù hợp với tác vụ cụ thể"
+level: "postgraduate"
+duration: "120 phút"
+language: "vi"

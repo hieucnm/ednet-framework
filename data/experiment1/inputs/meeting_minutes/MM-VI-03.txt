@@ -1,0 +1,22 @@
+Biên bản ghi âm — Hội đồng Xét duyệt Chương trình Đào tạo Kỹ sư AI VASTN
+Ngày 10 tháng 5 năm 2024 — Trích xuất transcript (có chỉnh sửa để tăng độ rõ ràng)
+
+[Chủ tịch Hội đồng — GS.TS. Lê Hùng Lân, ĐHBK TP.HCM]: Kính thưa các thành viên, phiên xét duyệt hôm nay có nhiệm vụ xem xét toàn bộ khung chương trình của hai chuyên ngành: Kỹ thuật AI và Thiết kế Vi mạch Bán dẫn. Chúng ta có bốn nội dung cần thông qua.
+
+[GS.TS. Lê Hùng Lân, ĐHBK TP.HCM]: Nội dung một — chuẩn đầu ra. TS. Nguyễn Thanh Tùng, xin trình bày.
+
+[TS. Nguyễn Thanh Tùng, Trưởng Tiểu ban Chương trình]: Trên cơ sở khảo sát 47 doanh nghiệp công nghệ tại Việt Nam và tham khảo chuẩn ABET của Hoa Kỳ và EUR-ACE của châu Âu, tiểu ban đề xuất 12 chuẩn đầu ra. Về kiến thức, sinh viên tốt nghiệp cần nắm vững toán học nền tảng cho AI bao gồm đại số tuyến tính, xác suất thống kê và tối ưu hóa; nắm vững nguyên lý thiết kế mạch tích hợp số. Về kỹ năng, cần có khả năng triển khai và đánh giá mô hình học máy trên cả môi trường đám mây và thiết bị biên; có khả năng sử dụng công cụ thiết kế VLSI ở mức cơ bản. Hội đồng có góp ý gì về bộ chuẩn đầu ra này không?
+
+[PGS.TS. Lý Quốc Tuấn, ĐHBK TP.HCM]: Tôi thấy chuẩn đầu ra về bảo mật AI đang rất mỏng — chỉ có một dòng về nhận thức mà không có năng lực thực hành cụ thể. Trong bối cảnh các cuộc tấn công adversarial ngày càng phổ biến, tôi đề nghị bổ sung chuẩn đầu ra về khả năng đánh giá độ bền vững của mô hình trước dữ liệu đầu vào thù địch.
+
+[TS. Nguyễn Thanh Tùng]: Ý kiến xác đáng. Tiểu ban ghi nhận và sẽ bổ sung chuẩn đầu ra 13 về bảo mật AI thực hành trước khi trình lên Hội đồng Khoa học và Đào tạo.
+
+[GS.TS. Lê Hùng Lân, ĐHBK TP.HCM]: Hội đồng thông qua bộ chuẩn đầu ra với điều kiện bổ sung như đã nêu. Nội dung hai — khung phân bổ tín chỉ. Tổng số 130 tín chỉ được phân bổ như thế nào?
+
+[TS. Nguyễn Thanh Tùng]: Khối kiến thức đại cương 30 tín chỉ, khối cơ sở ngành 45 tín chỉ, khối chuyên ngành 40 tín chỉ, và khóa luận tốt nghiệp hoặc học phần thay thế 15 tín chỉ.
+
+[TS. Phạm Ngọc Tuấn, ĐHBK TP.HCM]: Khối chuyên ngành 40 tín chỉ nhưng danh sách học phần lên tới 52 tín chỉ nếu chọn tất cả. Cần làm rõ cơ chế tự chọn cho sinh viên.
+
+[TS. Nguyễn Thanh Tùng]: Đúng — có 20 tín chỉ tự chọn trong 52 tín chỉ, sinh viên chọn tối thiểu 20 trong số đó. Chúng tôi sẽ làm rõ trong văn bản chương trình.
+
+[GS.TS. Lê Hùng Lân, ĐHBK TP.HCM]: Hội đồng thông qua khung phân bổ tín chỉ với yêu cầu làm rõ cơ chế tự chọn. Nội dung ba và bốn về lịch triển khai và ngân sách xin phép chuyển sang phiên họp tháng 6 do thời gian không cho phép. Phiên họp kết thúc lúc 11h45. Phiên tiếp theo dự kiến ngày 7 tháng 6 năm 2024.

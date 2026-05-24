@@ -1,0 +1,32 @@
+VASTN–NUS Joint Programme Review Board — Semester 1 2024 Review
+Transcript extract, 22 May 2024
+
+[Chair — Prof. Lim Beng Kiat, NUS]: I call this review board to order. We have five agenda items today and I want to keep to two hours. Quorum is confirmed — we have representatives from NUS, HCMUT, HUST, RMIT Vietnam, and Intel Vietnam. Let us proceed.
+
+[Prof. Lim Beng Kiat, NUS]: Item one — student performance outcomes for Semester 1. Dr. Pham, the floor is yours.
+
+[Dr. Pham Ngoc Tuan, HCMUT]: Thank you. Cohort size was 23 students across three institutions. Overall pass rate was 91 percent, which exceeds our 85 percent target. Mean grade was 73.4 out of 100. Two students did not complete — one withdrawal due to visa issues, one academic discontinuation. The strongest performance was in the machine learning theory module; weakest was in the embedded systems lab, where five students required supplementary assessment. Intel's mentors flagged that the lab equipment at HUST was not fully equivalent to what was used at HCMUT and NUS, which likely contributed to the gap.
+
+[Dr. Ha Duc Thinh, HUST]: I want to respond to that. The equipment issue has been acknowledged and HUST submitted a capital request in February. We expect the updated workstations to be in place before Semester 2.
+
+[Prof. Lim Beng Kiat, NUS]: Board notes the equipment gap and the planned remediation. Decision one: the board accepts the Semester 1 performance report and records the 91 percent pass rate as meeting target.
+
+[Prof. Lim Beng Kiat, NUS]: Item two — curriculum revision proposals. We received two proposals from the curriculum committee.
+
+[Assoc. Prof. Tran Minh Quang, HCMUT]: The first proposal is to add a dedicated four-hour workshop on responsible AI and ethics, currently absent from the programme. The second is to restructure the capstone project from a solo deliverable to a team project of two to three students, to better reflect industry practice.
+
+[Dr. Nguyen Phuong Linh, Intel Vietnam]: Intel strongly supports both proposals. On the ethics workshop — we are seeing this as a hiring requirement now. On the team capstone — solo projects do not reflect how engineers actually work.
+
+[Prof. Sarah Chen, NUS]: NUS is supportive, but a team capstone requires updated assessment rubrics and peer evaluation instruments. That work needs to be costed and assigned before we approve.
+
+[Prof. Lim Beng Kiat, NUS]: Decision two: the ethics workshop is approved for inclusion in Semester 2 with a four-hour allocation in week ten. Decision three: the team capstone proposal is approved in principle, subject to RMIT Vietnam delivering updated assessment rubrics by August 1st.
+
+[Prof. Lim Beng Kiat, NUS]: Item three — budget review for the year. Ms. Ngoc?
+
+[Ms. Le Thi Bich Ngoc, HCMUT Admin]: Total expenditure to date is 78 percent of annual budget. Two items are over-running: travel for the February consortium meeting exceeded budget by 12 percent, and software licences came in 18 percent above estimate due to a vendor price increase. Projected year-end position is a 6 percent overspend unless we reduce Q3 travel costs.
+
+[Prof. Lim Beng Kiat, NUS]: Decision four: the board approves substituting one planned in-person meeting in Q3 with a virtual meeting to recover the projected overspend.
+
+[Prof. Lim Beng Kiat, NUS]: Items four and five are carried to the next meeting due to time. Decision five: next review board meeting is scheduled for September 19th, 2024, hosted by NUS. Institutions to confirm attendance by August 30th.
+
+[Prof. Lim Beng Kiat, NUS]: Meeting adjourned.

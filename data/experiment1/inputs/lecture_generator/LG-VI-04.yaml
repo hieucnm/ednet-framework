@@ -1,0 +1,6 @@
+course_name: "Hệ thống Nhúng — Chứng chỉ Liên trường VASTN"
+topic: "Lập trình Vi điều khiển ARM Cortex-M: GPIO và Ngắt"
+objectives: "Mô tả kiến trúc bộ xử lý ARM Cortex-M3 và vai trò của các thanh ghi cơ bản; cấu hình chân GPIO ở chế độ đầu vào và đầu ra bằng thư viện HAL của STM32; lập trình xử lý ngắt ngoài để đọc tín hiệu từ nút nhấn mà không dùng vòng lặp polling; phân tích ưu và nhược điểm của lập trình dựa trên ngắt so với polling trong các ứng dụng nhúng thời gian thực"
+level: "undergraduate"
+duration: "60 phút"
+language: "vi"

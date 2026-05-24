@@ -1,0 +1,6 @@
+course_name: "Học sâu Ứng dụng — Chứng chỉ Liên trường VASTN"
+topic: "Mạng Nơ-ron Tích chập và Ứng dụng trong Nhận dạng Ảnh"
+objectives: "Giải thích cơ chế tích chập hai chiều và ý nghĩa của bộ lọc trong việc trích xuất đặc trưng từ ảnh; mô tả các thành phần cơ bản của một mạng CNN bao gồm lớp tích chập, lớp pooling và lớp kết nối đầy đủ; so sánh kiến trúc VGG, ResNet và MobileNet về độ phức tạp tính toán và độ chính xác; áp dụng transfer learning để huấn luyện mô hình phân loại ảnh trên tập dữ liệu mới với số lượng mẫu hạn chế"
+level: "postgraduate"
+duration: "120 phút"
+language: "vi"

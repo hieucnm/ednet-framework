@@ -1,0 +1,24 @@
+Biên bản ghi âm — Cuộc họp Hội đồng Chương trình VASTN
+Ngày 25 tháng 6 năm 2024 — Transcript đã chỉnh sửa
+
+[Chủ trì — PGS.TS. Trần Minh Quang, ĐHBK TP.HCM]: Hôm nay chúng ta có ba trường tham dự: ĐHBK TP.HCM, ĐHBK Hà Nội và NUS. Nội dung chính là xem xét đề xuất điều chỉnh module Học sâu và thông qua kế hoạch tuyển sinh thí điểm. Xin mời Tiến sĩ Hà trình bày trước.
+
+[TS. Hà Đức Thịnh, ĐHBK Hà Nội]: Thưa Hội đồng, qua một học kỳ vận hành, nhóm giảng dạy nhận thấy module Học sâu hiện có ba vấn đề. Thứ nhất, lượng kiến thức lý thuyết chiếm tới 60 phần trăm thời lượng trong khi sinh viên cần nhiều thực hành hơn. Thứ hai, phần lập trình đang dùng TensorFlow nhưng xu hướng ngành đã chuyển sang PyTorch rõ rệt. Thứ ba, chưa có nội dung về fine-tuning mô hình nền tảng — đây là kỹ năng cốt lõi mà doanh nghiệp yêu cầu.
+
+[GS. Sarah Chen, NUS]: NUS đồng ý với cả ba nhận định đó. Tôi muốn bổ sung một điểm là nên đưa Hugging Face Transformers vào chương trình thực hành vì đây là công cụ tiêu chuẩn trong nghiên cứu và công nghiệp hiện nay.
+
+[PGS.TS. Trần Minh Quang, ĐHBK TP.HCM]: Có ai phản đối không? Không có ý kiến phản đối. Hội đồng thống nhất giao Tiểu ban Chương trình điều chỉnh module Học sâu theo hướng: giảm lý thuyết xuống còn 40 phần trăm, chuyển sang PyTorch làm framework chính, bổ sung nội dung fine-tuning và Hugging Face. Bản điều chỉnh cần hoàn thành trước ngày 15 tháng 8 để kịp triển khai học kỳ 1 năm học 2024–2025.
+
+[TS. Hà Đức Thịnh, ĐHBK Hà Nội]: Tiểu ban ghi nhận và sẽ thực hiện.
+
+[PGS.TS. Trần Minh Quang, ĐHBK TP.HCM]: Chuyển sang nội dung hai — kế hoạch tuyển sinh thí điểm. Hiện chúng ta dự kiến tuyển 30 sinh viên cho khoá thí điểm tháng 9. Phân bổ giữa các trường như thế nào?
+
+[GS. Sarah Chen, NUS]: NUS có thể tiếp nhận 10 sinh viên trong khuôn khổ chương trình trao đổi ngắn hạn. Điều kiện là sinh viên đã hoàn thành ít nhất năm thứ hai và có điểm trung bình tích lũy từ 7.0 trở lên theo thang điểm 10.
+
+[TS. Hà Đức Thịnh, ĐHBK Hà Nội]: ĐHBK Hà Nội đề cử 10 sinh viên. Chúng tôi đã có danh sách sơ bộ và sẵn sàng gửi hồ sơ ngay khi Hội đồng thông qua.
+
+[PGS.TS. Trần Minh Quang, ĐHBK TP.HCM]: ĐHBK TP.HCM sẽ đề cử 10 sinh viên còn lại. Hội đồng thống nhất chỉ tiêu 30 sinh viên chia đều ba trường. Hạn nộp hồ sơ là ngày 31 tháng 7 năm 2024. Ban Thư ký gửi mẫu hồ sơ cho các trường trong tuần này.
+
+[GS. Sarah Chen, NUS]: Một lưu ý — NUS cần xác nhận từng sinh viên qua phỏng vấn ngắn hoặc xem xét hồ sơ học thuật. Đây là yêu cầu thủ tục của NUS với tất cả sinh viên trao đổi ngoài EU.
+
+[PGS.TS. Trần Minh Quang, ĐHBK TP.HCM]: Chúng tôi hiểu và chấp thuận quy trình đó. Kết luận: Hội đồng đã thông qua hai nội dung hôm nay. Cuộc họp kết thúc lúc 15h30. Họp tiếp theo vào tháng 9.
