@@ -1,0 +1,25 @@
+## Meeting Minutes
+**Network:** VASTN  
+**Date:** 10 tháng 5 năm 2024  
+**Attendees:** GS.TS. Lê Hùng Lân (ĐHBK TP.HCM), TS. Nguyễn Thanh Tùng (ĐHBK TP.HCM), PGS.TS. Lý Quốc Tuấn (ĐHBK TP.HCM), TS. Phạm Ngọc Tuấn (ĐHBK TP.HCM)
+
+### Agenda Items Discussed
+Phiên họp đã xem xét toàn bộ khung chương trình của hai chuyên ngành: Kỹ thuật AI và Thiết kế Vi mạch Bán dẫn. Nội dung đầu tiên được thảo luận là chuẩn đầu ra của chương trình. TS. Nguyễn Thanh Tùng đã trình bày đề xuất 12 chuẩn đầu ra dựa trên khảo sát từ 47 doanh nghiệp công nghệ tại Việt Nam và tham khảo chuẩn ABET của Hoa Kỳ và EUR-ACE của châu Âu. PGS.TS. Lý Quốc Tuấn đã góp ý về sự thiếu sót trong chuẩn đầu ra về bảo mật AI và đề nghị bổ sung khả năng đánh giá độ bền vững của mô hình trước dữ liệu đầu vào thù địch. Tiểu ban ghi nhận và sẽ bổ sung chuẩn đầu ra 13 về bảo mật AI thực hành.
+
+Nội dung thứ hai là khung phân bổ tín chỉ với tổng số 130 tín chỉ. TS. Nguyễn Thanh Tùng đã trình bày phân bổ chi tiết và TS. Phạm Ngọc Tuấn đã yêu cầu làm rõ cơ chế tự chọn cho sinh viên trong khối chuyên ngành. Tiểu ban sẽ làm rõ trong văn bản chương trình.
+
+Nội dung ba và bốn về lịch triển khai và ngân sách sẽ được chuyển sang phiên họp tháng 6 do thời gian không cho phép.
+
+### Decisions Made
+Hội đồng thông qua bộ chuẩn đầu ra với điều kiện bổ sung chuẩn đầu ra 13 về bảo mật AI thực hành. Hội đồng cũng thông qua khung phân bổ tín chỉ với yêu cầu làm rõ cơ chế tự chọn cho sinh viên.
+
+### Action Items
+| Owner | Deadline | Description |
+|---|---|---|
+| TS. Nguyễn Thanh Tùng | TBD | Bổ sung chuẩn đầu ra 13 về bảo mật AI thực hành và làm rõ cơ chế tự chọn trong văn bản chương trình. |
+
+### Next Meeting
+7 tháng 6 năm 2024
+
+---
+*This document was generated with AI assistance and is pending human review.*

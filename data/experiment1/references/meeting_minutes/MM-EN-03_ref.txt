@@ -1,0 +1,37 @@
+## Meeting Minutes
+**Network:** VASTN  
+**Date:** 2024-05-22  
+**Attendees:** Prof. Lim Beng Kiat (NUS), Dr. Pham Ngoc Tuan (HCMUT), Dr. Ha Duc Thinh (HUST), Assoc. Prof. Tran Minh Quang (HCMUT), Dr. Nguyen Phuong Linh (Intel Vietnam), Prof. Sarah Chen (NUS), Ms. Le Thi Bich Ngoc (HCMUT Admin)
+
+### Agenda Items Discussed
+The meeting commenced with a review of student performance outcomes for Semester 1. The cohort consisted of 23 students across three institutions, achieving a 91 percent pass rate, which surpassed the target of 85 percent. The mean grade was 73.4 out of 100. Two students did not complete the semester due to visa issues and academic discontinuation. The machine learning theory module saw the strongest performance, while the embedded systems lab was identified as the weakest, with five students needing supplementary assessment. An equipment disparity at HUST was noted as a contributing factor, with plans for remediation before Semester 2.
+
+The curriculum revision proposals were discussed, including the introduction of a four-hour workshop on responsible AI and ethics, and restructuring the capstone project to a team format. Intel Vietnam supported both proposals, emphasizing the importance of the ethics workshop and the team-based capstone project. NUS highlighted the need for updated assessment rubrics for the team capstone.
+
+The budget review revealed a total expenditure of 78 percent of the annual budget, with travel and software licenses exceeding estimates. A projected year-end overspend of 6 percent was noted unless Q3 travel costs are reduced.
+
+Items four and five on the agenda were deferred to the next meeting due to time constraints.
+
+### Decisions Made
+Decision one: The board accepted the Semester 1 performance report, acknowledging the 91 percent pass rate as meeting the target.
+
+Decision two: The ethics workshop was approved for inclusion in Semester 2 with a four-hour allocation in week ten.
+
+Decision three: The team capstone proposal was approved in principle, contingent upon RMIT Vietnam providing updated assessment rubrics by August 1st.
+
+Decision four: The board approved substituting one planned in-person meeting in Q3 with a virtual meeting to address the projected budget overspend.
+
+Decision five: The next review board meeting is scheduled for September 19th, 2024, to be hosted by NUS, with institutions required to confirm attendance by August 30th.
+
+### Action Items
+| Owner | Deadline | Description |
+|---|---|---|
+| HUST | Before Semester 2 | Update workstations to address equipment gap in the embedded systems lab. |
+| RMIT Vietnam | August 1st, 2024 | Deliver updated assessment rubrics for the team capstone project. |
+| All Institutions | August 30th, 2024 | Confirm attendance for the next review board meeting on September 19th, 2024. |
+
+### Next Meeting
+September 19th, 2024, hosted by NUS.
+
+---
+*This document was generated with AI assistance and is pending human review.*

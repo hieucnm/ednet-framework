@@ -1,0 +1,22 @@
+## Meeting Minutes
+**Network:** VASTN
+**Date:** 2024-02-28
+**Attendees:** PGS.TS. Trần Minh Quang (ĐHBK TP.HCM), Ông Klaus Hoffmann (Bosch Việt Nam)
+
+### Agenda Items Discussed
+Cuộc họp tập trung vào hai điểm chính. Đầu tiên là xác nhận cam kết tài trợ học bổng cho năm học 2024–2025 từ Bosch Việt Nam. ĐHBK TP.HCM đề xuất mức 10 suất học bổng, mỗi suất trị giá 20 triệu đồng mỗi học kỳ. Bosch Việt Nam đồng ý với mức tài trợ này, với điều kiện sinh viên nhận học bổng phải cam kết tham gia kỳ thực tập tại Bosch ít nhất một học kỳ trước khi tốt nghiệp. Điểm thứ hai là tiến độ ký kết Biên bản ghi nhớ (MOU). Bộ phận pháp lý của Bosch đang xem xét bản thảo và dự kiến sẽ có phản hồi trong tuần tới, với khả năng ký kết trước cuối tháng 3.
+
+### Decisions Made
+Cam kết tài trợ học bổng từ Bosch Việt Nam đã được xác nhận với điều kiện sinh viên phải tham gia kỳ thực tập tại Bosch. ĐHBK TP.HCM chấp nhận điều kiện này.
+
+### Action Items
+| Owner | Deadline | Description |
+|---|---|---|
+| PGS.TS. Trần Minh Quang | Đầu tuần tới | Chuẩn bị dự thảo thoả thuận học bổng để gửi Bosch Việt Nam |
+| Ông Klaus Hoffmann | Cuối tháng 3 | Phản hồi về bản thảo MOU sau khi bộ phận pháp lý xem xét |
+
+### Next Meeting
+Not scheduled.
+
+---
+*This document was generated with AI assistance and is pending human review.*

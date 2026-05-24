@@ -1,0 +1,23 @@
+## Meeting Minutes
+**Network:** VASTN  
+**Date:** 6 tháng 3 năm 2024  
+**Attendees:** TS. Võ Thành Nam (ĐHBK TP.HCM), TS. Phạm Thị Lan (ĐHBK Hà Nội), GS. Wiremu Tane (RMIT Việt Nam)
+
+### Agenda Items Discussed
+Cuộc họp tập trung vào ba vấn đề chính: khung đánh giá học phần, phân công biên soạn tài liệu, và lịch giảng dạy thử nghiệm. Về khung đánh giá, đã có sự thống nhất về tỷ lệ đánh giá: 45% đồ án nhóm, 25% giữa kỳ, và 30% cuối kỳ. Trong phần phân công biên soạn tài liệu, RMIT nhận chủ đề xử lý ngôn ngữ tự nhiên ứng dụng, ĐHBK Hà Nội nhận triển khai mô hình trên thiết bị biên, và ĐHBK TP.HCM nhận đạo đức AI với sự hỗ trợ từ doanh nghiệp. Về lịch giảng dạy thử nghiệm, vấn đề này sẽ được bàn tiếp trong cuộc họp lần sau.
+
+### Decisions Made
+Đã thống nhất tỷ lệ đánh giá học phần là 45% đồ án nhóm, 25% giữa kỳ, và 30% cuối kỳ. Phân công biên soạn tài liệu đã được xác định với các chủ đề cụ thể cho từng đơn vị.
+
+### Action Items
+| Owner | Deadline | Description |
+|---|---|---|
+| RMIT Việt Nam | 30 tháng 5 | Biên soạn tài liệu về xử lý ngôn ngữ tự nhiên ứng dụng |
+| ĐHBK Hà Nội | 30 tháng 5 | Biên soạn tài liệu về triển khai mô hình trên thiết bị biên |
+| ĐHBK TP.HCM | 30 tháng 5 | Biên soạn tài liệu về đạo đức AI, trao đổi với Intel để hỗ trợ |
+
+### Next Meeting
+Dự kiến đầu tháng 4. Thư ký sẽ gửi thông báo sau.
+
+---
+*This document was generated with AI assistance and is pending human review.*
